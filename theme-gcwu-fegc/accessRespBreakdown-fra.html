@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
+<title>Répartition des responsabilités d'accessibilité (WCAG 2.0) - Boîte à outils de l'expérience Web (BOEW)</title>
+
+<link rel="shortcut icon" href="fip-pcim/images/favicon.ico" />
+<meta name="dcterms.description" content="English description / Description en anglais" />
+<meta name="description" content="English description / Description en anglais" />
+<meta name="keywords" content="English keywords / Mots-clés en anglais" />
+<meta name="dcterms.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+<meta name="dcterms.title" content="English title / Titre en anglais" />
+<meta name="dcterms.issued" title="W3CDTF" content="Date published (YYYY-MM-DD) / Date de publication (AAAA-MM-JJ)" />
+<meta name="dcterms.modified" title="W3CDTF" content="Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)" />
+<meta name="dcterms.subject" title="scheme" content="English subject terms / Termes de sujet en anglais" />
+<meta name="dcterms.language" title="ISO639-2" content="eng" />
+
+<link href="../css/base.css" rel="stylesheet" />
+<!--[if IE 6]><![endif]-->
+<!--[if IE 8]><link href="../css/base-ie8.css" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="../css/base-ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 6]><link href="../css/base-ie6.css" rel="stylesheet" /><![endif]-->
+<!-- CSSStart -->
+<link href="../grids/css/util.css" media="screen" rel="stylesheet" />
+<link href="css/framework-responsive-theme-gcwu-fegc.css" media="screen" rel="stylesheet" />
+<link href="css/theme-gcwu-fegc.css" rel="stylesheet" />
+<!--[if IE 8]><link href="css/theme-gcwu-fegc-ie8.css" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="css/theme-gcwu-fegc-ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 6]><link href="css/theme-gcwu-fegc-ie6.css" rel="stylesheet" /><![endif]-->
+<link href="../js/support/menubar/style.css" rel="stylesheet" />
+<link href="fip-pcim/css/fip-pcim.css" rel="stylesheet" />
+<!--[if IE 8]><link href="fip-pcim/css/fip-pcim-ie8.css" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="fip-pcim/css/fip-pcim-ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 6]><link href="fip-pcim/css/fip-pcim-ie6.css" rel="stylesheet" /><![endif]-->
+<!-- CSSEnd -->
+
+<script src="../js/lib/jquery.min.js"></script>
+<script src="../js/pe-ap.js" id="progressive"></script>
+<script>
+/* <![CDATA[ */
+var params = {
+menubar:"",tabs: "",zebra:"",accessRespBreakdown: {levelA:"true", levelAA:"true", levelAAA:"true", phase1:"true", phase2:"true", phase3:"true", phase4:"true", phase5:"true", phase6:"true", phase7:"true", phase8:"true"}
+};
+PE.progress(params);
+/* ]]> */
+</script>
+
+<!-- CustomScriptsCSSStart -->
+<!-- CustomScriptsCSSEnd -->
+</head>
+
+<body><div id="cn-body-inner-1col">
+<div id="cn-skip-head">
+<ul id="cn-tphp">
+<li id="cn-sh-link-1"><a href="#cn-cont">Passer au contenu principal</a></li>
+<li id="cn-sh-link-2"><a href="#cn-nav">Passer au pied de page</a></li>
+</ul>
+</div>
+
+<div id="cn-head"><div id="cn-head-inner"><header>
+<!-- HeaderStart -->
+<nav role="navigation"><div id="cn-gcnb"><h2>Barre de navigation de la gouvernement de Canada</h2><div id="cn-gcnb-inner"><div id="fip-pcim-gcnb">
+<div id="cn-sig"><div id="cn-sig-inner"><div id="fip-pcim-sig-fra" title="Gouvernement du Canada"><img src="fip-pcim/images/sig-fra.gif" width="214" height="20" alt="Gouvernement du Canada" /></div></div></div>
+<ul>
+<li id="cn-gcnb1"><a rel="external" href="http://www.canada.gc.ca/accueil.html">Canada.gc.ca</a></li>
+<li id="cn-gcnb2"><a rel="external" href="http://www.servicecanada.gc.ca/fra/accueil.shtml">Services</a></li>
+<li id="cn-gcnb3"><a rel="external" href="http://www.canada.gc.ca/depts/major/depind-fra.html">Ministères</a></li>
+<li id="cn-gcnb-lang"><a href="accessRespBreakdown-eng.html" lang="en" title="English - English version of the Web page">English</a></li>
+</ul></div></div></div></nav>
+
+<div id="cn-banner" role="banner"><div id="cn-banner-inner">
+<div id="cn-wmms"><div id="cn-wmms-inner"><div id="fip-pcim-wmms" title="Symbole du gouvernement du Canada"><img src="fip-pcim/images/wmms.gif" width="126" height="30"  alt="Symbole du gouvernement du Canada" /></div></div></div>
+<div id="cn-site-title"><p id="cn-site-title-inner"><a href="home-accueil-megamenu-theme-gcwu-fegc-fra.html">Titre du site</a></p></div>
+
+<section role="search"><div id="cn-search-box"><h2>Recherche</h2>
+<form action="#" method="post"><div id="cn-search-box-inner">
+<label for="cn-search">Recherchez le site Web</label><input id="cn-search" name="cn-search" type="text" value="" size="27" maxlength="150" />
+<input id="cn-search-submit" name="cn-search-submit" type="submit" value="Recherche" />
+</div></form>
+</div></section>
+</div></div>
+
+<nav role="navigation">
+<div id="cn-psnb"><h2>Barre de navigation du site</h2><div id="cn-psnb-inner"><div class="wet-boew-menubar mb-megamenu"><div>
+<ul class="mb-menu">
+<li><section><h3><a href="#">Section 1</a></h3><div class="mb-sm">
+<div class="span-2">
+<ul>
+<li><a href="#">Article 1.1</a></li>
+<li><a href="#">Article 1.2</a></li>
+<li><a href="#">Article 1.3</a></li>
+<li><a href="#">Article 1.4</a></li>
+<li><a href="#">Article 1.5</a></li>
+<li><a href="#">Article 1.6</a></li>
+<li><a href="#">Article 1.7</a></li>
+<li><a href="#">Article 1.8</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><section><h3><a href="section2-fra.html">Section 2</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 2.1</a></h4>
+<ul>
+<li><a href="#">Article 2.1.1</a></li>
+<li><a href="#">Article 2.1.2</a></li>
+<li><a href="#">Article 2.1.3</a></li>
+<li><a href="#">Article 2.1.4</a></li>
+<li><a href="#">Article 2.1.5</a></li>
+<li><a href="#">Article 2.1.6</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 2.2</a></h4>
+<ul>
+<li><a href="#">Article 2.2.1</a></li>
+<li><a href="#">Article 2.2.2</a></li>
+<li><a href="#">Article 2.2.3</a></li>
+<li><a href="#">Article 2.2.4</a></li>
+<li><a href="#">Article 2.2.5</a></li>
+<li><a href="#">Article 2.2.6</a></li>
+<li><a href="#">Article 2.2.7</a></li>
+<li><a href="#">Article 2.2.8</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><section><h3><a href="#">Section 3</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 3.1</a></h4>
+<ul>
+<li><a href="#">Article 3.1.1</a></li>
+<li><a href="#">Article 3.1.2</a></li>
+<li><a href="#">Article 3.1.3</a></li>
+<li><a href="#">Article 3.1.4</a></li>
+<li><a href="#">Article 3.1.5</a></li>
+<li><a href="#">Article 3.1.6</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 3.2</a></h4>
+<ul>
+<li><a href="#">Article 3.2.1</a></li>
+<li><a href="#">Article 3.2.2</a></li>
+<li><a href="#">Article 3.2.3</a></li>
+<li><a href="#">Article 3.2.4</a></li>
+<li><a href="#">Article 3.2.5</a></li>
+<li><a href="#">Article 3.2.6</a></li>
+<li><a href="#">Article 3.2.7</a></li>
+<li><a href="#">Article 3.2.8</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 3.3</a></h4>
+<ul>
+<li><a href="#">Article 3.3.1</a></li>
+<li><a href="#">Article 3.3.2</a></li>
+<li><a href="#">Article 3.3.3</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><section><h3><a href="#">Section 4</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 4.1</a></h4>
+<ul>
+<li><a href="#">Article 4.1.1</a></li>
+<li><a href="#">Article 4.1.2</a></li>
+<li><a href="#">Article 4.1.3</a></li>
+</ul>
+</section>
+<section><h4><a href="#">Section 4.2</a></h4>
+<ul>
+<li><a href="#">Article 4.2.1</a></li>
+<li><a href="#">Article 4.2.2</a></li>
+<li><a href="#">Article 4.2.3</a></li>
+<li><a href="#">Article 4.2.4</a></li>
+</ul>
+</section>
+<section><h4><a href="#">Section 4.3</a></h4>
+<ul>
+<li><a href="#">Article 4.3.1</a></li>
+<li><a href="#">Article 4.3.2</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 4.4</a></h4>
+<ul>
+<li><a href="#">Article 4.4.1</a></li>
+<li><a href="#">Article 4.4.2</a></li>
+<li><a href="#">Article 4.4.3</a></li>
+<li><a href="#">Article 4.4.4</a></li>
+</ul>
+</section>
+<section><h4><a href="#">Section 4.5</a></h4>
+<ul>
+<li><a href="#">Article 4.5.1</a></li>
+<li><a href="#">Article 4.5.2</a></li>
+<li><a href="#">Article 4.5.3</a></li>
+<li><a href="#">Article 4.5.4</a></li>
+<li><a href="#">Article 4.5.5</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><div><a href="#">Section 5</a></div></li>
+<li><section><h3><a href="#">Section 6</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 6.1</a></h4>
+<ul>
+<li><a href="#">Article 6.1.1</a></li>
+<li><a href="#">Article 6.1.2</a></li>
+<li><a href="#">Article 6.1.3</a></li>
+<li><a href="#">Article 6.1.4</a></li>
+<li><a href="#">Article 6.1.5</a></li>
+<li><a href="#">Article 6.1.6</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 6.2</a></h4>
+<ul>
+<li><a href="#">Article 6.2.1</a></li>
+<li><a href="#">Article 6.2.2</a></li>
+<li><a href="#">Article 6.2.3</a></li>
+<li><a href="#">Article 6.2.4</a></li>
+<li><a href="#">Article 6.2.5</a></li>
+<li><a href="#">Article 6.2.6</a></li>
+<li><a href="#">Article 6.2.7</a></li>
+<li><a href="#">Article 6.2.8</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 6.3</a></h4>
+<ul>
+<li><a href="#">Article 6.3.1</a></li>
+<li><a href="#">Article 6.3.2</a></li>
+<li><a href="#">Article 6.3.3</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 6.4</a></h4>
+<ul>
+<li><a href="#">Article 6.4.1</a></li>
+<li><a href="#">Article 6.4.2</a></li>
+<li><a href="#">Article 6.4.3</a></li>
+<li><a href="#">Article 6.4.4</a></li>
+<li><a href="#">Article 6.4.5</a></li>
+<li><a href="#">Article 6.4.6</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><section><h3><a href="#">Section 7</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 7.1</a></h4>
+<ul>
+<li><a href="#">Article 7.1.1</a></li>
+<li><a href="#">Article 7.1.2</a></li>
+<li><a href="#">Article 7.1.3</a></li>
+<li><a href="#">Article 7.1.4</a></li>
+<li><a href="#">Article 7.1.5</a></li>
+<li><a href="#">Article 7.1.6</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 7.2</a></h4>
+<ul>
+<li><a href="#">Article 7.2.1</a></li>
+<li><a href="#">Article 7.2.2</a></li>
+<li><a href="#">Article 7.2.3</a></li>
+<li><a href="#">Article 7.2.4</a></li>
+<li><a href="#">Article 7.2.5</a></li>
+<li><a href="#">Article 7.2.6</a></li>
+<li><a href="#">Article 7.2.7</a></li>
+<li><a href="#">Article 7.2.8</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 7.3</a></h4>
+<ul>
+<li><a href="#">Article 7.3.1</a></li>
+<li><a href="#">Article 7.3.2</a></li>
+<li><a href="#">Article 7.3.3</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+</ul>
+</div></div></div></div>
+
+<div id="cn-bc"><h2>Fil d'Ariane</h2><div id="cn-bc-inner">
+<ol>
+<li><a href="home-accueil-megamenu-theme-gcwu-fegc-fra.html">Accueil</a></li>
+<li><a href="section2-fra.html">Section 2</a></li>
+<li>Répartition des responsabilités d'accessibilité</li>
+</ol>
+</div></div>
+</nav>
+<!-- HeaderEnd -->
+</header></div></div>
+
+<div id="cn-cols"><div id="cn-cols-inner" class="equalize">
+<div id="cn-centre-col" role="main"><div id="cn-centre-col-inner">
+<!-- MainContentStart -->
+<h1 id="cn-cont">Répartition des responsabilités d'accessibilité (WCAG 2.0)</h1>
+
+<div class="span-8">
+<p>Les Web content Accessibility Guidelines (WCAG) 2.0 présentent soixante et un (61) critères de succès qui incarnent autant de bonnes pratiques visant à favoriser la mise en accessibilité des contenus pour les personnes handicapées. Ces critères de succès ont des impacts sur toutes les étapes d’un projet de site Web. Les responsabilités qui en découlent doivent donc être réparties à travers les différents intervenants concernés afin d’assurer le succès de la démarche de mise en accessibilité des contenus. C’est doublement vrai dans des contextes d’obligations de conformité, si de telles obligations sont en vigueur sur votre territoire.</p>
+<section>
+	<h2 id="a1">Répartition par fonctions du Web</h2>
+	<p>L’ensemble de ces critères de succès de WCAG 2.0 sont regroupés sous douze (12) directives d’accessibilité. Ils ont été répartis entre les neuf (9) différents maillons habituellement reconnus d’une chaîne de production Web. Ces maillons traditionnels sont :</p>
+	<div id="tab-container1" class="wet-boew-tabbed-interface tabs-style-3">
+		<ul class="tabs">
+			<li><a href="#a1a">Gestion de projet</a></li>
+			<li><a href="#a1b">Analyse</a></li>
+			<li><a href="#a1c">Architecture</a></li>
+			<li><a href="#a1d">Conception d'interaction</a></li>
+			<li><a href="#a1e">Graphisme</a></li>
+			<li><a href="#a1f">Prototypage</a></li>
+			<li><a href="#a1g">Rédaction</a></li>
+			<li><a href="#a1h">Développement</a></li>
+			<li><a href="#a1i">Contrôle qualité</a></li>
+		</ul>
+		<div class="tabs-panel">
+			<div id="a1a">
+				<div class="tabs-content-pad">
+					<section>
+						<h3>Gestion de projet</h3>
+						<p>Pour les fins de cette répartition, la fonction de gestion de projets regroupe les tâches habituellement associées à la planification de la production et aux divers suivis associés.</p>
+						<p>Dans un contexte d’accessibilité, les responsabilités d’un chargé de projet consistent à veiller à l’optimisation de la chaîne de production en :</p>
+						<ul>
+							<li>Intégrer la notion de transversalité</li>
+							<li>Planifier l’accessibilité à chaque étape</li>
+							<li>Répartir les responsabilités de l’accessibilité</li>
+							<li>Voir aux critères techniques et fonctionnels</li>
+							<li>Distinguer mise en accessibilité et conformité</li>
+							<li>Prendre conscience des limites des outils</li>
+							<li>Évaluer l’impact des plateformes technologiques</li>
+						</ul>
+						<p>Pour plus de détails sur les facteurs à considérer pour atteindre les objectifs d’accessibilité du point de vue d’un chargé de projets, consulter l’article «&#160;<a href="accessRespBreakdown-planAccess-fra.html">Planifier&#160;l’accessibilité</a>&#160;».</p>
+					</section>			
+				</div>
+			</div>
+			<div id="a1b">
+				<div class="tabs-content-pad">
+					<section>
+						<h3>Analyse : 9 critères de succès</h3>
+						<p>Pour les fins de cette répartition, la fonction d’analyse regroupe les tâches habituellement associées à l’analyse des orientations stratégiques du projet, d’analyse des choix de plateformes technologiques ou d’analyse fonctionnelle des interfaces Web.</p>
+						<table class="zebra">
+						<thead>
+							<tr>
+								<th scope="col">Niveaux</th>
+								<th scope="col">Critères</th>
+								<th scope="col">Détail</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a></td>
+								<td>2</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.1" title="Critère de succès 3.2.1 - Techniques d'essai">3.2.1</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.1" title="Critère de succès 3.3.1 - Techniques d'essai">3.3.1</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a></td>
+								<td>2</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.3" title="Critère de succès 3.3.3 - Techniques d'essai">3.3.3</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.4" title="Critère de succès 3.3.4 - Techniques d'essai">3.3.4</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a></td>
+								<td>5</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.3" title="Critère de succès 2.2.3 - Techniques d'essai">2.2.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.4" title="Critère de succès 2.2.4 - Techniques d'essai">2.2.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.5" title="Critère de succès 2.2.5 - Techniques d'essai">2.2.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.5" title="Critère de succès 3.3.5 - Techniques d'essai">3.3.5</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.6" title="Critère de succès 3.3.6 - Techniques d'essai">3.3.6</a>.</td>
+							</tr>
+						</tbody>
+						</table>
+						<p><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?role=1">Analyse - Techniques d'essai</a></p>
+					</section>
+				</div>
+			</div>
+			<div id="a1c">
+				<div class="tabs-content-pad">
+					<section>
+						<h3>Architecture : 9 critères de succès</h3>
+						<p>Pour les fins de cette répartition, la fonction d’architecture regroupe les tâches habituellement associées à l’architecture de l’information (des contenus Web) et l’architecture des données.</p>
+						<table class="zebra">
+						<thead>
+							<tr>
+								<th scope="col">Niveaux</th>
+								<th scope="col">Critères</th>
+								<th scope="col">Détail</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a></td>
+								<td>2</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.1" title="Critère de succès 1.3.1 - Techniques d'essai">1.3.1</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.2" title="Critère de succès 2.4.2 - Techniques d'essai">2.4.2</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a></td>
+								<td>3</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.5" title="Critère de succès 2.4.5 - Techniques d'essai">2.4.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.6" title="Critère de succès 2.4.6 - Techniques d'essai">2.4.6</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.2" title="Critère de succès 3.1.2 - Techniques d'essai">3.1.2</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a></td>
+								<td>4</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.8" title="Critère de succès 2.4.8 - Techniques d'essai">2.4.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.10" title="Critère de succès 2.4.10 - Techniques d'essai">2.4.10</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.3" title="Critère de succès 3.1.3 - Techniques d'essai">3.1.3</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.4" title="Critère de succès 3.1.4 - Techniques d'essai">3.1.4</a>.</td>
+							</tr>
+						</tbody>
+						</table>
+						<p><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?role=2">Architecture - Techniques d'essai</a></p>
+					</section>
+				</div>
+			</div>
+			<div id="a1d">
+				<div class="tabs-content-pad">
+					<section>
+						<h3>Conception d'interaction : 36 critères de succès</h3>
+						<p>Pour les fins de cette répartition, la fonction de conception d'interaction regroupe les tâches habituellement associées à la scénarisation des interfaces Web, la planification des changements de contexte, de l’interactivité et des contenus autres que le contenu principal des pages.</p>
+						<table class="zebra">
+						<thead>
+							<tr>
+								<th scope="col">Niveaux</th>
+								<th scope="col">Critères</th>
+								<th scope="col">Détail</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a></td>
+								<td>15</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.1" title="Critère de succès 1.3.1 - Techniques d'essai">1.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.3" title="Critère de succès 1.3.3 - Techniques d'essai">1.3.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.1" title="Critère de succès 1.4.1 - Techniques d'essai">1.4.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.2" title="Critère de succès 1.4.2 - Techniques d'essai">1.4.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.1" title="Critère de succès 2.1.1 - Techniques d'essai">2.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.2" title="Critère de succès 2.1.2 - Techniques d'essai">2.1.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.1" title="Critère de succès 2.2.1 - Techniques d'essai">2.2.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.2" title="Critère de succès 2.2.2 - Techniques d'essai">2.2.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.3.1" title="Critère de succès 2.3.1 - Techniques d'essai">2.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.4" title="Critère de succès 2.4.4 - Techniques d'essai">2.4.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.1" title="Critère de succès 3.2.1 - Techniques d'essai">3.2.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.2" title="Critère de succès 3.2.2 - Techniques d'essai">3.2.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.1" title="Critère de succès 3.3.1 - Techniques d'essai">3.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.2" title="Critère de succès 3.3.2 - Techniques d'essai">3.3.2</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=4.1.2" title="Critère de succès 4.1.2 - Techniques d'essai">4.1.2</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a></td>
+								<td>7</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.4" title="Critère de succès 1.4.4 - Techniques d'essai">1.4.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.5" title="Critère de succès 2.4.5 - Techniques d'essai">2.4.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.6" title="Critère de succès 2.4.6 - Techniques d'essai">2.4.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.3" title="Critère de succès 3.2.3 - Techniques d'essai">3.2.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.4" title="Critère de succès 3.2.4 - Techniques d'essai">3.2.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.3" title="Critère de succès 3.3.3 - Techniques d'essai">3.3.3</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.4" title="Critère de succès 3.3.4 - Techniques d'essai">3.3.4</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a></td>
+								<td>14</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.7" title="Critère de succès 1.4.7 - Techniques d'essai">1.4.7</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.8" title="Critère de succès 1.4.8 - Techniques d'essai">1.4.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.3" title="Critère de succès 2.1.3 - Techniques d'essai">2.1.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.3" title="Critère de succès 2.2.3 - Techniques d'essai">2.2.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.4" title="Critère de succès 2.2.4 - Techniques d'essai">2.2.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.5" title="Critère de succès 2.2.5 - Techniques d'essai">2.2.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.3.2" title="Critère de succès 2.3.2 - Techniques d'essai">2.3.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.8" title="Critère de succès 2.4.8 - Techniques d'essai">2.4.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.9" title="Critère de succès 2.4.9 - Techniques d'essai">2.4.9</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.3" title="Critère de succès 3.1.3 - Techniques d'essai">3.1.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.5" title="Critère de succès 3.1.5 - Techniques d'essai">3.1.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.5" title="Critère de succès 3.2.5 - Techniques d'essai">3.2.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.5" title="Critère de succès 3.3.5 - Techniques d'essai">3.3.5</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.6" title="Critère de succès 3.3.6 - Techniques d'essai">3.3.6</a>.</td>
+							</tr>
+						</tbody>
+						</table>
+						<p><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?role=3">Conception d'interaction - Techniques d'essai</a></p>
+					</section>
+				</div>
+			</div>
+			<div id="a1e">
+				<div class="tabs-content-pad">
+					<section>
+						<h3>Graphisme : 32 critères de succès</h3>
+						<p>Pour les fins de cette répartition, la fonction de graphisme regroupe les tâches habituellement associées au design graphique des interfaces, aux déclinaisons graphiques qui en découlent, au design spécifique des éléments de navigation, des changements de contexte et des contenus autres que le contenu principal des pages.</p>
+						<table class="zebra">
+						<thead>
+							<tr>
+								<th scope="col">Niveaux</th>
+								<th scope="col">Critères</th>
+								<th scope="col">Détail</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a></td>
+								<td>12</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.1" title="Critère de succès 1.3.1 - Techniques d'essai">1.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.3" title="Critère de succès 1.3.3 - Techniques d'essai">1.3.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.1" title="Critère de succès 1.4.1 - Techniques d'essai">1.4.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.2" title="Critère de succès 1.4.2 - Techniques d'essai">1.4.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.1" title="Critère de succès 2.1.1 - Techniques d'essai">2.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.2" title="Critère de succès 2.1.2 - Techniques d'essai">2.1.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.2" title="Critère de succès 2.2.2 - Techniques d'essai">2.2.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.3.1" title="Critère de succès 2.3.1 - Techniques d'essai">2.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.1" title="Critère de succès 2.4.1 - Techniques d'essai">2.4.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.1" title="Critère de succès 3.2.1 - Techniques d'essai">3.2.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.1" title="Critère de succès 3.3.1 - Techniques d'essai">3.3.1</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.2" title="Critère de succès 3.3.2 - Techniques d'essai">3.3.2</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a></td>
+								<td>9</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.3" title="Critère de succès 1.4.3 - Techniques d'essai">1.4.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.4" title="Critère de succès 1.4.4 - Techniques d'essai">1.4.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.5" title="Critère de succès 1.4.5 - Techniques d'essai">1.4.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.5" title="Critère de succès 2.4.5 - Techniques d'essai">2.4.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.6" title="Critère de succès 2.4.6 - Techniques d'essai">2.4.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.7" title="Critère de succès 2.4.7 - Techniques d'essai">2.4.7</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.3" title="Critère de succès 3.2.3 - Techniques d'essai">3.2.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.4" title="Critère de succès 3.2.4 - Techniques d'essai">3.2.4</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.3" title="Critère de succès 3.3.3 - Techniques d'essai">3.3.3</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a></td>
+								<td>11</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.6" title="Critère de succès 1.4.6 - Techniques d'essai">1.4.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.7" title="Critère de succès 1.4.7 - Techniques d'essai">1.4.7</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.8" title="Critère de succès 1.4.8 - Techniques d'essai">1.4.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.9" title="Critère de succès 1.4.9 - Techniques d'essai">1.4.9</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.3" title="Critère de succès 2.2.3 - Techniques d'essai">2.2.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.4" title="Critère de succès 2.2.4 - Techniques d'essai">2.2.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.3.2" title="Critère de succès 2.3.2 - Techniques d'essai">2.3.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.8" title="Critère de succès 2.4.8 - Techniques d'essai">2.4.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.5" title="Critère de succès 3.2.5 - Techniques d'essai">3.2.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.5" title="Critère de succès 3.3.5 - Techniques d'essai">3.3.5</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.6" title="Critère de succès 3.3.6 - Techniques d'essai">3.3.6</a>.</td>
+							</tr>
+						</tbody>
+						</table>
+						<p><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?role=4">Graphisme - Techniques d'essai</a></p>
+					</section>
+				</div>
+			</div>
+			<div id="a1f">
+				<div class="tabs-content-pad">
+					<section>
+						<h3>Prototypage : 25 critères de succès</h3>
+						<p>Pour les fins de cette répartition, la fonction de prototypage regroupe les tâches habituellement associées à la production des gabarits (HTML et CSS) d’un site Web.</p>
+						<table class="zebra">
+						<thead>
+							<tr>
+								<th scope="col">Niveaux</th>
+								<th scope="col">Critères</th>
+								<th scope="col">Détail</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a></td>
+								<td>12</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.1.1" title="Critère de succès 1.1.1 - Techniques d'essai">1.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.1" title="Critère de succès 1.3.1 - Techniques d'essai">1.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.2" title="Critère de succès 1.3.2 - Techniques d'essai">1.3.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.1" title="Critère de succès 2.1.1 - Techniques d'essai">2.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.2" title="Critère de succès 2.1.2 - Techniques d'essai">2.1.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.1" title="Critère de succès 2.4.1 - Techniques d'essai">2.4.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.2" title="Critère de succès 2.4.2 - Techniques d'essai">2.4.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.3" title="Critère de succès 2.4.3 - Techniques d'essai">2.4.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.1" title="Critère de succès 3.1.1 - Techniques d'essai">3.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.2" title="Critère de succès 3.3.2 - Techniques d'essai">3.3.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=4.1.1" title="Critère de succès 4.1.1 - Techniques d'essai">4.1.1</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=4.1.2" title="Critère de succès 4.1.2 - Techniques d'essai">4.1.2</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a></td>
+								<td>7</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.3" title="Critère de succès 1.4.3 - Techniques d'essai">1.4.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.4" title="Critère de succès 1.4.4 - Techniques d'essai">1.4.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.5" title="Critère de succès 1.4.5 - Techniques d'essai">1.4.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.5" title="Critère de succès 2.4.5 - Techniques d'essai">2.4.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.6" title="Critère de succès 2.4.6 - Techniques d'essai">2.4.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.7" title="Critère de succès 2.4.7 - Techniques d'essai">2.4.7</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.4" title="Critère de succès 3.2.4 - Techniques d'essai">3.2.4</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a></td>
+								<td>6</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.6" title="Critère de succès 1.4.6 - Techniques d'essai">1.4.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.3" title="Critère de succès 2.1.3 - Techniques d'essai">2.1.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.8" title="Critère de succès 2.4.8 - Techniques d'essai">2.4.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.10" title="Critère de succès 2.4.10 - Techniques d'essai">2.4.10</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.3" title="Critère de succès 3.1.3 - Techniques d'essai">3.1.3</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.5" title="Critère de succès 3.2.5 - Techniques d'essai">3.2.5</a>.</td>
+							</tr>
+						</tbody>
+						</table>
+						<p><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?role=5">Prototypage - Techniques d'essai</a></p>
+					</section>
+				</div>
+			</div>
+			<div id="a1g">
+				<div class="tabs-content-pad">
+					<section>
+						<h3>Rédaction : 21 critères de succès</h3>
+						<p>Pour les fins de cette répartition, la fonction de rédaction regroupe les tâches habituellement associées à production des contenus textuels du site, des contenus équivalents de remplacement et des contenus autres que le contenu principal des pages.</p>
+						<table class="zebra">
+						<thead>
+							<tr>
+								<th scope="col">Niveaux</th>
+								<th scope="col">Critères</th>
+								<th scope="col">Détail</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a></td>
+								<td>11</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.1.1" title="Critère de succès 1.1.1 - Techniques d'essai">1.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.1" title="Critère de succès 1.2.1 - Techniques d'essai">1.2.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.2" title="Critère de succès 1.2.2 - Techniques d'essai">1.2.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.3" title="Critère de succès 1.2.3 - Techniques d'essai">1.2.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.1" title="Critère de succès 1.3.1 - Techniques d'essai">1.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.3" title="Critère de succès 1.3.3 - Techniques d'essai">1.3.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.1" title="Critère de succès 2.1.1 - Techniques d'essai">2.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.2" title="Critère de succès 2.1.2 - Techniques d'essai">2.1.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.2" title="Critère de succès 2.4.2 - Techniques d'essai">2.4.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.4" title="Critère de succès 2.4.4 - Techniques d'essai">2.4.4</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.1" title="Critère de succès 3.3.1 - Techniques d'essai">3.3.1</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a></td>
+								<td>3</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.5" title="Critère de succès 1.2.5 - Techniques d'essai">1.2.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.6" title="Critère de succès 2.4.6 - Techniques d'essai">2.4.6</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.2" title="Critère de succès 3.1.2 - Techniques d'essai">3.1.2</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a></td>
+								<td>7</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.7" title="Critère de succès 1.2.7 - Techniques d'essai">1.2.7</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.8" title="Critère de succès 1.2.8 - Techniques d'essai">1.2.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.9" title="Critère de succès 2.4.9 - Techniques d'essai">2.4.9</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.3" title="Critère de succès 3.1.3 - Techniques d'essai">3.1.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.4" title="Critère de succès 3.1.4 - Techniques d'essai">3.1.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.5" title="Critère de succès 3.1.5 - Techniques d'essai">3.1.5</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.6" title="Critère de succès 3.1.6 - Techniques d'essai">3.1.6</a>.</td>
+							</tr>
+						</tbody>
+						</table>
+						<p><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?role=6">Rédaction - Techniques d'essai</a></p>
+					</section>
+				</div>
+			</div>
+			<div id="a1h">
+				<div class="tabs-content-pad">
+					<section>
+						<h3>Développement : 59 critères de succès</h3>
+						<p>Pour les fins de cette répartition, la fonction de développement regroupe les tâches habituellement associées au développement des outils de contribution, à l’intégration HTML et CSS et à la programmation des scripts et des applications proposées sur le site Web.</p>
+						<table class="zebra">
+						<thead>
+							<tr>
+								<th scope="col">Niveaux</th>
+								<th scope="col">Critères</th>
+								<th scope="col">Détail</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a></td>
+								<td>24</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.1.1" title="Critère de succès 1.1.1 - Techniques d'essai">1.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.1" title="Critère de succès 1.2.1 - Techniques d'essai">1.2.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.2" title="Critère de succès 1.2.2 - Techniques d'essai">1.2.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.3" title="Critère de succès 1.2.3 - Techniques d'essai">1.2.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.4" title="Critère de succès 1.2.4 - Techniques d'essai">1.2.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.5" title="Critère de succès 1.2.5 - Techniques d'essai">1.2.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.6" title="Critère de succès 1.2.6 - Techniques d'essai">1.2.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.7" title="Critère de succès 1.2.7 - Techniques d'essai">1.2.7</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.8" title="Critère de succès 1.2.8 - Techniques d'essai">1.2.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.9" title="Critère de succès 1.2.9 - Techniques d'essai">1.2.9</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.1" title="Critère de succès 1.3.1 - Techniques d'essai">1.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.2" title="Critère de succès 1.3.2 - Techniques d'essai">1.3.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.3" title="Critère de succès 1.3.3 - Techniques d'essai">1.3.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.2" title="Critère de succès 1.4.2 - Techniques d'essai">1.4.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.3" title="Critère de succès 1.4.3 - Techniques d'essai">1.4.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.4" title="Critère de succès 1.4.4 - Techniques d'essai">1.4.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.5" title="Critère de succès 1.4.5 - Techniques d'essai">1.4.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.6" title="Critère de succès 1.4.6 - Techniques d'essai">1.4.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.7" title="Critère de succès 1.4.7 - Techniques d'essai">1.4.7</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.8" title="Critère de succès 1.4.8 - Techniques d'essai">1.4.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.9" title="Critère de succès 1.4.9 - Techniques d'essai">1.4.9</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.1" title="Critère de succès 2.1.1 - Techniques d'essai">2.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.2" title="Critère de succès 2.1.2 - Techniques d'essai">2.1.2</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.3" title="Critère de succès 2.1.3 - Techniques d'essai">2.1.3</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a></td>
+								<td>13</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.1" title="Critère de succès 2.2.1 - Techniques d'essai">2.2.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.2" title="Critère de succès 2.2.2 - Techniques d'essai">2.2.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.3" title="Critère de succès 2.2.3 - Techniques d'essai">2.2.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.4" title="Critère de succès 2.2.4 - Techniques d'essai">2.2.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.5" title="Critère de succès 2.2.5 - Techniques d'essai">2.2.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.3.1" title="Critère de succès 2.3.1 - Techniques d'essai">2.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.3.2" title="Critère de succès 2.3.2 - Techniques d'essai">2.3.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.1" title="Critère de succès 2.4.1 - Techniques d'essai">2.4.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.2" title="Critère de succès 2.4.2 - Techniques d'essai">2.4.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.3" title="Critère de succès 2.4.3 - Techniques d'essai">2.4.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.4" title="Critère de succès 2.4.4 - Techniques d'essai">2.4.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.5" title="Critère de succès 2.4.5 - Techniques d'essai">2.4.5</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.6" title="Critère de succès 2.4.6 - Techniques d'essai">2.4.6</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a></td>
+								<td>22</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.7" title="Critère de succès 2.4.7 - Techniques d'essai">2.4.7</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.8" title="Critère de succès 2.4.8 - Techniques d'essai">2.4.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.9" title="Critère de succès 2.4.9 - Techniques d'essai">2.4.9</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.10" title="Critère de succès 2.4.10 - Techniques d'essai">2.4.10</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.1" title="Critère de succès 3.1.1 - Techniques d'essai">3.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.2" title="Critère de succès 3.1.2 - Techniques d'essai">3.1.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.3" title="Critère de succès 3.1.3 - Techniques d'essai">3.1.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.4" title="Critère de succès 3.1.4 - Techniques d'essai">3.1.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.6" title="Critère de succès 3.1.6 - Techniques d'essai">3.1.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.1" title="Critère de succès 3.2.1 - Techniques d'essai">3.2.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.2" title="Critère de succès 3.2.2 - Techniques d'essai">3.2.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.3" title="Critère de succès 3.2.3 - Techniques d'essai">3.2.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.4" title="Critère de succès 3.2.4 - Techniques d'essai">3.2.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.5" title="Critère de succès 3.2.5 - Techniques d'essai">3.2.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.1" title="Critère de succès 3.3.1 - Techniques d'essai">3.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.2" title="Critère de succès 3.3.2 - Techniques d'essai">3.3.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.3" title="Critère de succès 3.3.3 - Techniques d'essai">3.3.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.4" title="Critère de succès 3.3.4 - Techniques d'essai">3.3.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.5" title="Critère de succès 3.3.5 - Techniques d'essai">3.3.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.6" title="Critère de succès 3.3.6 - Techniques d'essai">3.3.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=4.1.1" title="Critère de succès 4.1.1 - Techniques d'essai">4.1.1</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=4.1.2" title="Critère de succès 4.1.2 - Techniques d'essai">4.1.2</a>.</td>
+							</tr>
+						</tbody>
+						</table>
+						<p><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?role=7">Développement - Techniques d'essai</a></p>
+					</section>
+				</div>
+			</div>
+			<div id="a1i">
+				<div class="tabs-content-pad">
+					<section>
+						<h3>Contrôle qualité : 61 critères de succès</h3>
+						<p>Pour les fins de cette répartition, la fonction de contrôle qualité regroupe les tâches habituellement associées aux validations ayant cours en fin de projet.</p>
+						<table class="zebra">
+						<thead>
+							<tr>
+								<th scope="col">Niveaux</th>
+								<th scope="col">Critères</th>
+								<th scope="col">Détail</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a></td>
+								<td>25</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.1.1" title="Critère de succès 1.1.1 - Techniques d'essai">1.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.1" title="Critère de succès 1.2.1 - Techniques d'essai">1.2.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.2" title="Critère de succès 1.2.2 - Techniques d'essai">1.2.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.3" title="Critère de succès 1.2.3 - Techniques d'essai">1.2.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.4" title="Critère de succès 1.2.4 - Techniques d'essai">1.2.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.5" title="Critère de succès 1.2.5 - Techniques d'essai">1.2.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.6" title="Critère de succès 1.2.6 - Techniques d'essai">1.2.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.7" title="Critère de succès 1.2.7 - Techniques d'essai">1.2.7</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.8" title="Critère de succès 1.2.8 - Techniques d'essai">1.2.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.9" title="Critère de succès 1.2.9 - Techniques d'essai">1.2.9</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.1" title="Critère de succès 1.3.1 - Techniques d'essai">1.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.2" title="Critère de succès 1.3.2 - Techniques d'essai">1.3.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.3" title="Critère de succès 1.3.3 - Techniques d'essai">1.3.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.1" title="Critère de succès 1.4.1 - Techniques d'essai">1.4.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.2" title="Critère de succès 1.4.2 - Techniques d'essai">1.4.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.3" title="Critère de succès 1.4.3 - Techniques d'essai">1.4.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.4" title="Critère de succès 1.4.4 - Techniques d'essai">1.4.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.5" title="Critère de succès 1.4.5 - Techniques d'essai">1.4.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.6" title="Critère de succès 1.4.6 - Techniques d'essai">1.4.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.7" title="Critère de succès 1.4.7 - Techniques d'essai">1.4.7</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.8" title="Critère de succès 1.4.8 - Techniques d'essai">1.4.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.9" title="Critère de succès 1.4.9 - Techniques d'essai">1.4.9</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.1" title="Critère de succès 2.1.1 - Techniques d'essai">2.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.2" title="Critère de succès 2.1.2 - Techniques d'essai">2.1.2</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.3" title="Critère de succès 2.1.3 - Techniques d'essai">2.1.3</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a></td>
+								<td>13</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.1" title="Critère de succès 2.2.1 - Techniques d'essai">2.2.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.2" title="Critère de succès 2.2.2 - Techniques d'essai">2.2.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.3" title="Critère de succès 2.2.3 - Techniques d'essai">2.2.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.4" title="Critère de succès 2.2.4 - Techniques d'essai">2.2.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.5" title="Critère de succès 2.2.5 - Techniques d'essai">2.2.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.3.1" title="Critère de succès 2.3.1 - Techniques d'essai">2.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.3.2" title="Critère de succès 2.3.2 - Techniques d'essai">2.3.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.1" title="Critère de succès 2.4.1 - Techniques d'essai">2.4.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.2" title="Critère de succès 2.4.2 - Techniques d'essai">2.4.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.3" title="Critère de succès 2.4.3 - Techniques d'essai">2.4.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.4" title="Critère de succès 2.4.4 - Techniques d'essai">2.4.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.5" title="Critère de succès 2.4.5 - Techniques d'essai">2.4.5</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.6" title="Critère de succès 2.4.6 - Techniques d'essai">2.4.6</a>.</td>
+							</tr>
+							<tr>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a></td>
+								<td>23</td>
+								<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.7" title="Critère de succès 2.4.7 - Techniques d'essai">2.4.7</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.8" title="Critère de succès 2.4.8 - Techniques d'essai">2.4.8</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.9" title="Critère de succès 2.4.9 - Techniques d'essai">2.4.9</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.10" title="Critère de succès 2.4.10 - Techniques d'essai">2.4.10</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.1" title="Critère de succès 3.1.1 - Techniques d'essai">3.1.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.2" title="Critère de succès 3.1.2 - Techniques d'essai">3.1.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.3" title="Critère de succès 3.1.3 - Techniques d'essai">3.1.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.4" title="Critère de succès 3.1.4 - Techniques d'essai">3.1.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.5" title="Critère de succès 3.1.5 - Techniques d'essai">3.1.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.6" title="Critère de succès 3.1.6 - Techniques d'essai">3.1.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.1" title="Critère de succès 3.2.1 - Techniques d'essai">3.2.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.2" title="Critère de succès 3.2.2 - Techniques d'essai">3.2.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.3" title="Critère de succès 3.2.3 - Techniques d'essai">3.2.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.4" title="Critère de succès 3.2.4 - Techniques d'essai">3.2.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.5" title="Critère de succès 3.2.5 - Techniques d'essai">3.2.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.1" title="Critère de succès 3.3.1 - Techniques d'essai">3.3.1</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.2" title="Critère de succès 3.3.2 - Techniques d'essai">3.3.2</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.3" title="Critère de succès 3.3.3 - Techniques d'essai">3.3.3</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.4" title="Critère de succès 3.3.4 - Techniques d'essai">3.3.4</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.5" title="Critère de succès 3.3.5 - Techniques d'essai">3.3.5</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.6" title="Critère de succès 3.3.6 - Techniques d'essai">3.3.6</a>, <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=4.1.1" title="Critère de succès 4.1.1 - Techniques d'essai">4.1.1</a> et <a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=4.1.2" title="Critère de succès 4.1.2 - Techniques d'essai">4.1.2</a>.</td>
+							</tr>
+						</tbody>
+						</table>
+						<p><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?role=8">Contrôle qualité - Techniques d'essai</a></p>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>		
+
+<section>
+	<h2 id="a2">Tableau synthèse de la répartition WCAG 2.0</h2>
+	
+	<table id="tsrw" class="zebra">
+	<thead>
+		<tr>
+			<th scope="col" rowspan="2">Critère de succès (Niveau)</th>
+			<th scope="col" colspan="8">Étapes de la chaîne de production</th>
+		</tr>
+		<tr>
+			<th scope="col">Analyse</th>
+			<th scope="col">Architecture</th>
+			<th scope="col">Conception d'interaction</th>
+			<th scope="col">Graphisme</th>
+			<th scope="col">Prototypage</th>
+			<th scope="col">Rédaction</th>
+			<th scope="col">Développement</th>
+			<th scope="col">Contrôle Qualité</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr id="a-wcag2-111">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.1.1" title="Critère de succès 1.1.1 - Techniques d'essai">1.1.1</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-121">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.1" title="Critère de succès 1.2.1 - Techniques d'essai">1.2.1</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-122">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.2" title="Critère de succès 1.2.2 - Techniques d'essai">1.2.2</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-123">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.3" title="Critère de succès 1.2.3 - Techniques d'essai">1.2.3</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-124">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.4" title="Critère de succès 1.2.4 - Techniques d'essai">1.2.4</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-125">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.5" title="Critère de succès 1.2.5 - Techniques d'essai">1.2.5</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-126">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.6" title="Critère de succès 1.2.6 - Techniques d'essai">1.2.6</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-127">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.7" title="Critère de succès 1.2.7 - Techniques d'essai">1.2.7</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-128">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.8" title="Critère de succès 1.2.8 - Techniques d'essai">1.2.8</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-129">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.2.9" title="Critère de succès 1.2.9 - Techniques d'essai">1.2.9</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-131">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.1" title="Critère de succès 1.3.1 - Techniques d'essai">1.3.1</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-132">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.2" title="Critère de succès 1.3.2 - Techniques d'essai">1.3.2</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-133">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.3.3" title="Critère de succès 1.3.3 - Techniques d'essai">1.3.3</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-141">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.1" title="Critère de succès 1.4.1 - Techniques d'essai">1.4.1</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-142">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.2" title="Critère de succès 1.4.2 - Techniques d'essai">1.4.2</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-143">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.3" title="Critère de succès 1.4.3 - Techniques d'essai">1.4.3</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-144">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.4" title="Critère de succès 1.4.4 - Techniques d'essai">1.4.4</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-145">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.5" title="Critère de succès 1.4.5 - Techniques d'essai">1.4.5</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-146">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.6" title="Critère de succès 1.4.6 - Techniques d'essai">1.4.6</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-147">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.7" title="Critère de succès 1.4.7 - Techniques d'essai">1.4.7</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-148">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.8" title="Critère de succès 1.4.8 - Techniques d'essai">1.4.8</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-149">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=1.4.9" title="Critère de succès 1.4.9 - Techniques d'essai">1.4.9</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-211">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.1" title="Critère de succès 2.1.1 - Techniques d'essai">2.1.1</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-212">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.2" title="Critère de succès 2.1.2 - Techniques d'essai">2.1.2</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-213">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.1.3" title="Critère de succès 2.1.3 - Techniques d'essai">2.1.3</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-221">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.1" title="Critère de succès 2.2.1 - Techniques d'essai">2.2.1</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-222">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.2" title="Critère de succès 2.2.2 - Techniques d'essai">2.2.2</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-223">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.3" title="Critère de succès 2.2.3 - Techniques d'essai">2.2.3</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-224">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.4" title="Critère de succès 2.2.4 - Techniques d'essai">2.2.4</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-225">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.2.5" title="Critère de succès 2.2.5 - Techniques d'essai">2.2.5</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-231">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.3.1" title="Critère de succès 2.3.1 - Techniques d'essai">2.3.1</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-232">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.3.2" title="Critère de succès 2.3.2 - Techniques d'essai">2.3.2</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-241">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.1" title="Critère de succès 2.4.1 - Techniques d'essai">2.4.1</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-242">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.2" title="Critère de succès 2.4.2 - Techniques d'essai">2.4.2</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-243">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.3" title="Critère de succès 2.4.3 - Techniques d'essai">2.4.3</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-244">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.4" title="Critère de succès 2.4.4 - Techniques d'essai">2.4.4</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-245">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.5" title="Critère de succès 2.4.5 - Techniques d'essai">2.4.5</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-246">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.6" title="Critère de succès 2.4.6 - Techniques d'essai">2.4.6</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-247">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.7" title="Critère de succès 2.4.7 - Techniques d'essai">2.4.7</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-248">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.8" title="Critère de succès 2.4.8 - Techniques d'essai">2.4.8</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-249">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.9" title="Critère de succès 2.4.9 - Techniques d'essai">2.4.9</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-2410">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=2.4.10" title="Critère de succès 2.4.10 - Techniques d'essai">2.4.10</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-311">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.1" title="Critère de succès 3.1.1 - Techniques d'essai">3.1.1</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-312">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.2" title="Critère de succès 3.1.2 - Techniques d'essai">3.1.2</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-313">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.3" title="Critère de succès 3.1.3 - Techniques d'essai">3.1.3</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-314">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.4" title="Critère de succès 3.1.4 - Techniques d'essai">3.1.4</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-315">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.5" title="Critère de succès 3.1.5 - Techniques d'essai">3.1.5</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-316">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.1.6" title="Critère de succès 3.1.6 - Techniques d'essai">3.1.6</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-321">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.1" title="Critère de succès 3.2.1 - Techniques d'essai">3.2.1</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-322">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.2" title="Critère de succès 3.2.2 - Techniques d'essai">3.2.2</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-323">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.3" title="Critère de succès 3.2.3 - Techniques d'essai">3.2.3</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-324">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.4" title="Critère de succès 3.2.4 - Techniques d'essai">3.2.4</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-325">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.2.5" title="Critère de succès 3.2.5 - Techniques d'essai">3.2.5</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-331">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.1" title="Critère de succès 3.3.1 - Techniques d'essai">3.3.1</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-332">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.2" title="Critère de succès 3.3.2 - Techniques d'essai">3.3.2</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-333">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.3" title="Critère de succès 3.3.3 - Techniques d'essai">3.3.3</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aa-wcag2-334">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.4" title="Critère de succès 3.3.4 - Techniques d'essai">3.3.4</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AA" title="Critères de succès de niveau AA - Techniques d'essai">AA</a>)</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-335">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.5" title="Critère de succès 3.3.5 - Techniques d'essai">3.3.5</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="aaa-wcag2-336">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=3.3.6" title="Critère de succès 3.3.6 - Techniques d'essai">3.3.6</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=AAA" title="Critères de succès de niveau AAA - Techniques d'essai">AAA</a>)</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-411">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=4.1.1" title="Critère de succès 4.1.1 - Techniques d'essai">4.1.1</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+		<tr id="a-wcag2-412">
+			<td><a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?criteria=4.1.2" title="Critère de succès 4.1.2 - Techniques d'essai">4.1.2</a>&#160;(<a href="http://alpha.gcwwwtemplates.tbs-sct.ircan.gc.ca/theme-clf2-nsi2/testing-techniques-essai-fra.php?comp=A" title="Critères de succès de niveau A - Techniques d'essai">A</a>)</td>
+			<td>&#160;</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>&#160;</td>
+			<td>X</td>
+			<td>X</td>
+		</tr>
+	</tbody>
+	</table>
+</section>
+<p><strong>Nota :</strong> Ce découpage présente une vision qui peut ne pas correspondre exactement à la réalité de votre chaîne de production. Il convient donc d’adapter ce modèle pour répondre à la réalité de propre chaîne de production.</p>
+<p>© Coopérative AccessibilitéWeb, 2011. <a href="http://tbs-sct.ircan.gc.ca/projects/wet-boew-arb-rra/wiki/Conditions?lang=fra">Conditions régissant l'utilisation</a>.</p>
+</div><div class="clear"></div>
+
+<dl id="cn-doc-dates" role="contentinfo">
+<dt>Date de modification&#160;:</dt><dd><span><time pubdate="pubdate">2011-10-31</time></span></dd>
+</dl>
+<div class="clear"></div>
+<!-- MainContentEnd -->
+</div></div>
+</div></div>
+
+<div id="cn-foot"><div id="cn-foot-inner"><footer><h2 id="cn-nav">Pied de page</h2>
+<!-- FooterStart -->
+<nav role="navigation"><div id="cn-sft"><h3>Pied de page du site</h3><div id="cn-sft-inner">
+<div id="cn-ft-tctr">
+<ul>
+<li class="terms"><a href="#" rel="license">Avis</a></li>
+<li class="trans"><a href="#">Transparence</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+<section><div class="span-2"><h4 class="col-head"><a href="#">À propos de nous</a></h4>
+<ul>
+<li><a href="#">Notre mandat</a></li>
+<li><a href="#">Notre ministre</a></li>
+</ul>
+</div></section>
+<section><div class="span-2"><h4 class="col-head"><a href="#">Nouvelles</a></h4>
+<ul>
+<li><a href="#">Communiqués</a></li>
+<li><a href="#">Avix aux médias</a></li>
+<li><a href="#">Multimédia</a></li>
+</ul>
+</div></section>
+<section><div class="span-2"><h4 class="col-head"><a href="#">Contactez-nous</a></h4>
+<address>
+<ul>
+<li><a href="#">Numéros de téléphone</a></li>
+<li><a href="#">Nos bureaux</a></li>
+</ul>
+</address>
+</div></section>
+<section><div class="span-2"><h4 class="col-head"><a href="#">Restez branchés</a></h4>
+<ul>
+<li><a rel="external" href="#">YouTube</a></li>
+<li><a rel="external" href="#">Twitter</a></li>
+<li><a href="#">Flux</a></li>
+</ul>
+</div></section>
+</div></div></nav>
+
+<nav role="navigation"><div id="cn-gcft"><h3>Pied de page du gouvernement du Canada</h3><div id="cn-gcft-inner"><div id="fip-pcim-gcft">
+<ul>
+<li><a rel="external" href="http://canadiensensante.gc.ca/index-fra.php"><span>Santé</span><br />canadiensensante.gc.ca</a></li>
+<li><a rel="external" href="http://voyage.gc.ca/index-fra.asp"><span>Voyage</span><br />voyage.gc.ca</a></li>
+<li><a rel="external" href="http://www.servicecanada.gc.ca/fra/accueil.shtml"><span>Service Canada</span><br />servicecanada.gc.ca</a></li>
+<li><a rel="external" href="http://www.guichetemplois.gc.ca/Intro-fra.aspx"><span>Emplois</span><br />guichetemplois.gc.ca</a></li>
+<li><a rel="external" href="http://www.plandaction.gc.ca"><span>Économie</span><br />plandaction.gc.ca</a></li>
+<li id="cn-ft-ca"><div><a rel="external" href="http://www.canada.gc.ca/accueil.html">Canada.gc.ca</a></div></li>
+</ul>
+</div></div></div></nav>
+<!-- FooterEnd -->
+</footer></div></div>
+</div></body>
+</html>

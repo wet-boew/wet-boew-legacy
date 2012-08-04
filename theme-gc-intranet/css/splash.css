@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*!
+ * GC intranet theme v1.0 / Thème d'intranet GC v1.0
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+#cn-cols-inner{background:transparent url(../images/cn-banner-inner.png) no-repeat center 0;min-height:52px;}
+#cn-cols{background-image:url(../images/cn-banner.png);background-repeat:repeat-x;background-position:0 0;}
+h1{padding:60px 0 0;}
+#cn-site-title{min-height:0px;}
+#cn-lang-links{margin-top:20px;}
+
+* html #cn-site-title{height:0px;}

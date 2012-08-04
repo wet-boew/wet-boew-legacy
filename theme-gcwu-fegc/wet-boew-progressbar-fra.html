@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
+<title>Barre de progression - Boîte à outils de l'expérience Web (BOEW)</title>
+
+<link rel="shortcut icon" href="fip-pcim/images/favicon.ico" />
+<meta name="dcterms.description" content="English description / Description en anglais" />
+<meta name="description" content="English description / Description en anglais" />
+<meta name="keywords" content="English keywords / Mots-clés en anglais" />
+<meta name="dcterms.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+<meta name="dcterms.title" content="English title / Titre en anglais" />
+<meta name="dcterms.issued" title="W3CDTF" content="Date published (YYYY-MM-DD) / Date de publication (AAAA-MM-JJ)" />
+<meta name="dcterms.modified" title="W3CDTF" content="Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)" />
+<meta name="dcterms.subject" title="scheme" content="English subject terms / Termes de sujet en anglais" />
+<meta name="dcterms.language" title="ISO639-2" content="eng" />
+
+<link href="../css/base.css" rel="stylesheet" />
+<!--[if IE 6]><![endif]-->
+<!--[if IE 8]><link href="../css/base-ie8.css" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="../css/base-ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 6]><link href="../css/base-ie6.css" rel="stylesheet" /><![endif]-->
+<!-- CSSStart -->
+<link href="../grids/css/util.css" media="screen" rel="stylesheet" />
+<link href="css/framework-responsive-theme-gcwu-fegc.css" media="screen" rel="stylesheet" />
+<link href="css/theme-gcwu-fegc.css" rel="stylesheet" />
+<!--[if IE 8]><link href="css/theme-gcwu-fegc-ie8.css" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="css/theme-gcwu-fegc-ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 6]><link href="css/theme-gcwu-fegc-ie6.css" rel="stylesheet" /><![endif]-->
+<link href="../js/support/menubar/style.css" rel="stylesheet" />
+<link href="fip-pcim/css/fip-pcim.css" rel="stylesheet" />
+<!--[if IE 8]><link href="fip-pcim/css/fip-pcim-ie8.css" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="fip-pcim/css/fip-pcim-ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 6]><link href="fip-pcim/css/fip-pcim-ie6.css" rel="stylesheet" /><![endif]-->
+<!-- CSSEnd -->
+
+<script src="../js/lib/jquery.min.js"></script>
+<script src="../js/pe-ap.js" id="progressive"></script>
+<script>
+/* <![CDATA[ */
+var params = {
+menubar : "",
+progressbar : {}
+};
+PE.progress(params);
+/* ]]> */
+</script>
+
+<!-- CustomScriptsCSSStart -->
+<style type="text/css">
+#pb-status th, #pb-status tbody td {text-align: center;}
+.pb-perc {background: #666;}
+#progress-bar-status {display: none;}
+</style>
+<script>
+/* <![CDATA[ */
+$(document).ready(function() {
+	$("#progress-bar-status").css("display","block");
+});
+/* ]]> */
+</script>
+<!-- CustomScriptsCSSEnd -->
+</head>
+
+<body><div id="cn-body-inner-2col">
+<div id="cn-skip-head">
+<ul id="cn-tphp">
+<li id="cn-sh-link-1"><a href="#cn-cont">Passer au contenu principal</a></li>
+<li id="cn-sh-link-2"><a href="#cn-nav">Passer à la navigation latérale</a></li>
+</ul>
+</div>
+
+<div id="cn-head"><div id="cn-head-inner"><header>
+<!-- HeaderStart -->
+<nav role="navigation"><div id="cn-gcnb"><h2>Barre de navigation de la gouvernement de Canada</h2><div id="cn-gcnb-inner"><div id="fip-pcim-gcnb">
+<div id="cn-sig"><div id="cn-sig-inner"><div id="fip-pcim-sig-fra" title="Gouvernement du Canada"><img src="fip-pcim/images/sig-fra.gif" width="214" height="20" alt="Gouvernement du Canada" /></div></div></div>
+<ul>
+<li id="cn-gcnb1"><a rel="external" href="http://www.canada.gc.ca/accueil.html">Canada.gc.ca</a></li>
+<li id="cn-gcnb2"><a rel="external" href="http://www.servicecanada.gc.ca/fra/accueil.shtml">Services</a></li>
+<li id="cn-gcnb3"><a rel="external" href="http://www.canada.gc.ca/depts/major/depind-fra.html">Ministères</a></li>
+<li id="cn-gcnb-lang"><a href="wet-boew-progressbar-eng.html" lang="en">English</a></li>
+</ul></div></div></div></nav>
+
+<div id="cn-banner" role="banner"><div id="cn-banner-inner">
+<div id="cn-wmms"><div id="cn-wmms-inner"><div id="fip-pcim-wmms" title="Symbole du gouvernement du Canada"><img src="fip-pcim/images/wmms.gif" width="126" height="30"  alt="Symbole du gouvernement du Canada" /></div></div></div>
+<div id="cn-site-title"><p id="cn-site-title-inner"><a href="home-accueil-megamenu-theme-gcwu-fegc-fra.html">Titre du site</a></p></div>
+
+<section role="search"><div id="cn-search-box"><h2>Recherche</h2>
+<form action="#" method="post"><div id="cn-search-box-inner">
+<label for="cn-search">Recherchez le site Web</label><input id="cn-search" name="cn-search" type="text" value="" size="27" maxlength="150" />
+<input id="cn-search-submit" name="cn-search-submit" type="submit" value="Recherche" />
+</div></form>
+</div></section>
+</div></div>
+
+<nav role="navigation">
+<div id="cn-psnb"><h2>Barre de navigation du site</h2><div id="cn-psnb-inner"><div class="wet-boew-menubar mb-megamenu"><div>
+<ul class="mb-menu">
+<li><section><h3><a href="#">Section 1</a></h3><div class="mb-sm">
+<div class="span-2">
+<ul>
+<li><a href="#">Article 1.1</a></li>
+<li><a href="#">Article 1.2</a></li>
+<li><a href="#">Article 1.3</a></li>
+<li><a href="#">Article 1.4</a></li>
+<li><a href="#">Article 1.5</a></li>
+<li><a href="#">Article 1.6</a></li>
+<li><a href="#">Article 1.7</a></li>
+<li><a href="#">Article 1.8</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><section><h3><a href="section2-fra.html">Section 2</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 2.1</a></h4>
+<ul>
+<li><a href="#">Article 2.1.1</a></li>
+<li><a href="#">Article 2.1.2</a></li>
+<li><a href="#">Article 2.1.3</a></li>
+<li><a href="#">Article 2.1.4</a></li>
+<li><a href="#">Article 2.1.5</a></li>
+<li><a href="#">Article 2.1.6</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 2.2</a></h4>
+<ul>
+<li><a href="#">Article 2.2.1</a></li>
+<li><a href="#">Article 2.2.2</a></li>
+<li><a href="#">Article 2.2.3</a></li>
+<li><a href="#">Article 2.2.4</a></li>
+<li><a href="#">Article 2.2.5</a></li>
+<li><a href="#">Article 2.2.6</a></li>
+<li><a href="#">Article 2.2.7</a></li>
+<li><a href="#">Article 2.2.8</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><section><h3><a href="#">Section 3</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 3.1</a></h4>
+<ul>
+<li><a href="#">Article 3.1.1</a></li>
+<li><a href="#">Article 3.1.2</a></li>
+<li><a href="#">Article 3.1.3</a></li>
+<li><a href="#">Article 3.1.4</a></li>
+<li><a href="#">Article 3.1.5</a></li>
+<li><a href="#">Article 3.1.6</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 3.2</a></h4>
+<ul>
+<li><a href="#">Article 3.2.1</a></li>
+<li><a href="#">Article 3.2.2</a></li>
+<li><a href="#">Article 3.2.3</a></li>
+<li><a href="#">Article 3.2.4</a></li>
+<li><a href="#">Article 3.2.5</a></li>
+<li><a href="#">Article 3.2.6</a></li>
+<li><a href="#">Article 3.2.7</a></li>
+<li><a href="#">Article 3.2.8</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 3.3</a></h4>
+<ul>
+<li><a href="#">Article 3.3.1</a></li>
+<li><a href="#">Article 3.3.2</a></li>
+<li><a href="#">Article 3.3.3</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><section><h3><a href="#">Section 4</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 4.1</a></h4>
+<ul>
+<li><a href="#">Article 4.1.1</a></li>
+<li><a href="#">Article 4.1.2</a></li>
+<li><a href="#">Article 4.1.3</a></li>
+</ul>
+</section>
+<section><h4><a href="#">Section 4.2</a></h4>
+<ul>
+<li><a href="#">Article 4.2.1</a></li>
+<li><a href="#">Article 4.2.2</a></li>
+<li><a href="#">Article 4.2.3</a></li>
+<li><a href="#">Article 4.2.4</a></li>
+</ul>
+</section>
+<section><h4><a href="#">Section 4.3</a></h4>
+<ul>
+<li><a href="#">Article 4.3.1</a></li>
+<li><a href="#">Article 4.3.2</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 4.4</a></h4>
+<ul>
+<li><a href="#">Article 4.4.1</a></li>
+<li><a href="#">Article 4.4.2</a></li>
+<li><a href="#">Article 4.4.3</a></li>
+<li><a href="#">Article 4.4.4</a></li>
+</ul>
+</section>
+<section><h4><a href="#">Section 4.5</a></h4>
+<ul>
+<li><a href="#">Article 4.5.1</a></li>
+<li><a href="#">Article 4.5.2</a></li>
+<li><a href="#">Article 4.5.3</a></li>
+<li><a href="#">Article 4.5.4</a></li>
+<li><a href="#">Article 4.5.5</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><div><a href="#">Section 5</a></div></li>
+<li><section><h3><a href="#">Section 6</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 6.1</a></h4>
+<ul>
+<li><a href="#">Article 6.1.1</a></li>
+<li><a href="#">Article 6.1.2</a></li>
+<li><a href="#">Article 6.1.3</a></li>
+<li><a href="#">Article 6.1.4</a></li>
+<li><a href="#">Article 6.1.5</a></li>
+<li><a href="#">Article 6.1.6</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 6.2</a></h4>
+<ul>
+<li><a href="#">Article 6.2.1</a></li>
+<li><a href="#">Article 6.2.2</a></li>
+<li><a href="#">Article 6.2.3</a></li>
+<li><a href="#">Article 6.2.4</a></li>
+<li><a href="#">Article 6.2.5</a></li>
+<li><a href="#">Article 6.2.6</a></li>
+<li><a href="#">Article 6.2.7</a></li>
+<li><a href="#">Article 6.2.8</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 6.3</a></h4>
+<ul>
+<li><a href="#">Article 6.3.1</a></li>
+<li><a href="#">Article 6.3.2</a></li>
+<li><a href="#">Article 6.3.3</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 6.4</a></h4>
+<ul>
+<li><a href="#">Article 6.4.1</a></li>
+<li><a href="#">Article 6.4.2</a></li>
+<li><a href="#">Article 6.4.3</a></li>
+<li><a href="#">Article 6.4.4</a></li>
+<li><a href="#">Article 6.4.5</a></li>
+<li><a href="#">Article 6.4.6</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><section><h3><a href="#">Section 7</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 7.1</a></h4>
+<ul>
+<li><a href="#">Article 7.1.1</a></li>
+<li><a href="#">Article 7.1.2</a></li>
+<li><a href="#">Article 7.1.3</a></li>
+<li><a href="#">Article 7.1.4</a></li>
+<li><a href="#">Article 7.1.5</a></li>
+<li><a href="#">Article 7.1.6</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 7.2</a></h4>
+<ul>
+<li><a href="#">Article 7.2.1</a></li>
+<li><a href="#">Article 7.2.2</a></li>
+<li><a href="#">Article 7.2.3</a></li>
+<li><a href="#">Article 7.2.4</a></li>
+<li><a href="#">Article 7.2.5</a></li>
+<li><a href="#">Article 7.2.6</a></li>
+<li><a href="#">Article 7.2.7</a></li>
+<li><a href="#">Article 7.2.8</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 7.3</a></h4>
+<ul>
+<li><a href="#">Article 7.3.1</a></li>
+<li><a href="#">Article 7.3.2</a></li>
+<li><a href="#">Article 7.3.3</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+</ul>
+</div></div></div></div>
+
+<div id="cn-bc"><h2>Fil d'Ariane</h2><div id="cn-bc-inner">
+<ol>
+<li><a href="home-accueil-megamenu-theme-gcwu-fegc-fra.html">Accueil</a></li>
+<li><a href="section2-fra.html">Section 2</a></li>
+<li>Barre de progression - Boîte à outils de l'expérience Web (BOEW)</li></ol>
+</div></div>
+</nav>
+<!-- HeaderEnd -->
+</header></div></div>
+
+<div id="cn-cols"><div id="cn-cols-inner" class="equalize">
+<div id="cn-centre-col" role="main"><div id="cn-centre-col-inner">
+<!-- MainContentStart -->
+<h1 id="cn-cont">Barre de progression - Boîte à outils de l'expérience Web (BOEW)</h1>
+
+<p>Cette composante fournit une barre de progression.</p>
+<div class="demo span-6">		
+	<section>
+		<h2>Barre de progression 1 (défault)</h2>
+		<div id="pb1" class="wet-boew-progressbar" title="Barre de progression 1">35%</div>
+	</section>
+	<section>
+		<h2>Barre de progression 2 (animé)</h2>
+		<div id="pb2" class="wet-boew-progressbar animated" title="Barre de progression 2">65%</div>
+	</section>
+	<section>
+		<h2>Barre de progression 3 (redimensionnable)</h2>
+		<div id="pb3" class="wet-boew-progressbar resizable" title="Barre de progression 3">10%</div>
+	</section>
+	<div id="progress-bar-status">
+		<section>
+			<h2>États des barres de progression</h2>
+			<table id="pb-status">
+				<thead>
+					<tr>
+						<td>&#160;</td>
+						<th scope="col">Barre de progression 1</th>
+						<th scope="col">Barre de progression 2</th>
+						<th scope="col">Barre de progression 3</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Dernier événement</th>
+						<td id="pb1-event" class="pb-event">&#160;</td>
+						<td id="pb2-event" class="pb-event">&#160;</td>
+						<td id="pb3-event" class="pb-event">&#160;</td>
+					</tr>
+					<tr>
+						<th scope="row">Pourcentage actuel</th>
+						<td class="pb-perc">
+							<label for="pb1-perc" class="cn-invisible">Pourcentage actuel - Barre de progression 1</label> 
+							<select id="pb1-perc">
+								<option value="0">0%</option>
+								<option value="5">5%</option>
+								<option value="10">10%</option>
+								<option value="15">15%</option>
+								<option value="2">20%</option>
+								<option value="25">25%</option>
+								<option value="30">30%</option>
+								<option value="35">35%</option>
+								<option value="40">40%</option>
+								<option value="45">45%</option>
+								<option value="50">50%</option>
+								<option value="55">55%</option>
+								<option value="60">60%</option>
+								<option value="65">65%</option>
+								<option value="70">70%</option>
+								<option value="75">75%</option>
+								<option value="80">80%</option>
+								<option value="85">85%</option>
+								<option value="90">90%</option>
+								<option value="95">95%</option>
+								<option value="100">100%</option>
+							</select>
+						</td>
+						<td class="pb-perc">
+							<label for="pb2-perc" class="cn-invisible">Pourcentage actuel - Barre de progression 2</label>
+							<select id="pb2-perc">
+								<option value="0">0%</option>
+								<option value="5">5%</option>
+								<option value="10">10%</option>
+								<option value="15">15%</option>
+								<option value="2">20%</option>
+								<option value="25">25%</option>
+								<option value="30">30%</option>
+								<option value="35">35%</option>
+								<option value="40">40%</option>
+								<option value="45">45%</option>
+								<option value="50">50%</option>
+								<option value="55">55%</option>
+								<option value="60">60%</option>
+								<option value="65">65%</option>
+								<option value="70">70%</option>
+								<option value="75">75%</option>
+								<option value="80">80%</option>
+								<option value="85">85%</option>
+								<option value="90">90%</option>
+								<option value="95">95%</option>
+								<option value="100">100%</option>
+							</select>
+						</td>
+						<td class="pb-perc">
+							<label for="pb3-perc" class="cn-invisible">Pourcentage actuel - Barre de progression 3</label>
+							<select id="pb3-perc">
+								<option value="0">0%</option>
+								<option value="5">5%</option>
+								<option value="10">10%</option>
+								<option value="15">15%</option>
+								<option value="2">20%</option>
+								<option value="25">25%</option>
+								<option value="30">30%</option>
+								<option value="35">35%</option>
+								<option value="40">40%</option>
+								<option value="45">45%</option>
+								<option value="50">50%</option>
+								<option value="55">55%</option>
+								<option value="60">60%</option>
+								<option value="65">65%</option>
+								<option value="70">70%</option>
+								<option value="75">75%</option>
+								<option value="80">80%</option>
+								<option value="85">85%</option>
+								<option value="90">90%</option>
+								<option value="95">95%</option>
+								<option value="100">100%</option>
+							</select>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</div>
+</div>
+<div>&#160;</div>
+
+<script>
+/* <![CDATA[ */
+$(".wet-boew-progressbar").bind("progressbarcreate progressbarchange progressbarcomplete", function(event, ui){
+	var id = $(event.target).attr("id")
+	var perc = $(event.target).text();
+	perc = perc.substring(0, perc.indexOf("%"))
+	$("#" + id + "-event").text(event.type);
+	$("#" + id + "-perc option[value=\"" + perc + "\"]").get(0).selected = true;
+})
+
+$("#progress-bar-status select").change(function(event){
+	var $o = $("#" + $(event.target).attr("id").replace("-perc", ""));
+	$o.children("span").text($(this).val() + "%");
+	$o.progressBar();
+})
+/* ]]> */
+</script>
+
+<dl id="cn-doc-dates" role="contentinfo">
+<dt>Date de modification&#160;:</dt><dd><span><time pubdate="pubdate">2011-10-31</time></span></dd>
+</dl>
+<div class="clear"></div>
+<!-- MainContentEnd -->
+</div></div>
+
+<div id="cn-left-col"><div id="cn-left-col-inner"><nav role="navigation"><h2 id="cn-nav">Navigation latérale (colonne gauche)</h2>
+<div class="cn-left-col-default">
+<!-- SideNavLeftStart -->
+<section><h3><a href="#">Section 2.1</a></h3>
+<ul>
+<li><a href="#">Article 2.1a</a></li>
+<li><a href="#">Article 2.1b</a></li>
+<li><a href="#">Article 2.1c</a></li>
+</ul>
+</section>
+<section><h3><a href="#" class="nav-current">Section 2.2 (exemple d'une section actuelle)</a></h3>
+<ul>
+<li><a href="#">Article 2.2a</a></li>
+<li><a href="#">Article 2.2b</a></li>
+<li><a href="#">Article 2.2c</a></li>
+</ul>
+</section>
+<section><h3><a href="#">Section 2.3</a></h3>
+<ul>
+<li><a href="#">Article 2.3a</a></li>
+<li><a href="#">Article 2.3b</a></li>
+<li><a href="#" class="nav-current">Article 2.3c (exemple d'un article actuel)</a></li>
+</ul>
+</section>
+<section><h3><a href="#">Section 2.4</a></h3>
+<ul>
+<li><a href="#">Article 2.4a</a></li>
+<li><a href="#">Article 2.4b</a>
+	<ul>
+	<li><a href="#">Article 2.4bi</a></li>
+	<li><a href="#" class="nav-current">Article 2.4bii (exemple d'un sous-article actuel)</a></li>
+	<li><a href="#">Article 2.4biii</a></li>
+	</ul>
+</li>
+<li><a href="#">Article 2.4c</a></li>
+</ul>
+</section>
+<div class="top-level"><a href="#">Lien supérieur 1</a></div>
+<div class="top-level"><a href="#" class="nav-current">Lien supérieur 2 (exemple d'un lien supérieur actuel)</a></div>
+<!-- SideNavLeftEnd -->
+</div>
+</nav></div></div>
+</div></div>
+
+<div id="cn-foot"><div id="cn-foot-inner"><footer><h2>Pied de page</h2>
+<!-- FooterStart -->
+<nav role="navigation"><div id="cn-sft"><h3>Pied de page du site</h3><div id="cn-sft-inner">
+<div id="cn-ft-tctr">
+<ul>
+<li class="terms"><a href="#" rel="license">Avis</a></li>
+<li class="trans"><a href="#">Transparence</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+<section><div class="span-2"><h4 class="col-head"><a href="#">À propos de nous</a></h4>
+<ul>
+<li><a href="#">Notre mandat</a></li>
+<li><a href="#">Notre ministre</a></li>
+</ul>
+</div></section>
+<section><div class="span-2"><h4 class="col-head"><a href="#">Nouvelles</a></h4>
+<ul>
+<li><a href="#">Communiqués</a></li>
+<li><a href="#">Avix aux médias</a></li>
+<li><a href="#">Multimédia</a></li>
+</ul>
+</div></section>
+<section><div class="span-2"><h4 class="col-head"><a href="#">Contactez-nous</a></h4>
+<address>
+<ul>
+<li><a href="#">Numéros de téléphone</a></li>
+<li><a href="#">Nos bureaux</a></li>
+</ul>
+</address>
+</div></section>
+<section><div class="span-2"><h4 class="col-head"><a href="#">Restez branchés</a></h4>
+<ul>
+<li><a rel="external" href="#">YouTube</a></li>
+<li><a rel="external" href="#">Twitter</a></li>
+<li><a href="#">Flux</a></li>
+</ul>
+</div></section>
+</div></div></nav>
+
+<nav role="navigation"><div id="cn-gcft"><h3>Pied de page du gouvernement du Canada</h3><div id="cn-gcft-inner"><div id="fip-pcim-gcft">
+<ul>
+<li><a rel="external" href="http://canadiensensante.gc.ca/index-fra.php"><span>Santé</span><br />canadiensensante.gc.ca</a></li>
+<li><a rel="external" href="http://voyage.gc.ca/index-fra.asp"><span>Voyage</span><br />voyage.gc.ca</a></li>
+<li><a rel="external" href="http://www.servicecanada.gc.ca/fra/accueil.shtml"><span>Service Canada</span><br />servicecanada.gc.ca</a></li>
+<li><a rel="external" href="http://www.guichetemplois.gc.ca/Intro-fra.aspx"><span>Emplois</span><br />guichetemplois.gc.ca</a></li>
+<li><a rel="external" href="http://www.plandaction.gc.ca"><span>Économie</span><br />plandaction.gc.ca</a></li>
+<li id="cn-ft-ca"><div><a rel="external" href="http://www.canada.gc.ca/accueil.html">Canada.gc.ca</a></div></li>
+</ul>
+</div></div></div></nav>
+<!-- FooterEnd -->
+</footer></div></div>
+</div></body>
+</html>

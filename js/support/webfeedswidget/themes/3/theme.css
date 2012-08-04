@@ -1,0 +1,9 @@
+@charset "utf-8";
+/*!
+ * Web feeds widget v1.21 / Gadget des fils de syndication v1.21
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+.module-sharewidget {background-image:url(../images/bg-theme-3.png)!important;background-color:#c9eae2 !important;}
+.module-sharewidget .sharewidget-title {background-color:#4d6c82 !important;border-bottom-color:#4d6c82 !important;}
+.module-sharewidget .sharewidget-add a,.module-sharewidget p.sharewidget-report {background-color:#ecf7f4 !important;}

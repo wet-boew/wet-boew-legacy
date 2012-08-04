@@ -1,0 +1,15 @@
+@charset "utf-8";
+/*!
+ * Open new window/tab v1.3 / Nouvelle fenêtre/Nouvel onglet v1.3
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+#cn-cols a.cn-external2 {padding-right: 22px; background: url('new_window_extern.gif') top right no-repeat;}
+#cn-cols a.cn-internal2 {padding-right: 22px; background: url('new_window_intern.gif') top right no-repeat;}
+* html #cn-cols a.cn-internal2, * html #cn-cols a.cn-external2 {display: inline-block;}
+*:first-child+html #cn-cols a.cn-internal2, *:first-child+html #cn-cols a.cn-external2 {display: inline-block;}
+
+/* Hide tooltip in header and footer of template */
+#cn-head-inner a.cn-internal2 span span, #cn-head-inner a.cn-external2 span span, #cn-foot-inner a.cn-external2 span span , #cn-foot-inner a.cn-internal2 span span  {position: absolute; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; overflow: hidden !important; margin: 0 !important;}
+* html #cn-head-inner a.cn-internal2 span span, * html #cn-head-inner a.cn-external2 span span, * html #cn-foot-inner a.cn-external2 span span , * html #cn-foot-inner a.cn-internal2 span span  {clip: rect(1px 1px 1px 1px);}
+*:first-child+html #cn-head-inner a.cn-internal2 span span, *:first-child+html #cn-head-inner a.cn-external2 span span, *:first-child+html #cn-foot-inner a.cn-external2 span span , *:first-child+html #cn-foot-inner a.cn-internal2 span span  {clip: rect(1px 1px 1px 1px);}

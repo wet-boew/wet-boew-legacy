@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
+<!--#set var="pg-lang1" value="eng"-->
+<!--#set var="pg-title-eng" value="Quotations and Language"-->
+<!--#set var="pg-issued" value="2011-10-31"-->
+<!--#set var="pg-modified" value="YYYY-MM-DD"-->
+<!--#set var="pg-html5" value="1"-->
+<meta name="dcterms.description" content="English description / Description en anglais" />
+<meta name="description" content="English description / Description en anglais" />
+<meta name="keywords" content="English keywords / Mots-clés en anglais" />
+<meta name="dcterms.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+<meta name="dcterms.subject" title="scheme" content="English subject terms / Termes de sujet en anglais" />
+<script> 
+/* <![CDATA[ */
+var params = {expandhide:"",tabs:""};
+/* ]]> */
+</script>
+<!--#include virtual="/theme-gcwu-fegc/inc/cont/css.shtm"-->
+</head>
+<body>
+<!--#include virtual="/inc/2col.shtm"-->
+<!--#include virtual="/theme-gcwu-fegc/inc/cont/header-entete.shtm"-->
+<!--#include virtual="/inc/centre-1.shtm"-->
+
+<div class="span-4 module-table-contents">
+	<p>Table Of Contents</p>
+	<ul>
+		<li><a href="#intro">Introduction</a></li>
+		<li><a href="#req">Coding Requirements</a></li>
+		<li><a href="#ex">Content Examples</a></li>
+		<li><a href="#con">Web Accessibility Considerations</a></li>
+		<li><a href="#links">Related Links</a></li>
+	</ul>
+</div>
+<div class="clear"></div>
+
+<div class="wet-boew-expandhide">
+
+<h2><a id="intro"></a>Introduction</h2>
+
+<p class="margin-top-none">A quotation is a strict repetition of an expression typically re-produced in the natural human language it was originally delivered.</p>
+<p>Every web page is assigned a primary natural human language such English or French.  The natural human language is used by screen readers to adjust the pronunciation of words.  Occasionally, a quotation's natural human language may be different than the web page's natural human language.</p>
+
+<h2><a id="req"></a>Coding Requirements</h2>
+<p>The following summarizes selected techniques from the <a href="http://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines (WCAG) 2.0</a> for satisfying the most common applicable success criterion related to this topic.  Additional WCAG 2.0 success criterions, techniques, and failures not listed here may also be applicable depending on the content.</p>
+
+<h3 id="q">1. Quotations</h3>
+<div class="span-2 border-span-2 float-right align-right">
+	<p class="background-light"><em><strong>Related to Success Criteria:</strong></em></p>
+	<ul>
+		<li><em><a href="http://www.w3.org/TR/2012/NOTE-UNDERSTANDING-WCAG20-20120103/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></em></li>
+	</ul>
+</div>
+<p>If a quotation is <strong>long</strong> and requires paragraph breaks, use the <code>&lt;blockquote&gt;</code> element. When quotations marks (&quot;, &laquo;, &raquo;) are desired, they should appear <strong>inside</strong> the <code>&lt;blockquote&gt;</code> element.</p>
+<p>If a quotation is <strong>short</strong> and appears within a paragraph, use the <code>&lt;q&gt;</code> element. When quotations marks (&quot;, &laquo;, &raquo;) are desired, they should appear <strong>outside</strong> the <code>&lt;blockquote&gt;</code> element.</p>
+<p><em>Source: <a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/H49" class="external">WCAG 2.0, Technique H49</a></em></p>
+
+<h3 id="pl">2. Primary Natural Human Language Of The Page</h3>
+<div class="span-2 border-span-2 float-right align-right">
+	<p class="background-light"><em><strong>Related to Success Criteria:</strong></em></p>
+	<ul>
+		<li><em><a href="http://www.w3.org/TR/2012/NOTE-UNDERSTANDING-WCAG20-20120103/meaning-doc-lang-id.html">3.1.1 Language of Page</a></em></li>
+	</ul>
+</div>
+<p>Each web page must define a natural human language (such as English or French).  These are specified using a two letter code (en, fr) in the <code>lang</code> and <code>xml:lang</code> <em>(XHTML 1.0 Strict Only)</em> attributes of the <code>&lt;html&gt;</code> element.</p>
+<p><strong>HTML5 Example:</strong> <code>&lt;html lang=&quot;en&quot;&gt;</code></p>
+<p><strong>XHTML 1.0 Strict Example: </strong> <code>&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;</code></p>
+<p><em>Source: <a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/H57" class="external">WCAG 2.0, Technique H57</a></em></p>
+
+<h3 id="pt">3. Changes To The Natural Human Language Of The Page</h3>
+<div class="span-2 border-span-2 float-right align-right">
+	<p class="background-light"><em><strong>Related to Success Criteria:</strong></em></p>
+	<ul>
+		<li><em><a href="http://www.w3.org/TR/2012/NOTE-UNDERSTANDING-WCAG20-20120103/meaning-other-lang-id.html">3.1.2 Language of Parts</a></em></li>
+	</ul>
+</div>
+<p>When content (especially a quotation) is in a different natural human language than the page's primary natural human language <em>(e.g. French on an English page)</em>, it must be indicated using the <code>lang</code> and <code>xml:lang</code> <em>(XHTML 1.0 Strict Only)</em> attributes.</p>
+<p>The <code>lang</code> and <code>xml:lang</code> attributes are typically applied on the <code>&lt;span&gt;</code> element.   However they can be applied to any HTML element, provided it accurately surrounds only the content that is in the different natural human language.</p>
+<p><em>Source: <a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/H58" class="external">WCAG 2.0, Technique H58</a></em></p>
+
+<h2><a id="ex"></a>Content Examples</h2>
+
+<div class="span-6 border-span-6">
+	<h3 class="background-light">1. Quotations, Same Natural Human Language</h3>
+	<p><strong>Short Quotation (Inline):</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elementum, &quot;<q>nisl et aliquam volutpat, orci metus egestas leo, pulvinar varius justo tellus at quam.</q>&quot; Aliquam erat volutpat. Duis feugiat est tempor diam.</p>
+	<div class="toggle-content collapse">
+		<h3 class="toggle-link-text background-blue module-header-fix">Source Code</h3>
+		<pre><code>To follow</code></pre>
+	</div>
+	<blockquote class="indent-medium margin-right-medium"><strong>Long Quotation (Block):</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed elementum, nisl et aliquam volutpat, orci metus egestas leo, pulvinar varius justo tellus at quam.</blockquote>
+	<div class="toggle-content collapse">
+		<h3 class="toggle-link-text background-blue module-header-fix">Source Code</h3>
+		<pre><code>To follow</code></pre>
+	</div>
+</div>
+
+<div class="span-6 border-span-6">
+	<h3 class="background-light">2. Quotations, Different Natural Human Language</h3>
+	<p>To Follow</p>
+	<div class="toggle-content collapse">
+		<h3 class="toggle-link-text background-blue module-header-fix">Source Code</h3>
+		<pre><code>To follow</code></pre>
+	</div>
+</div>
+
+
+<h2><a id="con"></a>Web Accessibility Considerations</h2>
+<h3>Visual Impairments</h3>
+<ul>
+	<li>
+		<p>The use of language attributes in the source code tell screen readers to say those words with the proper pronunciation. </p></li>
+</ul>
+<h2><a id="links"></a>Related Links</h2>
+<ul>
+	<li><p>Web Content Accessibility Guidelines (WCAG) 2.0 Success Criterions</p>
+		<ul>
+			<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html" class="external">1.3.1 Info and Relationships</a></li>
+			<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html" class="external">3.1.1 Language of Page</a></li>
+			<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html" class="external">3.1.2 Language of Parts</a></li>
+		</ul>
+	</li>
+	<li><p>Web Content Accessibility Guidelines (WCAG) 2.0 Sufficient Techniques</p>
+		<ul>
+			<li><a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/H49" class="external">H49: Using semantic markup to mark emphasized or special text</a></li>
+			<li><a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/H57" class="external">H57: Using language attributes on the html element</a></li>
+			<li><a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/H58" class="external">H58: Using language attributes to identify changes in the human language</a></li>
+		</ul>
+	</li>
+</ul>
+</div>
+
+<!--#include virtual="/inc/centre-2.shtm"-->
+<!--#include virtual="/inc/left-gauche-1.shtm"-->
+<!--#include virtual="/theme-gcwu-fegc/opt-cont/menu-left-gauche/exmple-eng.shtm"-->
+<!--#include virtual="/inc/left-gauche-2.shtm"-->
+<!--#include virtual="/theme-gcwu-fegc/inc/cont/trail-arr.shtm"-->
+</body>
+</html>

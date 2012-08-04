@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*! 
+ * Archived Web Page template v1.11 / Modèle de page Web archivée v1.11
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+
+/* Archived box */
+#archived h2 {background-color:#C00;color:#FFF;margin:0;padding:2px 0 2px 10px;}
+#archived {border: 1px solid #C00; background-color: #FFC;}
+#archived p{margin-left:10px !important; margin-right:10px !important;}
+
+/* Archived bar */
+/* Note: Width must be 100% for users on 800x600 who have their computer taskbar on the left or right side. */
+.archived{position:fixed;top:0;z-index:99999;background-color:#C00;border:1px solid #000;left:0;width:100%;clear:both;}
+.archived a{height:22px;color:#333;position:relative;padding:0 0 2px 0;}
+.archived a[href]:hover, .archived a[href]:link, .archived a[href]:active, .archived a[href]:focus {color:#FFF;}
+.archived .archived-top-page {background-color:transparent; border-left:1px solid #999;border-right:medium none; display: block; text-align: center; font-size: 1.4em; color: #FFF; font-weight: bold;}
+
+/*IE6*/
+* html .archived{position:absolute;top:expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? 0+documentElement.scrollTop : 0+(document.body.scrollTop));margin-top:2px;}
+* html .archived input{margin:0;padding:0px;/*--prevents IE6 from having an infinity scroll*/}
+* html .archived a:hover, * html .archived a:active, * html .archived a:focus {color: #FFF;}
+
+@media print {
+	.archived {display: none !important;}
+	* html .archived {display: none !important;}
+}

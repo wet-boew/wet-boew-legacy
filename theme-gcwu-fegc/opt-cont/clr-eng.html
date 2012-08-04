@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
+<!--#set var="pg-lang1" value="eng"-->
+<!--#set var="pg-title-eng" value="Colour"-->
+<!--#set var="pg-issued" value="2011-10-31"-->
+<!--#set var="pg-modified" value="YYYY-MM-DD"-->
+<!--#set var="pg-html5" value="1"-->
+<meta name="dcterms.description" content="English description / Description en anglais" />
+<meta name="description" content="English description / Description en anglais" />
+<meta name="keywords" content="English keywords / Mots-clés en anglais" />
+<meta name="dcterms.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+<meta name="dcterms.subject" title="scheme" content="English subject terms / Termes de sujet en anglais" />
+<script> 
+/* <![CDATA[ */
+var params = {expandhide:"",tabs:""};
+/* ]]> */
+</script>
+<!--#include virtual="/theme-gcwu-fegc/inc/cont/css.shtm"-->
+</head>
+<body>
+<!--#include virtual="/inc/2col.shtm"-->
+<!--#include virtual="/theme-gcwu-fegc/inc/cont/header-entete.shtm"-->
+<!--#include virtual="/inc/centre-1.shtm"-->
+
+<div class="span-4 module-table-contents">
+	<p>Table Of Contents</p>
+	<ul>
+		<li><a href="#intro">Introduction</a></li>
+		<li><a href="#req">Coding Requirements</a></li>
+		<li><a href="#con">Web Accessibility Considerations</a></li>
+		<li><a href="#links">Related Links</a></li>
+	</ul>
+</div>
+<div class="clear"></div>
+
+<div class="wet-boew-expandhide">
+
+<h2 class="margin-top-none"><a id="intro"></a>Introduction</h2>
+
+<p>Colour is a presentation element on a web page used either for decorative purposes or to convey information.</p>
+
+
+<h2><a id="req"></a>Coding Requirements</h2>
+<p>The following summarizes selected techniques from the <a href="http://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines (WCAG) 2.0</a> for satisfying the most common applicable success criteria related to this topic.  Additional WCAG 2.0 success criteria, techniques, and failures not listed here may also be applicable depending on the content.</p>
+
+<h3 id="ct">1. Contrast</h3>
+<div class="span-2 border-span-2 float-right align-right">
+	<p class="background-light"><em><strong>Related to Success Criteria:</strong></em></p>
+	<ul>
+		<li><em><a href="http://www.w3.org/TR/2012/NOTE-UNDERSTANDING-WCAG20-20120103/visual-audio-contrast-contrast.html">1.4.3 Contrast (Minimum)</a></em></li>
+	</ul>
+</div>
+
+<p>Foreground text must have sufficient colour contrast from the background.  The amount of contrast required is based on the size and weight of the text.  Text size is measured in <a href="#pts">points</a> (instead of pixels).</p>
+<ul>
+	<li><p><strong>Large Size Text</strong> requires <strong>4.5:1</strong> colour contrast ratio and is defined as:</p>
+		<ul>
+			<li><p>Regular Text which is 18 points or greater.</p></li>
+			<li><p>Bold Text which is 14 points or greater.</p></li>
+		</ul>
+	</li>
+	<li><p><strong>Small Size Text</strong> requires <strong>3:1</strong> colour contrast ratio and is defined as:</p>
+		<ul>
+			<li><p>Regular Text which is less than 18 points.</p></li>
+			<li><p>Bold Text which is less than 14 points.</p></li>
+		</ul>
+	</li>
+</ul>
+<p>Colour contrast can be measured by using free software tools listed in the <a href="#links">related links</a>.</p>
+<p><em>Source: <a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G18" class="external">WCAG 2.0, Technique G18</a> and <a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G145" class="external">WCAG 2.0, Technique G145</a></em></p>
+
+<div class="span-6 module-note">
+	<p><a id="pts"></a>A point of text is a fixed unit of measurement equivalent to 1/72 of an inch.  Points are used for colour contrast because pixels are a variable unit of measurement that changes according to a user's screen resolution.</p>
+</div>
+
+<h3 id="us">2. Use Of Colour</h3>
+<div class="span-2 border-span-2 float-right align-right">
+	<p class="background-light"><em><strong>Related to Success Criteria:</strong></em></p>
+	<ul>
+		<li><em><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html">1.4.1 Use Of Color</a></em></li>
+	</ul>
+</div>
+
+<p>When colour is used to convey information, an alternate visual cue or text description is required.</p>
+<p>The following are common situations where colour conveys information:</p>
+<div class="clear"></div>
+<table>
+	<tr>
+		<th>Element</th>
+		<th>Potential Issue</th>
+		<th>Correction</th>
+	</tr>
+	<tr>
+		<td>Charts and Graphs</td>
+		<td>Multiple series or values identified by colour.</td>
+		<td>Use pattern shading, provide a supplementary data table, or use text labels on the chart or graph.</td>
+	</tr>
+	<tr>
+		<td>Forms and User Controls</td>
+		<td>Required fields identified by colour.</td>
+		<td>Provide a supplementary indicator, such as an asterisk (*) on required fields. Explain the meaning of the indicator prior to its usage on the page.</td>
+	</tr>
+	<tr>
+		<td>Links</td>
+		<td>Links identified from regular text by colour.</td>
+		<td>Underline <em>(preferred)</em>, italicize, or bold the link.</td>
+	</tr>
+</table>
+
+<h2><a id="con"></a>Web Accessibility Considerations</h2>
+<h3>Visual Impairments</h3>
+<ul>
+	<li><p>Ensure there is sufficient contrast between textual elements, and background colours or images.</p></li>
+	<li><p>Ensure users can see the page even if they have colour deficits, or view it on a black and white screen. If the colour contrast for any colour combination is not significant enough, users with colour deficiencies will have problems seeing the content. It is helpful to determine compliance by using the <a href="http://www.vischeck.com/vischeck/vischeckURL.php">Vischeck color vision  simulator tool (external link)</a> to simulate what the page looks like for users with certain colour  deficiencies.</p>
+		<ul>
+			<li><p>Individuals classified as totally (uncommon) or partially colour  deficit (more common) can have colour vision deficiencies that are either  acquired or inherited.</p></li>
+			<li><p>The difficulty in distinguishing colours is usually between red and green, or between blue and yellow.</p></li>
+		</ul>
+	</li>
+</ul>
+
+<h3><a id="links"></a>Related Links</h3>
+<ul>
+	<li><p>Web Content Accessibility Guidelines (WCAG) 2.0 Success Criteria</p>
+		<ul>
+			<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html">1.4.1 Use of Colour</a></li>
+			<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3 Contrast (Minimum)</a></li>
+		</ul>
+	</li>
+	<li><p>Web Content Accessibility Guidelines (WCAG) 2.0 Sufficient Techniques</p>
+		<ul>
+			<li><a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G18">G18: Ensuring that a contrast ratio of at least 4.5:1 exists between text (and images of text) and background behind the text.</a></li>
+			<li><a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G145">G145: Ensuring that a contrast ratio of at least 3:1 exists between text (and images of text) and background behind the text.</a></li>
+		</ul>
+	</li>
+	<li><p>Tools and Utilities</p>
+		<ul>
+			<li><a href="http://www.paciellogroup.com/resources/contrast-analyser.html">Contrast Analyser for Windows and Mac</a></li>
+			<li><a href="http://juicystudio.com/services/luminositycontrastratio.php">Juicy Studios Luminosity Analyzer</a> </li>
+			<li><a href="http://www.vischeck.com/vischeck/vischeckURL.php">Vischeck Color Vision Simulator Tool</a> </li>
+		</ul>
+	</li>
+</ul>
+
+
+</div>
+
+<!--#include virtual="/inc/centre-2.shtm"-->
+<!--#include virtual="/inc/left-gauche-1.shtm"-->
+<!--#include virtual="/theme-gcwu-fegc/opt-cont/menu-left-gauche/exmple-eng.shtm"-->
+<!--#include virtual="/inc/left-gauche-2.shtm"-->
+<!--#include virtual="/theme-gcwu-fegc/inc/cont/trail-arr.shtm"-->
+</body>
+</html>

@@ -1,0 +1,73 @@
+@charset "utf-8";
+/*!
+ * CLF 2.0 theme v1.34 / Thème de la NSI 2.0 v1.34
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+  
+/** Screen and print CSS **/
+@media screen,print {
+	/* Hide hidden heading elements / Cacher les éléments d'en-tête invisibles */
+	#cn-body-inner-1col h1, #cn-in-pd h3 {position: absolute; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; overflow: hidden !important;}
+	*:first-child+html #cn-body-inner-1col h1, *:first-child+html  #cn-in-pd h3 {clip: rect(1px 1px 1px 1px); height: 1px !important; width: 1px !important; overflow: hidden !important;}
+	#cn-skip-head {display:none;visibility:hidden;}
+
+	#cn-left-msg, #cn-right-msg {width: 49%;}
+	#cn-left-msg {float: left;}
+	#cn-right-msg {float: right;}
+
+	#cn-in-pd ul {list-style-type: none; margin: -2px 0 0 -40px;}
+	#cn-in-pd ul li {width: 47%; margin-top: 5px;}
+	#cn-inotices-link-left {float: left;}
+	#cn-inotices-link-right {float: right; text-align: right;}
+	.cn-doc-dates {margin: 0px; width: 100%; float: left; clear: left; min-width: 6em; margin-top: 5px;}
+	.cn-doc-dates dt {display: inline;padding-right: 0.4em;}
+	.cn-doc-dates dd {margin-left: 0px; display: inline;}
+	.cn-doc-dates dd span {white-space: nowrap;}
+}
+
+/** Screen-only CSS **/
+@media screen {
+	html {overflow-y: scroll;}
+	body {min-width:780px;margin:0;padding:0;}
+	#cn-head-inner, #cn-cols-inner, #cn-centre-col, #cn-foot-inner {background: #FFF;}
+	#cn-head-inner{border-top: 10px solid #FFF;}
+	#cn-head-inner, #cn-cols, #cn-foot-inner{border-left: 10px solid #FFF;border-right: 10px solid #FFF;}
+	#cn-foot-inner {border-bottom: 10px solid #FFF;}
+	
+	/** Box model - centered **/
+	#cn-head, #cn-foot  {width: 100%;}
+	#cn-cols, #cn-cols-inner  {width:760px;margin:auto;}
+	#cn-head-inner, #cn-foot-inner  {width:760px;margin:auto;}
+	#cn-centre-col {z-index:1;display:inline;}
+	
+	/** Overflow restrict for background paintability control **/
+	#cn-head, #cn-head-inner, #cn-foot, #cn-foot-inner  {overflow:hidden;}
+	#cn-cols-inner {overflow:visible !important;position:relative;}
+	#cn-cols-inner:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+	
+	/** Centre column **/
+	#cn-centre-col-inner {padding-top:1px;padding-bottom:1px;}
+	#cn-body-inner-1col #cn-centre-col {width:760px;float:left;}
+	*:first-child+html #cn-body-inner-1col #cn-centre-col {padding-bottom: 10px;}
+
+	#cn-skip-head li span {display: block;}
+	#cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {background-color: #363;}
+	
+	#cn-sig {float: left; width: 50%; min-width: 300px;}
+	#cn-wmms {float: right; text-align: right; width: 49.8%; min-width: 100px;}
+
+	#cn-centre-col-inner h1 {margin-top: 0;}
+
+	#cn-in-pd {border-top: 15px solid #363;}
+}
+
+/** Print-only CSS **/
+@media print {
+	#cn-head {width: 100%;}
+	#cn-cols {margin-top: 10px;}
+	#cn-sig {position: absolute; top: 0; left: 0;}
+	#cn-wmms {position: absolute; top: 0; right: 0;}
+	
+	#cn-foot {width: 100%; float: left; border-top: 1px solid #000;}
+}

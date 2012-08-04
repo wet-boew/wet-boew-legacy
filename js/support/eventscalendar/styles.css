@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*!
+ * Calendar interface v1.23 / Interface du calendrier v1.23
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+
+#cn-centre-col ol ul.ev-details {
+	position:absolute;
+	z-index:5;
+	border:1px solid #333;
+	padding:0.5em !important;
+	width:10em;
+	margin:0;
+	margin-top:-0.5em;
+	font-weight:normal;
+}
+
+div.cal-days ol.cal-day-list li li a {text-align: center;}
+ul.ev-details {background-color:#FFF;}
+div.ui-datepicker {display: block !important;}
+#cn-centre-col {position:relative;z-index:498;}
+
+div.cal-days ol.cal-day-list ul.ev-details li{
+	border:0;
+	width:100%;
+	list-style-type:none;
+}
+
+/* FIXME: IE <= 7 temporary fix (ui-state-hover's background image doesn't appear on ev-details) */
+.ui-widget-content .ev-details .ui-state-hover {background-color: #252525 !important;}
+
+/* .cn-invisible fix for IE7 */
+#cn-centre-col ol.cal-day-list ul.cn-invisible {margin-bottom: -1px !important;}

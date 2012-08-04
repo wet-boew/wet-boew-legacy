@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*!
+ * CLF 2.0 theme v1.34 / Thème de la NSI 2.0 v1.34
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+  
+/** Screen and print CSS **/
+@media screen,print {
+	#cn-body-inner-1col h1, #cn-in-pd h3 {clip: rect(1px 1px 1px 1px);}
+	#cn-left-msg, #cn-right-msg {padding-bottom: 10px;}
+	#cn-pd-ul {padding-left: 0;}
+	#cn-in-pd ul li {width: 47%;}
+}
+
+/** Screen-only CSS **/
+@media screen {
+}
+
+/** Print-only CSS **/
+@media print {
+}

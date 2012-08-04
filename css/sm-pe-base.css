@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*!
+ * Mobile device variant v1.01 / Variantes des appareils mobiles v1.01
+ * Base theme v1.2 / Thème base v1.2
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
+@media all and (max-width : 640px){
+	#cn-skip-head {float:none; height:auto;}
+	#cn-skip-head ul {margin:0;padding:0;}
+	#cn-skip-head li {position:relative;}
+	#cn-skip-head #cn-sh-link-1, #cn-skip-head #cn-sh-link-2 {left: 0;}
+	#cn-skip-head li a {display:block; }
+	#cn-skip-head a:link, #cn-skip-head a:visited, #cn-skip-head a:hover#cn-skip-head a:active, #cn-skip-head a:focus {background-color: #FFF; }
+	#cn-skip-head a:link, #cn-skip-head a:visited{opacity:1;color:#000;}
+	#cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {text-decoration: none; color: #000;}
+
+	#cn-body-inner-3col #cn-left-col, #cn-body-inner-3col #cn-left-col-gap, #cn-body-inner-3col #cn-right-col, #cn-body-inner-3col #cn-right-col-gap {width:50%;}
+	#cn-left-col, #cn-left-col-gap, #cn-right-col, #cn-right-col-gap {width:100%;}
+	#cn-left-col, #cn-left-col-gap{float:left}
+	#cn-right-col, #cn-right-col-gap{float:right}
+	#cn-right-col-gap{margin-left:50%;}
+	#cn-centre-col{float: none; clear:both; margin:0;z-index:100}
+	#cn-body-inner-3col #cn-centre-col-inner, #cn-body-inner-2col #cn-centre-col-inner {margin:0;}
+}
+
+@media all and (max-width : 480px){
+	#cn-left-col, #cn-right-col  {width:100%;float:none;}
+	#cn-centre-col{float: none; clear:both; margin:0;z-index:100}
+	#cn-left-col-gap, #cn-right-col-gap, #cn-centre-col-gap {display:none;}
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
+<!--#set var="pg-lang1" value="eng"-->
+<!--#set var="pg-title-eng" value="Keyboard and User Controls"-->
+<!--#set var="pg-issued" value="2011-10-31"-->
+<!--#set var="pg-modified" value="YYYY-MM-DD"-->
+<!--#set var="pg-html5" value="1"-->
+<meta name="dcterms.description" content="English description / Description en anglais" />
+<meta name="description" content="English description / Description en anglais" />
+<meta name="keywords" content="English keywords / Mots-clés en anglais" />
+<meta name="dcterms.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+<meta name="dcterms.subject" title="scheme" content="English subject terms / Termes de sujet en anglais" />
+<script> 
+/* <![CDATA[ */
+var params = {expandhide:"",tabs:""};
+/* ]]> */
+</script>
+<!--#include virtual="/theme-gcwu-fegc/inc/cont/css.shtm"-->
+</head>
+<body>
+<!--#include virtual="/inc/2col.shtm"-->
+<!--#include virtual="/theme-gcwu-fegc/inc/cont/header-entete.shtm"-->
+<!--#include virtual="/inc/centre-1.shtm"-->
+
+<div class="span-4 module-table-contents">
+	<p>Table Of Contents</p>
+	<ul>
+		<li><a href="#intro">Introduction</a></li>
+		<li><a href="#req">Coding Requirements</a></li>
+		<li><a href="#con">Web Accessibility Considerations</a></li>
+		<li><a href="#links">Related Links</a></li>
+	</ul>
+</div>
+<div class="clear"></div>
+
+<div class="wet-boew-expandhide">
+
+<h2 class="margin-top-none"><a id="intro"></a>Introduction</h2>
+
+<div class="span-4">
+	<p>The keyboard is typically the exclusive interface that assistive technologies use to interact with user controls on a web page. Pointer-specific functionality performed with a mouse such as pointing, clicking, and dragging is often not available to assistive technologies and cannot be relied upon.</p>
+	<p><strong>User controls</strong> are elements that can perform an action (or <em>&quot;do something&quot;</em>) such as <a href="lin-eng.html">links</a> and <a href="frm-eng.html">form elements</a>.  They are common in many technologies including HTML, PDF, Flash, and Sliverlight.</p>
+</div>
+<div class="span-2 border-span-2">
+	<h2 class="background-light">HTML User Control Examples</h2>
+	<p>The following are the most common user controls in HTML.</p>
+	<p><a href="#">Link</a><br />
+	<input type="text" title="Text Box" /><br />
+	<input type="checkbox" title="Checkbox" />
+	<input type="radio" title="Radio Button" />
+	<select title="Select Box" size="3"><option>&nbsp;</option><option>&nbsp;</option><option>&nbsp;</option></select>
+	<select title="Dropdown Box" size="1"><option>&nbsp;</option><option>&nbsp;</option><option>&nbsp;</option></select>
+	<input type="submit" title="Button" value="Button" /></p>
+</div>
+<div class="clear"></div>
+
+<h2><a id="req"></a>Coding Requirements</h2>
+<p>The following summarizes selected techniques from the <a href="http://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines (WCAG) 2.0</a> for satisfying the most common applicable success criterion related to this topic.  Additional WCAG 2.0 success criterions, techniques, and failures not listed here may also be applicable depending on the content.</p>
+
+<h3 id="fi">1. Focus and Input</h3>
+<div class="span-2 border-span-2 float-right align-right">
+	<p class="background-light"><em><strong>Related to Success Criteria:</strong></em></p>
+	<ul>
+		<li><em><a href="http://www.w3.org/TR/2012/NOTE-UNDERSTANDING-WCAG20-20120103/keyboard-operation-keyboard-operable.html">2.1.1 Keyboard</a></em></li>
+		<li><em><a href="http://www.w3.org/TR/2012/NOTE-UNDERSTANDING-WCAG20-20120103/keyboard-operation-trapping.html">2.1.2 No Keyboard Trap</a></em></li>
+		<li><em><a href="http://www.w3.org/TR/2012/NOTE-UNDERSTANDING-WCAG20-20120103/navigation-mechanisms-focus-order.html">2.4.3 Focus Order</a></em></li>
+		<li><em><a href="http://www.w3.org/TR/2012/NOTE-UNDERSTANDING-WCAG20-20120103/navigation-mechanisms-focus-visible.html">2.4.7 Focus Visible</a></em></li>
+		<li><em><a href="http://www.w3.org/TR/2012/NOTE-UNDERSTANDING-WCAG20-20120103/consistent-behavior-receive-focus.html">3.2.1 On Focus</a></em></li>
+		<li><em><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html">3.2.2 On Input</a></em></li>
+	</ul>
+</div>
+
+<p><strong>Focus</strong> is given to a user control when it is being interacted with.  Only one user control has focus at all times.  Focus is moved to the next user control in the focus order when a user presses the TAB key.</p>
+<p><strong>Input</strong> is when the user changes the value of a user control by either typing or interacting with the user control.</p>
+<p>These requirements apply to the focus and input of user controls:</p>
+<ul>
+	<li><p>The focus indicator (which visually indicates the current user control which has focus) must always be visible only on the user control that has focus.</p></li>
+	<li><p>The focus order (which determines the order user controls receive focus) must flow in a sequence which does not affect the meaning or operation of the page.</p></li>
+	<li><p>All user controls must be able to receive focus.</p></li>
+	<li><p>A user control must not trap focus (i.e. prevent the user from changing which user control has focus).</p></li>
+	<li><p>A user control must not change the context of the page when it receives focus or input.</p></li>
+</ul>
+<p><em>Source: <a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G21">WCAG 2.0, Technique G21</a>, <a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G59">WCAG 2.0, Technique G59</a>, <a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G107">WCAG 2.0, Technique G107</a>, <a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G149">WCAG 2.0, Technique G149</a>, <a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G202">WCAG 2.0, Technique G202</a></em></p>
+
+<div class="span-6 module-note">
+	<p><strong>Note:</strong> By default, HTML user controls which have not been modified with JavaScript meet this requirement.</p>
+</div>
+
+
+<h3 id="js">2. Client Side Scripting (JavaScript)</h3>
+<div class="span-2 border-span-2 float-right align-right">
+	<p class="background-light"><em><strong>Related to Success Criteria:</strong></em></p>
+	<ul>
+		<li><em><a href="http://www.w3.org/TR/2012/NOTE-UNDERSTANDING-WCAG20-20120103/keyboard-operation-keyboard-operable.html">2.1.1 Keyboard</a></em></li>
+	</ul>
+</div>
+<p>JavaScript can be used to change the behaviours of HTML elements by adding and modifying actions through event handlers.  Event handlers are special methods executed in JavaScript when an event occurs (e.g. clicking, changing focus, interacting with user controls).</p>
+
+<h4>Independent Event Handlers</h4>
+<p>When event handlers are used in JavaScript, only <strong>independent</strong> event handlers may be used.  Non-independent event handlers may be provided only as a supplement.</p>
+<ul>
+	<li><p><strong>Independent:</strong> <code>onFocus</code>, <code>onBlur</code>, <code>onSelect</code>, <code>onChange</code>, and <code>onClick</code> (links and form elements only).</p></li>
+	<li><p><strong>Non Independent (Keyboard or Mouse Only):</strong> <code>onKeyDown</code>, <code>onKeyUp</code>, <code>onKeyPress</code>, <code>onMouseOver</code>, <code>onMouseOut</code>, and <code>onDblClick</code>.</p></li>
+</ul>
+
+<h3 id="tc">3. Other Technologies</h3>
+<p>When using technologies other than HTML as the primary format (such as PDF, Flash and Sliverlight), ensure that the WCAG 2.0 sufficient techniques applicable to those technologies are being used to ensure keyboard accessibility.</p>
+<ul>
+	<li><a href="http://www.w3.org/TR/WCAG20-TECHS/pdf.html">PDF Techniques</a></li>
+	<li><a href="http://www.w3.org/TR/WCAG20-TECHS/flash.html">Flash Techniques</a></li>
+	<li><a href="http://www.w3.org/TR/WCAG20-TECHS/silverlight.html">Sliverlight Techniques</a></li>
+</ul>
+
+<h2><a id="con"></a>Web Accessibility Considerations</h2>
+<h3>Visual Impairments</h3>
+<ul>
+	<li>
+		<p>Screen readers typically work exclusively with the keyboard.  While most screen readers are compatible with a mouse, users with visual impairments are unable to use the pointing functionality of a mouse.</p></li>
+</ul>
+
+<h3>Mobility, Dexterity and Coordination Impairments</h3>
+<ul>
+	<li>
+		<p>Most assistive technologies that are used by users with mobility, dexterity and coordination impairments interface work exclusively with the keyboard.</p></li>
+</ul>
+
+
+<h3><a id="links"></a>Related Links</h3>
+<ul>
+	<li><p>Web Content Accessibility Guidelines (WCAG) 2.0 Success Criterions</p>
+		<ul>
+			<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html">2.1.1 Keyboard</a></li>
+			<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html">2.1.2 Keyboard Trap</a></li>
+			<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html">2.4.3 Focus Order</a></li>
+			<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html">2.4.7 Focus Visible</a></li>
+			<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html">3.2.1 On Focus</a></li>
+			<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html">3.2.2 On Input</a></li>
+			<li><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a></li>
+		</ul>
+	</li>
+	<li><p>Web Content Accessibility Guidelines (WCAG) 2.0 Sufficient Techniques</p>
+		<ul>
+			<li><a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G21">G21: Ensuring that users are not trapped in content</a></li>
+			<li><a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G59">G59: Placing the interactive elements in an order that follows sequences and relationships within the content</a></li>
+			<li><a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G107">G107: Using "activate" rather than "focus" as a trigger for changes of context</a></li>
+			<li><a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G149">G149: Using user interface components that are highlighted by the user agent when they receive focus</a></li>
+			<li><a href="http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G202">G202: Ensuring keyboard control for all functionality</a></li>
+			<li><a href="http://www.w3.org/TR/WCAG20-TECHS/pdf.html">PDF Techniques</a></li>
+			<li><a href="http://www.w3.org/TR/WCAG20-TECHS/flash.html">Flash Techniques</a></li>
+			<li><a href="http://www.w3.org/TR/WCAG20-TECHS/silverlight.html">Sliverlight Techniques</a></li>
+		</ul>
+	</li>
+</ul>
+
+</div>
+
+<!--#include virtual="/inc/centre-2.shtm"-->
+<!--#include virtual="/inc/left-gauche-1.shtm"-->
+<!--#include virtual="/theme-gcwu-fegc/opt-cont/menu-left-gauche/exmple-eng.shtm"-->
+<!--#include virtual="/inc/left-gauche-2.shtm"-->
+<!--#include virtual="/theme-gcwu-fegc/inc/cont/trail-arr.shtm"-->
+</body>
+</html>

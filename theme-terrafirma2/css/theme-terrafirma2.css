@@ -1,0 +1,622 @@
+/*!
+ * TerraFirma theme v1.21 / Thème TerraFirma2 v1.21
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+    
+/** Screen and print CSS **/
+@media screen,print {
+	/* *** WET-BOEW modification ***/ 
+	
+	/** Body normalization for cross browser **/
+	html {overflow-y:scroll;}
+	body {min-width:960px;margin:0;padding:0;}
+
+	/** Box model - centered **/
+	#cn-head, #cn-cols, #cn-foot  {width:100%;}
+	#cn-head-inner, #cn-cols-inner, #cn-foot-inner  {width:1000px;margin:auto;}
+	#cn-centre-col, #cn-right-col {z-index:1;display:inline;}
+	
+	/** Overflow restrict for background paintability control **/
+	#cn-head, #cn-head-inner, #cn-foot, #cn-foot-inner  {overflow:hidden;}
+	#cn-cols-inner {overflow:visible !important;position:relative;}
+	#cn-cols-inner:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+	
+	/** Centre column **/
+	#cn-centre-col-inner {padding-top:1px;padding-bottom:1px;width:655px;}
+	#cn-centre-col {width:655px;float:left;}
+
+	/** Right column **/
+	#cn-right-col {width:246px;float:right;position:relative;}
+	
+	#cn-centre-col-inner {padding: 0 24px 0 25px;background: url(../images/bg04.jpg) no-repeat 0 -335px;}
+	#cn-right-col {padding: 24px 50px 0 0;background: url(../images/bg04.jpg) no-repeat 100% -335px;}
+	
+	/*******************************/
+	
+	/* *************************** */
+	body {
+		/* *** WET-BOEW modification ***/
+		/*font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+		font: 0.75em "Trebuchet MS", Arial, Helvetica, sans-serif;
+		/*******************************/
+	}
+
+	/* *** WET-BOEW modification h1, h2, h3 { */
+	h1, h2, h3, #h1 {
+		margin: 0;
+	}
+
+	/* *** WET-BOEW modification h1, h2 { */
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: normal;
+	}
+
+	h1 {
+		/* *** WET-BOEW modification ***/ 
+		/*font-size: 32px;*/
+		font-size: 2.7em;
+		/*******************************/
+	}
+	/* *** WET-BOEW modification ***/
+	h1#cn-cont, #menu h2 {
+		position: absolute;
+		clip: rect(1px 1px 1px 1px);
+		clip: rect(1px, 1px, 1px, 1px);
+		height: 1px !important;
+		width: 1px !important;
+		overflow: hidden !important;
+	}
+	abbr {
+		border: none;
+	}
+	/* *************************** */	
+
+	h2 {
+		/* *** WET-BOEW modification ***/
+		/*font-size: 24px;*/
+		font-size: 2.0em;
+		/*******************************/
+	}
+
+	p, ol, ul, dl {
+		margin-top: 0;
+		text-align: justify;
+		line-height: 2.2;
+	}
+
+	ul {
+		margin-left: 0;
+		padding-left: 0;
+		list-style: none;
+	}
+
+	strong {
+		color: #4A3E29;
+	}
+
+	a {
+		color: #506C00;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	a img {
+		border: 0;
+	}
+
+	.alignleft {
+		float: left;
+	}
+
+	.alignright {
+		float: right;
+	}
+
+	.aligncenter {
+		margin: 0 auto;
+	}
+
+	img.alignleft {
+		margin: 0 27px 0 0;
+	}
+
+	img.alignright {
+		margin: 0 0 0 27px;
+	}
+
+	img.border {
+		padding: 4px;
+		border: 1px solid #E9E4D8;
+	}
+
+	/* Wrapper */
+
+	/* *** WET-BOEW modification *** #wrapper {
+		background: url(../images/bg02.jpg) repeat-x;
+	} */
+
+	/* *** WET-BOEW modification *** .container {
+		width: 1000px;
+		margin: 0 auto;
+	}*/
+
+	.clearfix {
+		clear: both;
+	}
+
+	/* Header */
+
+	#header {
+		height: 211px;
+		background: url(../images/bg04.jpg);
+	}
+
+	/* Logo */
+
+	#logo {
+		float: left;
+		width: 308px;
+		height: 211px;
+	}
+
+	/* *** WET-BOEW modification #logo h1, #logo p { */
+	#logo #h1, #logo p {
+		text-transform: lowercase;
+		line-height: 1;
+	}
+
+	/* *** WET-BOEW modification #logo h1 { */
+	#logo #h1 {
+		padding: 137px 0 0 50px;
+		letter-spacing: -2px;
+		/* *** WET-BOEW modification ***/ 
+		/*font-size: 34px;*/
+		font-size: 2.8em;
+		/* *************************** */
+		color: #FFFFFF;
+	}
+
+	/* *** WET-BOEW modification #logo h1 sup { */
+	#logo #h1 sup {
+		/* *** WET-BOEW modification ***/ 
+		/*font-size: 18px;*/
+		font-size: 0.53em;
+		/* *************************** */
+		font-weight: normal;
+	}
+
+	#logo p {
+		padding: 0 0 0 50px;
+		/* *** WET-BOEW modification ***/ 
+		/*font-size: 13px;*/
+		font-size: 1.1em;
+		/*color: #F8AB80;*/
+		color: #FFF;
+		/* *************************** */
+	}
+
+	#logo a {
+		text-decoration: none;
+	}
+
+	#logo a:hover {
+		text-decoration: underline;
+	}
+
+	/* *** WET-BOEW modification #logo h1 a { */
+	#logo #h1 a {
+		color: #FFFFFF;
+	}
+
+	#logo p a {
+		color: #F8AB80;
+		/* *** WET-BOEW modification ***/ 
+		/*color: #F8AB80;*/
+		color: #FFF;
+		/* *************************** */
+	}
+
+	/* Banner */
+
+	#banner {
+		float: left;
+		height: 118px;
+		padding: 93px 0 0 0;
+	}
+
+	/* Menu */
+
+	#menu {
+		height: 76px;
+		background: url(../images/bg04.jpg) no-repeat 0 -211px;
+	}
+
+	#menu ul {
+		height: 67px;
+		margin: 0 25px;
+		padding: 9px 0 0 14px;
+		background: url(../images/bg05.jpg);
+		list-style: none;
+		line-height: 1
+	}
+
+	#menu li {
+		float: left;
+		height: 35px;
+		padding: 15px 20px 0 20px;
+	}
+
+	#menu li.active {
+		background: url(../images/bg06.jpg) no-repeat;
+	}
+
+	#menu a {
+		text-transform: lowercase;
+		text-decoration: none;
+		letter-spacing: -1px;
+		
+		/* *** WET-BOEW modification ***/ 
+		/*font-size: 18px;*/
+		font-size: 1.5em;
+		/* *************************** */
+		color: #FFFFFF;
+	}
+
+	#menu a:hover {
+		text-decoration: underline;
+	}
+
+	/* Bar */
+
+	.bar {
+		/* *** WET-BOEW modification ***/ 
+		/*height: 48px;*/
+		height: 4em;
+		/* *************************** */
+		margin: 0 25px;
+		background: url(../images/bg07.jpg);
+	}
+
+	/* *** WET-BOEW modification .bar .text { */
+	.bar .text {
+		width: 50%;
+	}
+	.bar .text, #search label {
+		float: left;
+		padding: 17px 0 0 25px;
+		text-transform: lowercase;
+		/* *** WET-BOEW modification ***/ 
+		/*font-size: 14px;*/
+		font-size: 1.2em;
+		/*color: #809064;*/
+		color: #506031;
+		/*******************************/
+	}
+
+	/* Top Bar */
+
+	#top-bar {
+		background: url(../images/bg04.jpg) no-repeat 0 -287px;
+	}
+
+	/* Search */
+
+	#search {
+		float: right;
+		/* *** WET-BOEW modification ***/ 
+		/*width: 245px;*/
+		width: 45%;
+		/*height: 48px;*/
+		/*background: url(../images/bg08.jpg) no-repeat 0 12px;*/
+		padding-top: 12px;
+		padding-right: 10px;
+		/* *************************** */
+	}
+
+	/* *** WET-BOEW modification ***/ 
+	#search div {
+		float: right;
+	}
+	/*******************************/
+
+	/* *** WET-BOEW modification #search form, #search fieldset { */
+	#search fieldset {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+
+	#search .input-text {
+		float: left;
+		width: 185px;
+		/* *** WET-BOEW modification ***/ 
+		/*margin: 12px 0 0 0;
+		padding: 4px 10px;*/
+		padding-left: 5px;
+		font: inherit;
+		/*line-height: normal;*/
+		border: none;
+		/*background: none;*/
+		background: url(../images/bg08.jpg) no-repeat left center;
+		/*height: 25px;*/
+		min-height: 25px;
+		height: 2em;
+		line-height: 2em;
+		/* *************************** */
+		color: inherit;
+	}
+
+	/* *** WET-BOEW modification ***/ 
+	#search .input-submit-div {
+		background: url(../images/bg08.jpg) no-repeat right center;
+		width: 35px;
+		min-height: 25px;
+		height: 2em;
+		position: relative;
+		top: 1px;
+		left: -14px;
+		float: left;
+	}
+	/*******************************/
+
+	#search .input-submit {
+		/* *** WET-BOEW modification ***/ 
+		/*display: none;*/
+		/*position: absolute; 
+		left: -9000px; 
+		width: 1px;*/
+		/*font-size: 10%;*/
+		width: 35px;
+		height: 25px;
+		background: none;
+		border: none;
+		font-size: 1px;
+		color: #D6DEC7;
+		text-align: left;
+		/* *************************** */
+	}
+
+	/* *** WET-BOEW modification ***/ 
+	#search .input-submit span {
+		position: absolute;
+		clip: rect(1px 1px 1px 1px);
+		clip: rect(1px, 1px, 1px, 1px);
+		height: 1px !important;
+		width: 1px !important;
+		overflow: hidden !important;
+	}
+	/*******************************/
+
+	/* *** WET-BOEW modification ***/ 
+	#search label {
+		padding: 5px 5px 0 0;
+	}
+	/* *************************** */
+
+	/* Page */
+
+	/* *** WET-BOEW modification *** #page {*/
+	#cn-cols-inner, #cn-foot-inner {
+		background: url(../images/bg03.jpg) repeat-y;
+	}
+
+	/* Content */
+
+	/* *** WET-BOEW modification *** #content {
+		float: left;
+		width: 655px;
+		padding: 0 24px 0 25px;
+		background: url(../images/bg04.jpg) no-repeat 0 -335px;
+	}*/
+
+	/* Post */
+
+	.post {
+	}
+
+	.post .title, .post .date {
+		padding: 0 25px;
+	}
+
+	.post .title {
+		margin: 0;
+		padding-top: 50px;
+		line-height: normal;
+		/* *** WET-BOEW modification ***/ 
+		/*font-size: 32px;*/
+		font-size: 2.7em;
+		/*******************************/
+		color: #5A5544;
+	}
+	/* *** WET-BOEW IE6 modification ***/
+	* html .post .title {
+		position: relative;
+		margin-bottom: 80px;
+	}
+	/*******************************/
+
+	.post .title a {
+		text-decoration: none;
+		color: #5A5544;
+	}
+
+	.post .title a:hover {
+		text-decoration: underline;
+	}
+
+
+	.post .date {
+		line-height: normal;
+		/* *** WET-BOEW modification ***/
+		/*color: #ACAAA1;*/
+		color: #797770;
+		/*******************************/
+	}
+
+	.post .entry {
+		margin: 0 25px;
+		padding: 20px 0;
+		border-top: 1px solid #E5E1D8;
+	}
+
+	.post .meta {
+		height: 53px;
+		background: #E5ECDB;
+		border-bottom: 1px solid #DDE5CE;
+	}
+
+	.post .meta p {
+		line-height:  normal;
+	}
+
+	.post .meta .tags {
+		float: left;
+		padding: 20px 0 0 25px;
+	}
+
+	.post .meta .links {
+		float: right;
+		padding: 20px 25px 0 0;
+	}
+
+	.post .meta .comments {
+		margin-right: 30px;
+		padding-left: 22px;
+		background: url(../images/img04.gif) no-repeat 0 50%;
+	}
+
+	.post .meta .more {
+		padding-left: 17px;
+		background: url(../images/img05.gif) no-repeat 0 50%;
+	}
+
+
+		
+
+	/* Sidebar */
+
+	/* *** WET-BOEW modification *** #sidebar {
+		float: right;
+		width: 246px;
+		padding: 24px 50px 0 0;
+		background: url(../images/bg04.jpg) no-repeat 100% -335px;
+	}*/
+
+	#sidebar ul {
+		margin: 0;
+		padding: 0 0 0 25px;
+		list-style: none;
+		line-height: normal;
+		border-left: 1px solid #E5E1D8;
+	}
+
+	#sidebar li {
+	}
+
+	#sidebar li ul {
+		padding: 0;
+		line-height: 3.5;
+		border: none;
+	}
+
+	#sidebar li li {
+	}
+
+	/* *** WET-BOEW modification #sidebar h2 { */
+	#sidebar h3 {
+		margin: 0 0 20px 0;
+		padding: 20px 0 5px 0;
+		border-bottom: 1px solid #E5E1D8;
+
+		/* *** WET-BOEW modification ***/
+		/*font-size: 24px;*/
+		font-size: 2.0em;
+		/*******************************/
+	}
+
+	/* 2 Columns */
+
+	.two-cols {
+		margin: 0 25px;
+		padding: 35px 35px 0 35px;
+		background: #28241E url(../images/bg09.jpg) repeat-x;
+		/* *** WET-BOEW modification ***/
+		/*color: #736F6A;*/
+		color: #A69F9D;
+		/*******************************/
+	}
+
+	.two-cols .col1 {
+		float: left;
+		width: 595px;
+	}
+
+	.two-cols .col2 {
+		float: right;
+		width: 210px;
+		padding: 0 0 0 25px;
+		border-left: 1px solid #423C31;
+	}
+
+	/* *** WET-BOEW modification .two-cols h2 { */
+	.two-cols h3 {
+		/* *** WET-BOEW modification ***/
+		/*font-size: 26px;*/
+		font-size: 2.2em;
+		/*******************************/
+		color: #FFFFFF;
+	}
+
+	.two-cols a {
+		/* *** WET-BOEW modification ***/
+		/*color: #736F6A;*/
+		color: #A69F9D;
+		/*******************************/
+	}
+
+	/* Footer */
+
+	#footer {
+		/* *** WET-BOEW modification ***/
+		/*background: url(../images/bg10.jpg) no-repeat;*/
+		background: url(../images/bg10.jpg) no-repeat #D9D5C9;
+		/*******************************/
+		padding: 55px 0;
+	}
+
+	#footer p {
+		text-align: center;
+		/* *** WET-BOEW modification ***/
+		/*color: #8F8B83;*/
+		color: #4B4740;
+		/*******************************/
+	}
+
+	#footer a {
+		/* *** WET-BOEW modification ***/
+		/*color: #8F8B83;*/
+		color: #4B4740;
+		/*******************************/
+	}
+}
+
+/** Screen-only CSS **/
+@media screen {
+	body {
+		margin: 0;
+		padding: 0;
+		/* *** WET-BOEW modification ***/
+		/*background: url(../images/bg01.jpg);*/
+		background: url(../images/bg02.jpg) repeat-x #D9D5C9;
+		/*******************************/
+		color: #5A554E;
+	}
+}
+
+/** Print-only CSS **/
+@media print {
+	#menu, #search, #banner img {display: none;}
+}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*!
+ * Expandable/collapsible content v1.3 / Contenu en arborescence affichable/masquable v1.3
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+/* Content area expand/hide */
+.toggle-link-expand,.toggle-link-collapse{display: inline-block;padding-left:15px;margin:0 0 0 25px;}
+.toggle-link-expand{background:transparent url(sprite-expandhide.gif) no-repeat 0 -108px;}
+.toggle-link-collapse{background:transparent url(sprite-expandhide.gif) no-repeat 0 -189px;}
+.toggle-content{margin:0 0 10px 30px;}
+.toggle-all-controls{margin-bottom:10px;}
+.toggle-all-expand,.toggle-all-collapse{margin-right:10px;color:#333;text-decoration:none;padding:0 0 3px 19px;}
+.toggle-all-expand{background:transparent url(sprite-expandhide.gif) no-repeat 0 -52px;}
+.toggle-all-collapse{background:transparent url(sprite-expandhide.gif) no-repeat 0 -81px;}
+.toggle-all-expand span,.toggle-all-collapse span{background:transparent url(sprite-expandhide.gif) no-repeat right 0;padding:1px 10px 3px 5px; }
+.toggle-all-expand span span, .toggle-all-collapse span span {background:none;}
+a:hover.toggle-all-expand span,a:hover.toggle-all-collapse span{background-position:right -25px;}
+
+/* ie fixes */
+* html .toggle-link-expand, * html .toggle-link-collapse{display:inline-block;} /* for word wrapping links, otherwise bg image is dropped */
+*:first-child+html .toggle-link-expand,*:first-child+html .toggle-link-collapse{display:inline-block;}
+*:first-child+html .toggle-all-controls {width: 100%;}
+*:first-child+html .toggle-all-expand, *:first-child+html .toggle-all-collapse{float: left;}
+* html .toggle-content table a.cn-linkdesc {position: static !important;}
+* html .toggle-content table a.cn-linkdesc:hover, * html .toggle-content table a.cn-linkdesc:focus, * html .toggle-content table a.cn-linkdesc:active {position: relative !important;}
+*:first-child+html .toggle-content table a.cn-linkdesc {position: static !important;}
+*:first-child+html .toggle-content table a.cn-linkdesc:hover, *:first-child+html .toggle-content table a.cn-linkdesc:focus, *:first-child+html .toggle-content table a.cn-linkdesc:active {position: relative !important;}
+*:first-child+html  .collapse {height:0;}

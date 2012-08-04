@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*!
+ * Tabbed interface v1.3 / Interface à onglets v1.3
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+.tabs li{display:inline !important; margin-right:2px !important;}
+.tabs-style-4 .tabs li{display:block !important;}
+.tabs-style-4 .tabs li {margin-bottom:-3px !important;}
+.tabs-style-4 .tabs li.tabs-toggle,.tabs-style-5 .tabs li.tabs-toggle{display:inline !important;}
+.tabs-style-7 {height: 250px !important;width: 960px !important;}
+.tabs-style-7 .tabs {height: 249px !important;width: 228px !important;}
+.tabs-style-7 .tabs-panel,.tabs-style-7 img{height: 250px !important;width: 730px !important;}
+.tabs-style-7 .tabs-panel{padding-bottom:10px !important;}
+.tabs-style-7 img {margin-top:10px !important;}
+.tabs-style-7 .tabs-content-pad {width: 715px !important;}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+	XML/XSLT Abstraction Project v1.2 / Abstraction XML/XSLT  v1.2
+	Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+	-->
+<strings xml:lang="fr">
+	<text id="toc_first">Première page</text>
+	<text id="toc_previous">Page Précédente</text>
+	<text id="toc_index">Page d'index</text>
+	<text id="toc_next">Page Suivante</text>
+	<text id="toc_last">Dernière page</text>
+</strings> 

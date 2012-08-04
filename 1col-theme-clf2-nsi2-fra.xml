@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<?xml-stylesheet type="text/xsl" href="theme-clf2-nsi2/xsl/theme-clf2.xslt"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+	<head>
+			<meta charset="utf-8" />
+			
+			<!-- Title begins / Début du titre -->
+			<title>1 colonne - Thème NSI 2.0 - Boîte à outils de l'expérience Web (BOEW)</title>
+			<!-- Title ends / Fin du titre -->
+			
+			<!-- Metadata begins / Début des métadonnées -->
+			<meta name="dcterms.description" content="English description | Description en anglais" />
+			<meta name="description" content="English description | Description en anglais" />
+			<meta name="keywords" content="English keywords | Mots-clés en anglais" />
+			<meta name="dctermscreator" content="English name of the content author | Nom en anglais de l'auteur du contenu" />
+			<meta name="dcterms.title" content="English title | Titre en anglais" />
+			<meta name="dcterms.issued" content="2009-11-20" />
+			<meta name="dcterms.modified" content="2009-12-08" />
+			<meta name="dcterms.subject" content="English subject terms | Termes de sujet en anglais" />
+			<meta name="dcterms.language" content="fra" />
+		
+			<link rel="alternate" hreflang="en" href="1col-theme-clf2-nsi2-eng.xml" />
+		
+			<link rel="prefetch" data-breadcrum-level="3" href="#" title="Niveau 0"/>
+			<link rel="prefetch" data-breadcrum-level="2" href="#" title="Niveau 1"/>
+			<link rel="prefetch" data-breadcrum-level="1" href="#" title="Niveau 2" />
+			<!-- Metadata ends / Fin des métadonnées -->
+		
+			<script>
+				/* <![CDATA[ */
+					var params = {
+					};
+					PE.progress(params);
+				/* ]]> */
+			</script>
+	</head>
+	<body>
+		<!-- Content title begins / Début du titre du contenu -->
+		<h1 id="cn-cont">1&#160;colonne - Thème <abbr title="Normalisation des sites Internet">NSI</abbr> 2.0 - Boîte à outils de l'expérience Web (BOEW)</h1>
+		<!-- Content Title ends / Fin du titre du contenu -->
+
+<!-- clf2-nsi2 theme begins / Début du thème clf2-nsi2 -->
+		<div class="cn-toppage"><a href="#cn-tphp" title="Retourner au haut de la page">Haut de la page</a></div>
+		<section>
+			<h2>L'en-tête de niveau&#160;2 (h2)</h2>
+
+			<div class="cn-toppage"><a href="#cn-tphp" title="Retourner au haut de la page">Haut de la page</a></div>
+
+			<section>
+				<h3>L'en-tête de niveau&#160;3 (h3)</h3>
+
+				<div class="cn-toppage"><a href="#cn-tphp" title="Retourner au haut de la page">Haut de la page</a></div>
+				<section>
+					<h4>L'en-tête de niveau&#160;4 (h4)</h4>
+
+					<div class="cn-toppage"><a href="#cn-tphp" title="Retourner au haut de la page">Haut de la page</a></div>
+					<section>
+						<h5>L'en-tête de niveau&#160;5 (h5)</h5>
+
+						<div class="cn-toppage"><a href="#cn-tphp" title="Retourner au haut de la page">Haut de la page</a></div>
+						<section>
+							<h6>L'en-tête de niveau&#160;6 (h6)</h6>
+
+							<p>CONTENU (un mélange de texte et d'images ou de graphiques est prévu)</p>
+						</section>
+					</section>
+				</section>
+			</section>
+		</section>
+<!-- clf2-nsi2 theme ends / Fin du thème clf2-nsi2 -->
+	</body>
+</html>

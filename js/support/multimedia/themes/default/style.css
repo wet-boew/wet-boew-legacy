@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*!
+ * Multimedia player v1.3 / Lecteur multimédia v1.3
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+.wet-boew-toolbar {background:transparent url(images/background-toolbar.png) repeat-x scroll 0 0; height: 20px; position: relative; border: 1px solid #ccc;}
+.wet-boew-captions { width: 0; padding: 0; margin: 0; font-size: 0; height: 0; line-height: 0; }
+*:first-child+html .wet-boew-captions {border: 0; border-top: 3px solid #fff; }
+.wet-boew-toolbar a, .wet-boew-toolbar span { display: block; float:left; }
+/** Control layout and bending **/
+.wet-boew-controls-start, .wet-boew-controls-end {margin:0;padding:0;list-style-type:none;}
+.wet-boew-controls-start li, .wet-boew-controls-end li {display:inline;}
+.wet-boew-controls-start {width: 64px; float: left;}
+.wet-boew-controls-end {width : 40px;/* put to 64 for audio description*/ float: right; }
+.wet-boew-controls-middle { float: left; line-height: 20px}
+.wet-boew-ui-state-hidden,.wet-boew-ui-text-state-hidden  { height: 0 !important; width: 0 !important; font-size:0 !important; visibility: hidden !important;display: none !important; position: absolute;top: 0 !important; }
+
+.wet-boew-button { border:0; padding:0;margin:0;width: 19px; height:20px; cursor:pointer;}
+.wet-boew-button img {width:auto;border:0; padding:0;margin:-1px 0 0 -3px;}

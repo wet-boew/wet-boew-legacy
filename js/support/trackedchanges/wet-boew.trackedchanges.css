@@ -1,0 +1,101 @@
+@charset "utf-8";
+/*!
+ * Tracked changes v1.01 / Suivi des modifications v1.01
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+
+/* tracked changes */
+del {
+	text-decoration: line-through;
+	color: #fff;
+	background-color: #f00;
+}
+
+ins {
+	text-decoration: none;
+	border-bottom: #000 dashed 1px;
+	color: #000;
+	background-color: #09c;
+}
+
+a.change-anchor {
+	position: relative;
+}
+
+/*a.change-anchor span.change-tab {
+	position: absolute;
+	left: -999em;
+}*/
+
+/* .change-anchor-hover added as part of hack to get hover working on IE for anchors without an href attribute */
+/*a.change-anchor:hover, .change-anchor-hover {
+	z-index:25;
+}*/
+
+/* .change-anchor-hover and !important added as part of hack to get hover working on IE for anchors without an href attribute */
+/*a.change-anchor:hover span.change-tab, .change-anchor-hover span.change-tab*/
+
+a.change-anchor span.change-tab {
+	display: block !important;
+	position: absolute;
+	top: -14px;
+	left: 0 !important;
+	color: #ff6;
+	background-color: #060;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	font-size: 60%;
+	border: #ff6 solid 1px;
+	border-bottom: none;
+	border-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 1px;
+}
+
+.selected {
+	color: #000;
+	background-color: #ff6;
+}
+
+/* tracked changes toolbar */
+div#track-changes-toolbar {
+	border: 1px solid #000;
+	background: #fff;
+	float: right;
+	padding: 0;
+	position: fixed;
+	z-index: 20000;
+	right: 0.5em;
+	top: 16em;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+div#track-changes-toolbar * {
+	padding: 0 0.25em;
+}
+
+div#track-changes-toolbar h2 {
+	background-color: #039;
+	color: #fff;
+	margin: 0;
+	font-size: 90%;
+	letter-spacing: 0.25em;
+}
+
+div#track-changes-toolbar p.legend {
+	margin: 0;
+}
+
+div#track-changes-toolbar p.nav {
+	margin-top: 0.5em;
+	margin-bottom: 0.25em;
+	text-align: center;
+}

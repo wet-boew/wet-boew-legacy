@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*!
+ * Session timeout v1.1 / Expiration de la session v1.1
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+
+/* Overlay class */
+.sOverlay {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 999999;
+	/* Opacity cross-browser is a bit tricky */
+	/* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	/* IE 5-7 */
+	filter: alpha(opacity=90);
+	/* Netscape */
+	-moz-opacity: 0.9;
+	/* Safari 1.x */
+	-khtml-opacity: 0.9;
+	/* Good browsers */
+	opacity: 0.9;
+	background-image: url(scrim.png);
+}

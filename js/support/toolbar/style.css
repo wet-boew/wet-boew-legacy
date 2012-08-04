@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*!
+ * Floating toolbar v1.2 / Barre d'outils flottée v1.2
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
+
+/* Note: Width must be 100% for users on 800x600 who have their computer taskbar on the left or right side. */
+ .toolbar{position:fixed;bottom:0;z-index:99999;background:#ccc url(gradient.png) repeat-x 0 0;border:1px solid #ccc;left:0;width:100%;clear:both;}
+.toolbar ul{float:left;width:100%;list-style-type:none;border-top:1px solid #fff;margin:0;padding:0;}
+.toolbar ul li{float:left;position:relative;margin:0;padding:0;}
+.toolbar a{float:left;height:22px;text-decoration:none;color:#333;position:relative;padding:5px 5px 0 30px;}
+.toolbar a.toolbar-homepage{background:transparent url(icon-home.gif) no-repeat scroll 5px center;border-right:1px solid #999;}
+.toolbar form{margin:0;}
+.toolbar p{margin:2px 0 0 5px;}
+.toolbar label{margin-right:5px;}
+.toolbar input{vertical-align:middle;margin:0;padding:1px 2px 2px;}
+.toolbar input.toolbar-search-button{margin-left:0;background:#ccc;}
+.toolbar .toolbar-top-page a{background:transparent url(icon-top-page.gif) no-repeat scroll 5px center;border-left:1px solid #999;border-right:medium none;}
+.toolbar .toolbar-top-page{float:right !important;}
+#cn-foot{padding-bottom:50px;}
+#cn-foot-inner{padding-bottom:90px;}
+.toolbar a.active,.toolbar a:focus,.toolbar a:hover{background-color:#fff;}
+
+/*IE6*/
+* html .toolbar{position:absolute;top:expression(eval(document.compatMode &&document.compatMode=='CSS1Compat') ?documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight) : document.body.scrollTop +(document.body.clientHeight-this.clientHeight));width:758px;margin-top:2px;}
+* html .toolbar input{margin:0;padding:0px;/*--prevents IE6 from having an infinity scroll*/}
+
+@media print {
+	.toolbar ul {display: none !important;}
+	* html .toolbar ul {display: none !important;}
+}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*!
+ * Style switcher v1.1 / Sélecteur de style v1.1
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
+
+/* utilities  */
+#cn-left-col .utilities{margin:5px 5px 0 0;}
+#cn-left-col .utilities ul{margin:0 0 10px;padding:0;}
+#cn-left-col .utilities ul li{border:none;display:block;list-style:none;list-style-image:none;margin:0;}
+#cn-left-col .utilities ul ul{margin-left:25px;}
+#cn-left-col .utilities a,#cn-left-col .utilities a:visited,#cn-left-col .utilities a:link,#cn-left-col .utilities a:hover{text-decoration:none;font-weight:400;min-height:17px;border:none;font-size:85%;color:#00556B;padding:5px 0 0 24px;display:block; background-color:transparent; cursor:pointer;}
+#cn-left-col .utilities a:hover,#cn-left-col .utilities a:focus{color:#c00;}
+#cn-left-col .utilities a{background:url(sprite-icon.gif) no-repeat;}
+#cn-left-col a.utility-feedback{background-position:0 -200px;}
+#cn-left-col a.utility-sitemap{background-position:0 -534px;}
+#cn-left-col a.utility-font{background-position:0 -270px;}
+#cn-left-col a.utility-search{background-position:0 -464px;}
+#cn-left-col a.utility-theme{background-position:0 -64px;}
+#cn-left-col a.utility-rss{background:url(icon-rss.gif) no-repeat;}
+
+* html #cn-left-col .utilities a,* html #cn-left-col .utilities a:visited,* html #cn-left-col .utilities a:hover{line-height:normal;height:17px;}
+#cn-left-col .utilities ul ul a{background:#fff url(sprite-theme.gif) no-repeat scroll 0 0;}
+.utilities .theme-default{font-weight:700 !important;}
+#cn-left-col ul ul a.theme-1{background-position:0 -70px;}
+#cn-left-col ul ul a.theme-2{background-position:0 -140px;}
+#cn-left-col ul ul a.theme-3{background-position:0 -210px;}
+#cn-left-col ul ul a.theme-4{background-position:0 -280px;}
+#cn-left-col ul ul a.theme-5{background-position:0 -350px;}
+#cn-left-col ul ul a.theme-6{background-position:0 -420px;}
+#cn-left-col ul ul a.theme-7{background-position:0 -490px;}
+#cn-left-col ul ul a.theme-8{background-position:0 -560px;}
+#cn-left-col ul ul a.theme-9{background-position:0 -630px;}
+#cn-left-col ul ul a.theme-contrast{background:url(icon-contrast.gif) no-repeat;}
+#cn-left-col ul ul a.theme-toggle{background:url(icon-toggle.gif) no-repeat;}
+#cn-left-col ul ul a.theme-contrast-download{background:url(icon-contrast-install.gif) no-repeat;}
+/*overide default expand/hide functionality */
+#cn-left-col .utilities li li a{margin-left:0;padding:2px 4px 3px 12px;}
+#cn-left-col .utilities ul a.toggle-menu-link-expand,#cn-left-col .utilities ul a.toggle-menu-link-collapse{float:none;margin-left:25px;font-size:68% !important;padding:0 0 0 12px !important;}
+#cn-left-col .utilities .toggle-menu-link-expand{background:transparent url(sprite-expand-hide.gif) no-repeat scroll 0 2px !important;}
+#cn-left-col .utilities .toggle-menu-link-collapse{background:transparent url(sprite-expand-hide.gif) no-repeat scroll 0 -25px !important;}
+#cn-left-col .utilities li li a,#cn-left-col .utilities li li a:link,#cn-left-col .utilities li li a:visited,#cn-left-col .utilities li li a:hover{background-color:transparent;}
+* html #cn-left-col .utilities ul ul {width: 90%; margin-left: 20px;}

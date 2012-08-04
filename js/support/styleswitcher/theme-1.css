@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*!
+ * Style switcher v1.1 / Sélecteur de style v1.1
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
+h2.background-accent,h3.background-accent,h4.background-accent,h5.background-accent,h6.background-accent,.module-welcomepage h2{background:#5a5136 url(../../../grids/images/sprite-corner.gif) 0 -330px no-repeat !important;}
+.nav-parent,td.calendar-item{background:#5a5136 url(../../../intranet/images/sprite-theme-bg.gif) repeat-x 0 -177px !important;}
+.background-accent,.table-accent th,.new,.embedded-nav a, .embedded-nav a:visited, .embedded-nav a:link,.module-news .module-news-article a{background-color:#5a5136 !important;}
+#cn-left-col li.nav-open a,#cn-left-col a:hover, #cn-left-col a:focus, #cn-left-col a:active,#cn-left-col li.nav-current a{border-left-color:#5a5136 !important;}
+#cn-foot{border-top-color:#5a5136 !important;}
+h1,h2{border-bottom-color:#5a5136;}
+.embedded-nav a:hover,.embedded-nav a:focus,.embedded-nav .embedded-link-active{border-color:#5a5136 !important;}
+.color-accent,.embedded-nav .embedded-link-active,module-news h2 a, .module-news h3 a,.utilities a,.utilities a:link,.utilities a:visited,.utilities a:hover,.cn-toppage a{color:#5a5136 !important;}
+/*----*/
+body{background:url(bg-theme-1.gif) repeat-y center top #efefde !important;}
+textarea:focus,input:focus,select:focus,.toolbar input.toolbar-search-button,.embedded-search input.embedded-search-button,.embedded-nav a:hover, .embedded-nav a:focus,.module-answer,.module-spotlight,li.list-hover,tr.table-odd td, tr.table-even tr.table-odd td{background-color:#efefde !important;}
+/*----*/
+.utilities .theme-1{font-weight:700 !important;}
+.utilities .theme-default{font-weight:400 !important;}
+/*----*/
+.embedded-nav a.embedded-link-active, .embedded-nav a.embedded-link-active:visited {
+background-color:#000 !important;
+color:#fff !important;}
+.module-news .module-news-article span a {background-color:#fff !important;}
+tr.table-hover td{background-color:#eee !important;}

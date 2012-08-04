@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*!
+ * CSS presentation layer v1.31 / Couche présentation de CSS v1.31
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+
+/** Screen and print CSS **/
+@media screen,print {
+}
+
+/** Screen-only CSS **/
+@media screen {
+	/** Body normalization for cross browser **/
+	html {overflow-y:scroll;}
+	body {min-width:90%;margin:0;padding:0;}
+
+	/** Box model - centered **/
+	#cn-head, #cn-cols, #cn-foot  {width:100%;}
+	#cn-head-inner, #cn-cols-inner, #cn-foot-inner  {width:80%;margin:auto;}
+	#cn-centre-col, #cn-left-col, #cn-right-col {z-index:1;display:inline;}
+	
+	/** Overflow restrict for background paintability control **/
+	#cn-head, #cn-head-inner, #cn-foot, #cn-foot-inner  {overflow:hidden;}
+	#cn-cols-inner {overflow:visible !important;position:relative;}
+	#cn-cols-inner:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+	
+	/** Centre column **/
+	#cn-centre-col-inner {padding-top:1px;padding-bottom:1px;}
+	#cn-body-inner-2col #cn-centre-col {width:74.5%;float:right;}
+	#cn-body-inner-2col-right #cn-centre-col {width:74.5%;float:left;}
+	#cn-body-inner-3col #cn-centre-col {width:49%;float:right;position:relative;right:25.5%;}
+
+	/** Left column **/
+	#cn-left-col {width:25%;float:left;}
+	
+	/** Right column **/
+	#cn-right-col {width:25%;float:right;position:relative;left:49%;}
+	#cn-body-inner-2col-right #cn-right-col {left: auto;}
+
+	/** Background colours **/
+	#cn-head {background:#FF9;}
+	#cn-head-inner {background:#9FF;}
+	#cn-foot {background:#CCC;}
+	#cn-foot-inner {background:#696;}
+	#cn-cols {background:#262;}
+	#cn-cols-inner {background:#C0C;}
+	#cn-left-col {background:#CC9;}
+	#cn-right-col {background:#99F;}
+
+	#cn-left-col-inner, #cn-centre-col-inner, #cn-right-col-inner {padding-left: 5px; padding-right: 5px;}
+	
+	#cn-head-base, #cn-foot-base {padding-left: 5px; padding-right: 5px;}
+	dl dd {margin-left:0;}
+	dl dd ul {margin-top:0;}
+}
+
+/** Print-only CSS **/
+@media print {
+	#cn-left-col, #cn-right-col {display:none;}
+}

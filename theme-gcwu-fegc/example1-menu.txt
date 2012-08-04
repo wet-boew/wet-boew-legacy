@@ -1,0 +1,19 @@
+<body>
+	<div class="filter-group"><section><h2>All pictures</h2>
+		<div><a href="javascript: void(0)" class="filter-trigger filter-reset  filter-selected">Show all pictures</a></div>
+	</section></div>
+	<div class="filter-group"><section><h2>&quot;Who&quot; filter</h2>
+		<ul>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="chad">Chad</a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="tanya">Tanya</a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="animal">Some animal</a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="nopeople">No people</a></li>
+		</ul>
+	</section></div>
+	<div class="filter-group"><section><h2>&quot;Where&quot; filter</h2>
+		<ul>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="bali">Bali</a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="caribbean">Caribbean</a></li>
+		</ul>
+	</section></div>
+</body>

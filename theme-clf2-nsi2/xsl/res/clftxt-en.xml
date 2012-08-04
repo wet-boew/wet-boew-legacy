@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+	XML/XSLT Abstraction Project v1.2 / Abstraction XML/XSLT  v1.2
+	Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+	-->
+<strings xml:lang="en">
+	<text id="wmtext">Symbol of the Government of Canada</text>
+	<text id="datemodified">Date Modified: </text>
+	<text id="toplinktitle">Return to Top of Page</text>
+	<text id="toplinktext">Top of Page</text>
+	<text id="importantnotices">Important Notices</text>
+	<text id="commonbar">Common menu bar</text>
+	<text id="langlinktitle">Français - Version française de cette page</text>
+	<text id="langlinktext">Français</text>
+	<text id="homelinktitle">Home - Main page of the Web site</text>
+	<text id="homelinktext">Home</text>
+	<text id="contactlinktitle">Contact Us - Important contact information</text>
+	<text id="contactlinktext">Contact Us</text>
+	<text id="helplinktitle">Help - Information about using the Web site</text>
+	<text id="helplinktext">Help</text>
+	<text id="searchlinktitle">Search - Search the Web site</text>
+	<text id="searchlinktext">Search</text>
+	<text id="canadalinktitle">canada.gc.ca - Government of Canada Web site</text>
+	<text id="canadalinktext">canada.gc.ca</text>
+	<text id="breadcrumb">Breadcrumb</text>
+</strings> 

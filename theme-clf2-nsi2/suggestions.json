@@ -1,0 +1,31 @@
+[
+	{
+		"pattern" : "/theme-clf2-nsi2/(eng|fra)/broken-brise/",
+		"destination" : {
+			"eng" : {
+				"href" : "http://tbs-sct.ircan.gc.ca/projects/gcwwwdrupal?lang=eng",
+				"title" :  "Drupal Variant Project"
+			},
+			
+			"fra": {
+				"href" : "http://tbs-sct.ircan.gc.ca/projects/gcwwwdrupal?lang=fra",
+				"title" : "Projet de variante Drupal"
+			}
+		}
+	},
+	
+	{
+		"pattern" : "/theme-clf2-nsi2/(eng|fra)/mm/",
+		"destination" : {
+			"eng" : {
+				"href" : "http://tbs-sct.ircan.gc.ca/projects/gcwwwmulti?lang=eng",
+				"title" :  "<em>Multimedia</em> Player Project"
+			},
+			
+			"fra": {
+				"href" : "http://tbs-sct.ircan.gc.ca/projects/gcwwwmulti?lang=fra",
+				"title" : "Projet de lecteur <em>multimedia</em>"
+			}
+		}
+	}
+]

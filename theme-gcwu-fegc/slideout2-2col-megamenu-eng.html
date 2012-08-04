@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
+<title>Slide out tab widget - GC Web Usability theme - Web Experience Toolkit (WET)</title>
+
+<link rel="shortcut icon" href="fip-pcim/images/favicon.ico" />
+<meta name="dcterms.description" content="English description / Description en anglais" />
+<meta name="description" content="English description / Description en anglais" />
+<meta name="keywords" content="English keywords / Mots-clés en anglais" />
+<meta name="dcterms.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+<meta name="dcterms.title" content="English title / Titre en anglais" />
+<meta name="dcterms.issued" title="W3CDTF" content="Date published (YYYY-MM-DD) / Date de publication (AAAA-MM-JJ)" />
+<meta name="dcterms.modified" title="W3CDTF" content="Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)" />
+<meta name="dcterms.subject" title="scheme" content="English subject terms / Termes de sujet en anglais" />
+<meta name="dcterms.language" title="ISO639-2" content="eng" />
+
+<link href="../css/base.css" rel="stylesheet" />
+<!--[if IE 6]><![endif]-->
+<!--[if IE 8]><link href="../css/base-ie8.css" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="../css/base-ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 6]><link href="../css/base-ie6.css" rel="stylesheet" /><![endif]-->
+<!-- CSSStart -->
+<link href="../grids/css/util.css" media="screen" rel="stylesheet" />
+<link href="css/framework-responsive-theme-gcwu-fegc.css" media="screen" rel="stylesheet" />
+<link href="css/theme-gcwu-fegc.css" rel="stylesheet" />
+<!--[if IE 8]><link href="css/theme-gcwu-fegc-ie8.css" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="css/theme-gcwu-fegc-ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 6]><link href="css/theme-gcwu-fegc-ie6.css" rel="stylesheet" /><![endif]-->
+<link href="../js/support/menubar/style.css" rel="stylesheet" />
+<link href="fip-pcim/css/fip-pcim.css" rel="stylesheet" />
+<!--[if IE 8]><link href="fip-pcim/css/fip-pcim-ie8.css" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="fip-pcim/css/fip-pcim-ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 6]><link href="fip-pcim/css/fip-pcim-ie6.css" rel="stylesheet" /><![endif]-->
+<!-- CSSEnd -->
+
+<script src="../js/lib/jquery.min.js"></script>
+<script src="../js/pe-ap.js" id="progressive"></script>
+<script>
+/* <![CDATA[ */
+var params = {
+menubar:"",
+slideout: {
+imgShow: encodeURIComponent('{path: "../js/support/slideout/images/show-afficher.png", height: 62, width: 17, alt: "Show" }'),
+imgHide: encodeURIComponent('{path: "../js/support/slideout/images/hide-cacher.png", height: 62, width: 17, alt: "Hide" }')
+}
+};
+PE.progress(params);
+/* ]]> */
+</script>
+
+<!-- CustomScriptsCSSStart -->
+<!-- CustomScriptsCSSEnd -->
+</head>
+
+<body><div id="cn-body-inner-2col">
+<div id="cn-skip-head">
+<ul id="cn-tphp">
+<li id="cn-sh-link-1"><a href="#cn-cont">Skip to main content</a></li>
+<li id="cn-sh-link-2"><a href="#cn-nav">Skip to side navigation</a></li>
+</ul>
+</div>
+
+<div id="cn-head"><div id="cn-head-inner"><header>
+<!-- HeaderStart -->
+<nav role="navigation"><div id="cn-gcnb"><h2>Government of Canada navigation bar</h2><div id="cn-gcnb-inner"><div id="fip-pcim-gcnb">
+<div id="cn-sig"><div id="cn-sig-inner"><div id="fip-pcim-sig-eng" title="Government of Canada"><img src="fip-pcim/images/sig-eng.gif" width="214" height="20" alt="Government of Canada" /></div></div></div>
+<ul>
+<li id="cn-gcnb1"><a rel="external" href="http://www.canada.gc.ca/home.html">Canada.gc.ca</a></li>
+<li id="cn-gcnb2"><a rel="external" href="http://www.servicecanada.gc.ca/eng/home.shtml">Services</a></li>
+<li id="cn-gcnb3"><a rel="external" href="http://www.canada.gc.ca/depts/major/depind-eng.html">Departments</a></li>
+<li id="cn-gcnb-lang"><a href="slideout2-2col-megamenu-fra.html" lang="fr">Français</a></li>
+</ul>
+</div></div></div></nav>
+
+<div id="cn-banner" role="banner"><div id="cn-banner-inner">
+<div id="cn-wmms"><div id="cn-wmms-inner"><div id="fip-pcim-wmms" title="Symbol of the Government of Canada"><img src="fip-pcim/images/wmms.gif" width="126" height="30"  alt="Symbol of the Government of Canada" /></div></div></div>
+<div id="cn-site-title"><p id="cn-site-title-inner"><a href="home-accueil-megamenu-theme-gcwu-fegc-eng.html">Site title</a></p></div>
+
+<section role="search"><div id="cn-search-box"><h2>Search</h2>
+<form action="#" method="post"><div id="cn-search-box-inner">
+<label for="cn-search">Search website</label><input id="cn-search" name="cn-search" type="text" value="" size="27" maxlength="150" />
+<input id="cn-search-submit" name="cn-search-submit" type="submit" value="Search" />
+</div></form>
+</div></section>
+</div></div>
+
+<nav role="navigation">
+<div id="cn-psnb"><h2>Site navigation bar</h2><div id="cn-psnb-inner"><div class="wet-boew-menubar mb-megamenu"><div>
+<ul class="mb-menu">
+<li><section><h3><a href="#">Section 1</a></h3><div class="mb-sm"><div class="span-2">
+<ul>
+<li><a href="#">Item 1.1</a></li>
+<li><a href="#">Item 1.2</a></li>
+<li><a href="#">Item 1.3</a></li>
+<li><a href="#">Item 1.4</a></li>
+<li><a href="#">Item 1.5</a></li>
+<li><a href="#">Item 1.6</a></li>
+<li><a href="#">Item 1.7</a></li>
+<li><a href="#">Item 1.8</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><section><h3><a href="section2-eng.html">Section 2</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 2.1</a></h4>
+<ul>
+<li><a href="#">Item 2.1.1</a></li>
+<li><a href="#">Item 2.1.2</a></li>
+<li><a href="#">Item 2.1.3</a></li>
+<li><a href="#">Item 2.1.4</a></li>
+<li><a href="#">Item 2.1.5</a></li>
+<li><a href="#">Item 2.1.6</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 2.2</a></h4>
+<ul>
+<li><a href="#">Item 2.2.1</a></li>
+<li><a href="#">Item 2.2.2</a></li>
+<li><a href="#">Item 2.2.3</a></li>
+<li><a href="#">Item 2.2.4</a></li>
+<li><a href="#">Item 2.2.5</a></li>
+<li><a href="#">Item 2.2.6</a></li>
+<li><a href="#">Item 2.2.7</a></li>
+<li><a href="#">Item 2.2.8</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><section><h3><a href="#">Section 3</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 3.1</a></h4>
+<ul>
+<li><a href="#">Item 3.1.1</a></li>
+<li><a href="#">Item 3.1.2</a></li>
+<li><a href="#">Item 3.1.3</a></li>
+<li><a href="#">Item 3.1.4</a></li>
+<li><a href="#">Item 3.1.5</a></li>
+<li><a href="#">Item 3.1.6</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 3.2</a></h4>
+<ul>
+<li><a href="#">Item 3.2.1</a></li>
+<li><a href="#">Item 3.2.2</a></li>
+<li><a href="#">Item 3.2.3</a></li>
+<li><a href="#">Item 3.2.4</a></li>
+<li><a href="#">Item 3.2.5</a></li>
+<li><a href="#">Item 3.2.6</a></li>
+<li><a href="#">Item 3.2.7</a></li>
+<li><a href="#">Item 3.2.8</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 3.3</a></h4>
+<ul>
+<li><a href="#">Item 3.3.1</a></li>
+<li><a href="#">Item 3.3.2</a></li>
+<li><a href="#">Item 3.3.3</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><section><h3><a href="#">Section 4</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 4.1</a></h4>
+<ul>
+<li><a href="#">Item 4.1.1</a></li>
+<li><a href="#">Item 4.1.2</a></li>
+<li><a href="#">Item 4.1.3</a></li>
+</ul>
+</section>
+<section><h4><a href="#">Section 4.2</a></h4>
+<ul>
+<li><a href="#">Item 4.2.1</a></li>
+<li><a href="#">Item 4.2.2</a></li>
+<li><a href="#">Item 4.2.3</a></li>
+<li><a href="#">Item 4.2.4</a></li>
+</ul>
+</section>
+<section><h4><a href="#">Section 4.3</a></h4>
+<ul>
+<li><a href="#">Item 4.3.1</a></li>
+<li><a href="#">Item 4.3.2</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 4.4</a></h4>
+<ul>
+<li><a href="#">Item 4.4.1</a></li>
+<li><a href="#">Item 4.4.2</a></li>
+<li><a href="#">Item 4.4.3</a></li>
+<li><a href="#">Item 4.4.4</a></li>
+</ul>
+</section>
+<section><h4><a href="#">Section 4.5</a></h4>
+<ul>
+<li><a href="#">Item 4.5.1</a></li>
+<li><a href="#">Item 4.5.2</a></li>
+<li><a href="#">Item 4.5.3</a></li>
+<li><a href="#">Item 4.5.4</a></li>
+<li><a href="#">Item 4.5.5</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><div><a href="#">Section 5</a></div></li>
+<li><section><h3><a href="#">Section 6</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 6.1</a></h4>
+<ul>
+<li><a href="#">Item 6.1.1</a></li>
+<li><a href="#">Item 6.1.2</a></li>
+<li><a href="#">Item 6.1.3</a></li>
+<li><a href="#">Item 6.1.4</a></li>
+<li><a href="#">Item 6.1.5</a></li>
+<li><a href="#">Item 6.1.6</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 6.2</a></h4>
+<ul>
+<li><a href="#">Item 6.2.1</a></li>
+<li><a href="#">Item 6.2.2</a></li>
+<li><a href="#">Item 6.2.3</a></li>
+<li><a href="#">Item 6.2.4</a></li>
+<li><a href="#">Item 6.2.5</a></li>
+<li><a href="#">Item 6.2.6</a></li>
+<li><a href="#">Item 6.2.7</a></li>
+<li><a href="#">Item 6.2.8</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 6.3</a></h4>
+<ul>
+<li><a href="#">Item 6.3.1</a></li>
+<li><a href="#">Item 6.3.2</a></li>
+<li><a href="#">Item 6.3.3</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 6.4</a></h4>
+<ul>
+<li><a href="#">Item 6.4.1</a></li>
+<li><a href="#">Item 6.4.2</a></li>
+<li><a href="#">Item 6.4.3</a></li>
+<li><a href="#">Item 6.4.4</a></li>
+<li><a href="#">Item 6.4.5</a></li>
+<li><a href="#">Item 6.4.6</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+<li><section><h3><a href="#">Section 7</a></h3><div class="mb-sm">
+<div class="span-2">
+<section><h4><a href="#">Section 7.1</a></h4>
+<ul>
+<li><a href="#">Item 7.1.1</a></li>
+<li><a href="#">Item 7.1.2</a></li>
+<li><a href="#">Item 7.1.3</a></li>
+<li><a href="#">Item 7.1.4</a></li>
+<li><a href="#">Item 7.1.5</a></li>
+<li><a href="#">Item 7.1.6</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 7.2</a></h4>
+<ul>
+<li><a href="#">Item 7.2.1</a></li>
+<li><a href="#">Item 7.2.2</a></li>
+<li><a href="#">Item 7.2.3</a></li>
+<li><a href="#">Item 7.2.4</a></li>
+<li><a href="#">Item 7.2.5</a></li>
+<li><a href="#">Item 7.2.6</a></li>
+<li><a href="#">Item 7.2.7</a></li>
+<li><a href="#">Item 7.2.8</a></li>
+</ul>
+</section>
+</div>
+<div class="span-2">
+<section><h4><a href="#">Section 7.3</a></h4>
+<ul>
+<li><a href="#">Item 7.3.1</a></li>
+<li><a href="#">Item 7.3.2</a></li>
+<li><a href="#">Item 7.3.3</a></li>
+</ul>
+</section>
+</div>
+<div class="clear"></div>
+</div></section></li>
+</ul>
+</div></div></div></div>
+
+<div id="cn-bc"><h2>Breadcrumb trail</h2><div id="cn-bc-inner">
+<ol>
+<li><a href="home-accueil-megamenu-theme-gcwu-fegc-eng.html">Home</a></li>
+<li><a href="section2-eng.html">Section 2</a></li>
+<li>Slide out tab widget - GC Web Usability theme</li>
+</ol>
+</div></div>
+</nav>
+<!-- HeaderEnd -->
+</header></div></div>
+
+<div id="cn-cols"><div id="cn-cols-inner" class="equalize">
+<div id="cn-centre-col" role="main"><div id="cn-centre-col-inner">
+<!-- MainContentStart -->
+<h1 id="cn-cont">Slide out tab widget - GC Web Usability theme</h1>
+
+<div id="slideout">
+	<h2>Table of Contents</h2>
+	<ul>
+		<li><a href="#cn_ed2">Effective date</a></li>
+		<li><a href="#cn_app2">Application</a></li>
+		<li><a href="#cn_cont2">Context</a></li>
+		<li><a href="#cn_acc2">Accountability</a></li>
+		<li><a href="#cn_req2">Requirements</a>
+			<ul>
+				<li><a href="#cn_1_cww">1. Compliance with World Wide Web Consortium<br />Priority 1 and Priority 2 checkpoints</a></li>
+				<li><a href="#cn_2_bt">2. Baseline technologies</a></li>
+				<li><a href="#cn_3_aaf">3. Accessible alternate format of documents on Web sites</a></li>
+				<li><a href="#cn_4_oii">4. Offering information in multiple formats</a></li>
+				<li><a href="#cn_5_con">5. Contrast</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<p>This standard comes into effect on January 1, 2007, and
+replaces the following Treasury Board <em>Common Look and
+Feel Standards and Guidelines for Internet</em>:</p>
+
+<ul>
+<li>Standard 1.1 - <abbr title="World Wide Web Consortium">W3C</abbr> Checkpoints;</li>
+<li>Standard 1.2 - Document Technologies;</li>
+<li>Standard 1.3 - Alternate Formats;</li>
+<li>Standard 1.4 - Text Equivalents;</li>
+
+<li>Standard 6.8 - Validation;</li>
+<li>Guideline 1.1 - HTML 4.0; and</li>
+<li>Guideline 6.1 - Cascading Style Sheets</li>
+</ul>
+
+<h2 id="cn_app2">Application</h2>
+
+<p>This standard applies to institutions listed in Schedules I,
+I.1 and II of the <em>Financial Administration
+Act</em>.</p>
+
+<h3><em>Related policies</em></h3>
+
+<p>The institutions in question must also apply the following
+policy instruments:</p>
+
+<ul>
+<li><em>Common Look
+and Feel Standards for the Internet, Part 1: Standard on Domain
+Names;</em></li>
+
+<li><em>Common Look
+and Feel Standards for the Internet, Part 3: Standard on Common
+Web Page Formats</em>; and</li>
+
+<li><em>Common Look and Feel
+Standards for the Internet, Part 4: Standard on
+Email.</em></li>
+</ul>
+
+<p>Institutions must also respect the official languages obligations set out in the <em>
+Directive on the Use of Official Languages on Web Sites.
+</em></p>
+
+<h2 id="cn_cont2">Context</h2>
+<p>Canadians have the right to obtain information and services
+from Government of Canada Web sites regardless of the
+technologies they use. The key to effective implementation of
+universal accessibility lies in designing sites to serve the
+widest possible audience and the broadest possible range of
+hardware and software platforms, from adaptive technologies to
+emerging technologies.</p>
+
+<p>For many Canadians, accessing Web content is more complicated
+than clicking a mouse and typing on a keyboard. Some Canadians
+rely on adaptive technologies such as text readers, audio players
+and voice-activated devices to overcome the barriers presented by
+standard Internet technologies. Others may be limited by their
+own technology.</p>
+
+<p>The World Wide Web Consortium's Web Accessibility
+Initiative (WAI) has developed universal accessibility
+guidelines. Along with these <abbr title="Web Accessibility Initiative">WAI</abbr> guidelines and, in keeping with
+the client-centred approach of Common Look and Feel, this
+standard is directed toward ensuring equitable access to all
+content on Government of Canada Web sites.</p>
+
+<p>This standard clearly allows an institution to provide
+information in multiple formats.</p>
+
+<h2 id="cn_acc2">Accountability</h2>
+
+<p>Deputy heads are accountable for
+implementing this standard in their institutions.</p>
+
+<h2 id="cn_req2">Requirements</h2>
+
+<div class="cn-toppage"><a href="#cn-tphp" title="Return to Top of Page">Top of Page</a></div>
+
+<h3 id="cn_1_cww"><em>1. Compliance with World Wide Web Consortium Priority 1 and
+Priority 2 checkpoints</em></h3>
+<p>The institution respects the universal accessibility
+guidelines developed by the World Wide Web Consortium's Web
+Accessibility Initiative by ensuring compliance of its Web sites
+with the Priority 1 and Priority 2 checkpoints of the Web Content Accessibility Guidelines 1.0 (WCAG), with the following exception:</p>
+
+<ul>
+<li><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> checkpoint 3.4 is superseded
+by requirement 2 of the <em>Common Look and Feel Standards for
+the Internet, Part 3: Standard on Common Web Page
+Formats</em>.</li>
+</ul>
+
+<p>Each of the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>'s fourteen guidelines is accompanied by
+one or more actions that a page author must perform to meet the
+requirements of the guidelines. These actions are called
+"checkpoints".</p>
+
+<p>Institutions must consult the <em>
+Directive on the Use of Official Languages on Web Sites</em> for
+direction regarding the application of official languages
+requirements to text equivalents and other non-textual
+elements.</p>
+
+<h3 id="cn_2_bt"><em>2. Baseline technologies</em></h3>
+<p>To ensure content will be available to site visitors
+regardless of the technical configuration of their system or
+device, the institution must establish XHTML 1.0 Strict and
+Cascading Style Sheets 1.0 as the baseline technologies for Web
+page markup, layout and design.</p>
+
+<h3 id="cn_3_aaf"><em>3.  Accessible alternate format of documents on Websites</em></h3>
+<p>The institution uses standard methods to ensure accessibility of its products by employing languages described by World Wide Web Consortium (W3C) Recommendations. However, simply using these languages for markup or application design does not mean that products will be naturally accessible.</p>
+<p>Where best efforts cannot make the content or application accessible - that is, where a document cannot be represented in XHTML&#160;1.0 Strict or a language described by World Wide Web Consortium (W3C) Recommendations - the institution must:</p>
+
+<ul>
+	<li>include an Accessibility Notice on the same page, immediately preceding the inaccessible element(s), that informs site visitors how to obtain accessible versions including print, Braille, and audio; and</li>
+	<li>include an Accessibility Notice on the &#34;Help&#34; page(s) of the Web site.</li>
+</ul>
+
+<p>Providing accessible versions other than accessible XHTML is a &#34;last resort&#34; measure. It is not intended to be a convenient method of avoiding the often-minimal effort necessary to make Web pages or Web applications accessible.</p>
+
+<h3 id="cn_4_oii"><em>4. Offering information in multiple formats</em></h3>
+<p>The institution respects universal accessibility guidelines by
+ensuring that Web pages offering information in multiple formats
+include a text indication of the format, file type and size with
+each non-XHTML format link. For each format that requires
+specialized software, a hyperlink must be provided to a site
+where the appropriate viewer or plug-in
+application can be obtained. If an accessible version of a
+plug-in is also known to be available, then a note and a link to
+that product should also be included.</p>
+
+<p>Neither this standard nor the World Wide Web Consortium's Web
+Content Accessibility Guidelines suggest that a content provider
+cannot provide information in multiple formats. What they do
+require is that the first format encountered by a visitor is the
+most accessible version.</p>
+
+<p>Sample treatments of documents in
+multiple formats and of multimedia files in multiple formats
+are provided in the <abbr title="Common Look and Feel">CLF</abbr> Toolbox.</p>
+
+<div class="cn-toppage"><a href="#cn-tphp" title="Return to Top of Page">Top of Page</a></div>
+
+<h3 id="cn_5_con"><em>5.  Contrast</em></h3>
+<p>The institution must ensure that there is sufficient contrast
+between textual elements and background colours or images when
+the page is viewed by someone having colour deficits or when
+viewed on a black and white screen.</p>
+
+<dl id="cn-doc-dates" role="contentinfo">
+<dt>Date modified:</dt><dd><span><time pubdate="pubdate">2011-10-31</time></span></dd>
+</dl>
+<div class="clear"></div>
+<!-- MainContentEnd -->
+</div></div>
+
+<div id="cn-left-col"><div id="cn-left-col-inner"><nav role="navigation"><h2 id="cn-nav">Side navigation (left column)</h2>
+<div class="cn-left-col-default">
+<!-- SideNavLeftStart -->
+<section><h3><a href="#">Section 2.1</a></h3>
+<ul>
+<li><a href="#">Item 2.1a</a></li>
+<li><a href="#">Item 2.1b</a></li>
+<li><a href="#">Item 2.1c</a></li>
+</ul>
+</section>
+<section><h3><a href="#" class="nav-current">Section 2.2 (current section example)</a></h3>
+<ul>
+<li><a href="#">Item 2.2a</a></li>
+<li><a href="#">Item 2.2b</a></li>
+<li><a href="#">Item 2.2c</a></li>
+</ul>
+</section>
+<section><h3><a href="#">Section 2.3</a></h3>
+<ul>
+<li><a href="#">Item 2.3a</a></li>
+<li><a href="#">Item 2.3b</a></li>
+<li><a href="#" class="nav-current">Item 2.3b (current item example)</a></li>
+</ul>
+</section>
+<section><h3><a href="#">Section 2.4</a></h3>
+<ul>
+<li><a href="#">Item 2.4a</a></li>
+<li><a href="#">Item 2.4b</a>
+	<ul>
+	<li><a href="#">Item 2.4bi</a></li>
+	<li><a href="#" class="nav-current">Item 2.4bii (current sub-item example)</a></li>
+	<li><a href="#">Item 2.4biii</a></li>
+	</ul>
+</li>
+<li><a href="#">Item 2.4c</a></li>
+</ul>
+</section>
+<div class="top-level"><a href="#">Top level link 1</a></div>
+<div class="top-level"><a href="#" class="nav-current">Top level 2 (current top level link example)</a></div>
+<!-- SideNavLeftEnd -->
+</div>
+</nav></div></div>
+</div></div>
+
+<div id="cn-foot"><div id="cn-foot-inner"><footer><h2>Footer</h2>
+<!-- FooterStart -->
+<nav role="navigation"><div id="cn-sft"><h3>Site footer</h3><div id="cn-sft-inner">
+<div id="cn-ft-tctr">
+<ul>
+<li class="terms"><a href="#" rel="license">Terms and conditions</a></li>
+<li class="trans"><a href="#">Transparency</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+<section><div class="span-2"><h4 class="col-head"><a href="#">About us</a></h4>
+<ul>
+<li><a href="#">Our Mandate</a></li>
+<li><a href="#">Our Minister</a></li>
+</ul>
+</div></section>
+<section><div class="span-2"><h4 class="col-head"><a href="#">News</a></h4>
+<ul>
+<li><a href="#">News releases</a></li>
+<li><a href="#">Media advisories</a></li>
+<li><a href="#">Multimedia</a></li>
+</ul>
+</div></section>
+<section><div class="span-2"><h4 class="col-head"><a href="#">Contact us</a></h4>
+<address>
+<ul>
+<li><a href="#">Phone numbers</a></li>
+<li><a href="#">Office locations</a></li>
+</ul>
+</address>
+</div></section>
+<section><div class="span-2"><h4 class="col-head"><a href="#">Stay connected</a></h4>
+<ul>
+<li><a rel="external" href="#">YouTube</a></li>
+<li><a rel="external" href="#">Twitter</a></li>
+<li><a href="#">Feeds</a></li>
+</ul>
+</div></section>
+</div></div></nav>
+
+<nav role="navigation"><div id="cn-gcft"><h3>Government of Canada footer</h3><div id="cn-gcft-inner"><div id="fip-pcim-gcft">
+<ul>
+<li><a rel="external" href="http://healthycanadians.gc.ca/index-eng.php"><span>Health</span><br />healthycanadians.gc.ca</a></li>
+<li><a rel="external" href="http://www.voyage.gc.ca/index-eng.asp"><span>Travel</span><br />travel.gc.ca</a></li>
+<li><a rel="external" href="http://www.servicecanada.gc.ca/eng/home.shtml"><span>Service Canada</span><br />servicecanada.gc.ca</a></li>
+<li><a rel="external" href="http://www.jobbank.gc.ca/intro-eng.aspx"><span>Jobs</span><br />jobbank.gc.ca</a></li>
+<li><a rel="external" href="http://actionplan.gc.ca/eng/index.asp"><span>Economy</span><br />actionplan.gc.ca</a></li>
+<li id="cn-ft-ca"><div><a rel="external" href="http://www.canada.gc.ca/home.html">Canada.gc.ca</a></div></li>
+</ul>
+</div></div></div></nav>
+<!-- FooterEnd -->
+</footer></div></div>
+</div></body>
+</html>

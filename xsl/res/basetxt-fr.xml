@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!-- 
+	XML/XSLT Abstraction Project v1.2 / Abstraction XML/XSLT  v1.2
+	Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+	-->
+<strings xml:lang="fr">
+	<text id="skiptocontent">Passer au contenu principal</text>
+	<text id="skiptonav">Passer à la navigation principale</text>
+	<text id="primary">Navigation principale</text>
+	<text id="supplemental">Contenu supplémentaire</text>
+	<text id="leftcol"> (colonne gauche)</text>
+	<text id="rightcol"> (colonne droite)</text>
+	<text id="footer">Pied de page</text>
+</strings> 

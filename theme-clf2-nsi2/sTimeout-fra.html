@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions -->
+<title>Expiration de la session - Thème de la NSI 2.0 - Boîte à outils de l'expérience Web (BOEW)</title>
+
+<link rel="shortcut icon" href="images/favicon.ico" />
+<meta name="dcterms.description" content="French description / Description en français" />
+<meta name="description" content="French description / Description en français" />
+<meta name="keywords" content="French keywords / Mots-clés en français" />
+<meta name="dcterms.creator" content="French name of the content author / Nom en français de l'auteur du contenu" />
+<meta name="dcterms.title" content="French title / Titre en français" />
+<meta name="dcterms.issued" title="W3CDTF" content="Date published (YYYY-MM-DD) / Date de publication (AAAA-MM-JJ)" />
+<meta name="dcterms.modified" title="W3CDTF" content="Date modified (YYYY-MM-DD) / Date de modification (AAAA-MM-JJ)" />
+<meta name="dcterms.subject" title="scheme" content="French subject terms / Termes de sujet en français" />
+<meta name="dcterms.language" title="ISO639-2" content="fra" />
+
+<link href="../css/base.css" rel="stylesheet" />
+<!--[if IE 6]><![endif]-->
+<!--[if IE 8]><link href="../css/base-ie8.css" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="../css/base-ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 6]><link href="../css/base-ie6.css" rel="stylesheet" /><![endif]-->
+<!-- CSSStart -->
+<link href="css/theme-clf2-nsi2.css" rel="stylesheet" />
+<!--[if IE 7]><link href="css/theme-clf2-nsi2-ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lte IE 6]><link href="css/theme-clf2-nsi2-ie6.css" rel="stylesheet" /><![endif]-->
+<!-- CSSEnd -->
+
+<script src="../js/lib/jquery.min.js"></script>
+<script src="../js/pe-ap.js" id="progressive"></script>
+<script>
+/* <![CDATA[ */
+var params = {
+sTimeout:{inactivity: 30000, logouturl: 'http://www.rhdcc-hrsdc.gc.ca/'}
+};
+PE.progress(params);
+/* ]]> */
+</script>
+
+<!-- CustomScriptsCSSStart -->
+<!-- CustomScriptsCSSEnd -->
+</head>
+
+<body><div id="cn-body-inner-2col">
+<div id="cn-skip-head">
+<ul id="cn-tphp">
+<li id="cn-sh-link-1"><a href="#cn-cont">Passer au contenu principal</a></li>
+<li id="cn-sh-link-2"><a href="#cn-nav">Passer à la navigation latérale</a></li>
+</ul>
+</div>
+
+<div id="cn-head"><div id="cn-head-inner"><header>
+<!-- HeaderStart -->
+<div id="cn-sig"><img src="images/sig-fra.gif" width="372" height="20" alt="Gouvernement du Canada" title="Gouvernement du Canada" /></div>
+<div id="cn-wmms"><img src="images/wmms.gif" width="83" height="20" alt="Symbole du gouvernement du Canada" title="Symbole du gouvernement du Canada" /></div>
+
+<div id="cn-leaf"></div>
+<div id="cn-banner" role="banner">
+<p id="cn-banner-text">Nom de l'institution</p>
+<p>[www.]siteprimaire-mainsite.gc.ca</p>
+</div>
+
+<nav role="navigation">
+<div id="cn-cmb"><h2>Barre de menu commune</h2>
+<ul>
+<li id="cn-cmb1"><a href="sTimeout-eng.html" lang="en" title="English - English version of the Web page">English</a></li>
+<li id="cn-cmb2"><a href="#" title="Accueil - Page principale du site Web">Accueil</a></li>
+<li id="cn-cmb3"><a href="#" title="Contactez-nous - Coordonnées importantes">Contactez-nous</a></li>
+<li id="cn-cmb4"><a href="#" title="Aide - Renseignements sur la façon d'utiliser le site Web">Aide</a></li>
+<li id="cn-cmb5"><a rel="search" href="#" title="Recherche - Recherche dans le site Web">Recherche</a></li>
+<li id="cn-cmb6"><a rel="external" href="http://www.canada.gc.ca/accueil.html" title="canada.gc.ca - Site Web du gouvernement du Canada">canada.gc.ca</a></li>
+</ul>
+</div>
+
+<div id="cn-bcrumb"><h2>Fil d'Ariane</h2>
+<ol>
+<li><a href="#" title="Accueil - Page principale du site Web">Accueil</a>&#160;&#62;</li>
+<li><a href="#">Niveau&#160;1</a>&#160;&#62;</li>
+<li>Expiration de la session - Thème de la <abbr title="Normalisation des sites Internet">NSI</abbr> 2.0</li>
+</ol>
+</div>
+</nav>
+<!-- HeaderEnd -->
+</header></div></div>
+
+<div id="cn-cols"><div id="cn-cols-inner" class="equalize">
+<div id="cn-centre-col" role="main"><div id="cn-centre-col-inner">
+<!-- MainContentStart -->
+<h1 id="cn-cont">Expiration de la session - Thème de la <abbr title="Normalisation des sites Internet">NSI</abbr> 2.0</h1>
+
+<section><h2>Aperçu</h2>
+<p>Ce sous-projet aidera les propriétaires d'actifs Web à configurer leurs actifs avec une fonction « Expiration de la session ». Celle-ci sera activée en deux circonstances : après une période de temps spécifique ou lors d'inactivité. Par exemple, si l'utilisateur demeure trop longtemps sur la même page, la fonction sera activée. De même, si l’utilisateur demeure inactif, la fonction sera activée. Le fureteur affichera alors une boîte de dialogue proposant deux options à l'utilisateur ; s’il souhaite rester connecté il devra sélectionner « OK » et ce, dans un laps de temps précis et s’il souhaite mettre fin à sa session, il n’aura qu’à choisir « Annuler ». Advenant que l'utilisateur tarde trop à faire son choix, ce sera le paramètre de déconnexion qui s’affichera.</p>
+<p>Le JavaScript que vous êtes autorisés à modifier (dans la page) est :</p>
+<p><code><strong>sTimeout:{inactivity: 1200000, reactionTime: 30000, sessionalive: 1200000, logouturl: 'http://www.rhdcc-hrsdc.gc.ca/', refreshCallbackUrl: 'http://www.rhdcc-hrsdc.gc.ca/ajax/callback/url/'}</strong></code></p>
+<p>Les paramètres suivants vous permettent de configurer la fonction :</p>
+<ul>
+<li><strong>inactivity :</strong> période de temps d'inactivité après laquelle la boîte de dialogue apparaîtra.</li>
+<li><strong>reactionTime :</strong> période de temps dont dispose l'utilisateur pour faire un choix lorsque la boîte de dialogue apparaît.</li>
+<li><strong>sessionalive :</strong> période de temps durant laquelle la session demeure active avant que la boîte de dialogue n’apparaisse.</li>
+<li><strong>logouturl :</strong> adresse URL à laquelle l’utilisateur est acheminé lorsque la session a expiré.</li>
+<li><strong>refreshCallbackUrl :</strong> Ceci est l'URL pour effectuer une actualisation ajax, doit retourner true/false.</li>
+</ul>
+<p>Le seul paramètre requis est logouturl, tous les autres champs sont facultatifs. Le javascript par défaut serait :</p>
+<p><code><strong>sTimeout:{logouturl: 'http://www.rhdcc-hrsdc.gc.ca/'}</strong></code></p>
+<p><strong>NOTE IMPORTANTE :</strong> Les paramètres inactivity, reactionTime et sessionAlive sont mis en millisecondes. Le seule paramètre obligatoire est le logouturl. Les paramètres inactivity et sessionalive est fixé à 20 minutes par défaut avec un temps de 30 secondes  pour la confirmation du message de dialogue. Le paramètre refreshCallbackUrl ne doit pas être une page contenant la fonction d'expiration de la session de nouveau sinon une boucle sera créé, il devrait être tout simplement une page qui rafraîchit la session.</p>
+<p>Voici un outil qui vous aidera a convertir des minutes en millisecondes (disponible en anglais seulement) : <a href="http://www.calculateme.com/Time/Minutes/ToMilliseconds.htm">http://www.calculateme.com/Time/Minutes/ToMilliseconds.htm</a></p>
+<p><strong>NOTE IMPORTANTE :</strong> Les paramètres sessionalive et inactivity devrait être égal à votre session sur le serveur web moins le temps de reactionTime. Si vous définissez paramètres sessionalive et inactivity avec le même temps que la session sur le serveur web, sans prendre en considération le temps reactionTime, alors la session sur le serveur sera fini dès que la fenêtre contextuelle apparaît pour prolonger la session.</p>
+</section>
+
+<section><h2>Configuration</h2>
+<p>Ce projet a besoin du fichier pe-ap.js ainsi que certains des fichiers du dossier js/lib (jquery.min.js). Pour configurer le délai d'expiration de la session, il faut activer le pe-ap.js tel que précisé ici :</p>
+<p>Ajoutez les lignes suivantes dans les paramètres de PE :</p>
+<p style="margin:10px 0 10px 30px;"><code>
+&lt;script type="text/javascript"&gt;<br />
+/* &lt;![CDATA[ */<br />
+&nbsp;&nbsp;&nbsp;var params = {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sTimeout: {logouturl: 'http://www.rhdcc-hrsdc.gc.ca/url/logout/'}<br />
+&nbsp;&nbsp;&nbsp;};<br />
+&nbsp;&nbsp;&nbsp;PE.progress(params);<br />
+/* ]]&gt; */<br />
+&lt;/script&gt;<br />
+</code></p>
+</section>
+
+<section><h2>Faites un essai</h2>
+<p>Cette page a été configurée pour expirer dans 30 secondes. Après ce délai, vous aurez 30 secondes pour choisir de la garder active ou non. Veuillez svp attendre que la boîte de dialogue apparaisse.</p>
+</section>
+
+<section><h2>Questions?</h2>
+<p>Roch Lambert (roch.lambert@hrsdc-rhdcc.gc.ca)<br />Ressources humaines et Développement des compétences Canada<br />Twitter : @rlambert27</p>
+</section>
+<!-- MainContentEnd -->
+</div></div>
+
+<div id="cn-left-col"><div id="cn-left-col-inner"><nav role="navigation"><h2 id="cn-nav">Navigation latérale (colonne gauche)</h2>
+<div class="cn-left-col-default">
+<!-- SideNavLeftStart -->
+<section role="search"><h3><label for="cn-search">Recherche</label></h3>
+<form action="#" method="post"><div id="cn-search-box">
+<input id="cn-search" name="cn-search" type="search" size="18" maxlength="40" /><input id="cn-search-submit" name="cn-search-submit" type="submit" value="Recherche" />
+<a rel="search" href="#">Recherche avancée</a>
+</div></form>
+</section>
+
+<section><h3>Section&#160;1</h3>
+<ul>
+<li><a href="#">Article&#160;1a</a>
+	<ul>
+	<li><a href="#">Article&#160;1b</a></li>
+	<li><a href="#">Article&#160;2b</a></li>
+	</ul>
+</li>
+<li><a href="#">Article&#160;2a</a></li>
+<li><a href="#">Article&#160;3a</a></li>
+</ul>		
+</section>
+
+<section><h3>Section&#160;2</h3>
+<ul>
+<li><a href="#">Article&#160;1a</a></li>
+<li><a href="#">Article&#160;2a</a></li>
+<li><a href="#">Article&#160;3a</a></li>
+</ul>
+</section>
+<!-- SideNavLeftEnd -->
+</div>
+</nav></div></div>
+</div></div>
+
+<div id="cn-foot"><div id="cn-foot-inner"><footer><h2>Pied de page</h2>
+<!-- FooterStart -->
+<div id="cn-in-pd">			
+<dl id="cn-doc-dates" role="contentinfo">
+<dt>Date de modification&#160;:</dt><dd><span><time pubdate="pubdate">2010-08-09</time></span></dd>
+</dl>
+<div id="cn-toppage-foot"><a href="#cn-tphp" title="Retourner au haut de la page">Haut de la page</a></div>
+<div id="cn-in-pd-links">
+<ul>
+<li id="cn-inotices-link"><a href="#" rel="license">Avis importants</a></li>
+</ul>
+</div>
+</div>
+<!-- FooterEnd -->
+</footer></div></div>
+</div></body>
+</html>

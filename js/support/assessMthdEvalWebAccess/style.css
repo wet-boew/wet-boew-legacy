@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*!
+ * Web Accessibility Assessment Methodology v1.1 / Méthodologie d’évaluation sur l’accessibilité des sites Web v1.1
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+* html .guidance-block {margin-top:20px;}
+*:first-child+html .guidance-block {margin-top:20px;}
+.guidance-block h2 {margin-left: 10px;color:#000;font-weight: bold; border-top: 1px solid #CCC; padding-top: 30px; margin-top: 0;}
+.guidance-block ol {list-style:none; padding-left: 0; margin: 0;}
+.guidance-block li {padding: 10px 0 1px 0; margin: 0 10px;}
+.guidance-block li:hover {background-color: #DCD8BD!important;}
+.guidance-block fieldset {border: none; padding: 1em; margin: 0;}
+*:first-child+html  .guidance-block fieldset {padding:0.5em;}
+.guidance-block legend {display:block; margin: 0; padding: 0; white-space: normal; float: left; width: 70%;}
+.guidance-block label {padding:0 0.2em;}
+.guidance-block .box, .guidance-block .box-fra {float: right; text-align: right; display: inline; width: 30%;}
+.guidance-block legend.fra {width: 60%;}
+.guidance-block .box-fra {width: 40%;}
+* html .guidance-block .box, * html .guidance-block .box-fra {margin-top: -17px;}
+*:first-child+html .guidance-block .box, *:first-child+html .guidance-block .box-fra {margin-top: -17px;}
+.guidance-block.no-line h2 {border-top:none;padding-top: 0;}
+.guidance-block .heading-context{color:#666;}
+.guidance-sub-block h2, .guidance-sub-block h3, .guidance-sub-block2 h2 {color: #000; font-size: 1.25em;border-bottom: none;font-weight: bold;margin-top:0;}
+.guidance-sub-block p, .guidance-sub-block ul  {margin-top: 10px;}
+.guidance-sub-block .guidance-sub-block-bottom ul {margin-top:0;}
+.guidance-sub-block .guidance-sub-block-bottom li {margin-top: 10px; margin-left: -40px;}
+.guidance-sub-block .guidance-sub-block-bottom li.left-col {float:left;clear:left;width:50%;}
+.guidance-sub-block .guidance-sub-block-bottom li.right-col {float:right;clear:right;width:50%;}
+.guidance-sub-block h2, .guidance-sub-block h3, .guidance-sub-block h4, .guidance-sub-block p, .guidance-sub-block2 h2, .guidance-sub-block2 h3, .guidance-sub-block2 h4, .guidance-sub-block2 p {margin-left: 20px;}
+.guidance-sub-block-top, .guidance-sub-block2-top, .guidance-sub-block3-top {background:#F3F3F3;}
+.guidance-sub-block-top h2, .guidance-sub-block-top h3, .guidance-sub-block2-top h2, .guidance-sub-block3-top h3{float: left; margin-top:0;}
+.guidance-sub-block2-top h2 span, .guidance-sub-block2-top dt  {color: #555;}
+.guidance-sub-block2-top dt, .guidance-sub-block2-top dd {font-weight: bold; float: left; padding-top: 5px;}
+.guidance-sub-block2-top dt {width: 10%;}
+.guidance-sub-block2-top dd {width: 80%;}
+.guidance-sub-block3-top h4, .guidance-sub-block3-top ul {margin-left: 20px;}
+.guidance-sub-block3-top ul {list-style-type: none;}
+.guidance-sub-block-top h2, .guidance-sub-block-top h3, .guidance-sub-block-top p, .guidance-sub-block2-top h2, .guidance-sub-block3-top h3, .guidance-sub-block2-top p {margin-right: 20px;}
+.guidance-sub-block-top h2, .guidance-sub-block2-top h2  {margin-bottom: 5px;}
+.guidance-sub-block2-top h3 {margin-top: 25px;}
+.guidance-sub-block-bottom, .guidance-sub-block2-top, .guidance-sub-block3-top {background:#EEE;}
+.guidance-sub-block2-top h4, .guidance-sub-block3-top h4 {font-weight: bold;font-size:1.1em;}
+.guidance-sub-block3-top p {margin-bottom:0;}
+.guidance-block.no-line .guidance-sub-block2-top h2 {padding-top: 0;}
+.guidance-block.no-line .guidance-sub-block-bottom h2 {padding-top: 0; margin-top: 10px;}
+.guidance-sub-block-bottom h3 {margin-top: 10px;}
+.guidance-sub-guidance {background: #EEE;}
+.guidance-nobg {background: none;}
+.guidance-nobg h3 {color: #666; float:left;}
+.guidance-nobg ul {list-style-type: none;list-style-image: none;}
+.guidance-nobg li {margin-left: -20px;color:#666;}
+h3.sub-problem, h4.sub-problem, h3.sub-pattern, h4.sub-pattern {font-size: 1em; color: #000; margin-top: 1em; width: 100%; margin-bottom: 0;font-family: Verdana,Arial,Helvetica,sans-serif;}
+.guidance-sub-block-top-round, .guidance-sub-block2-top-round {-webkit-border-radius:20px 20px 0 0;-moz-border-radius:20px 20px 0 0;border-radius:20px 20px 0 0;height:20px;}
+.guidance-sub-block-bottom-round, .guidance-sub-block2-bottom-round {-webkit-border-radius:0 0 20px 20px;-moz-border-radius:0 0 20px 20px;border-radius:0 0 20px 20px;height:20px;}
+.guidance-sub-block-top-round, .guidance-sub-block-bottom-round {background:#F3F3F3;}
+.guidance-sub-block2-top-round, .guidance-sub-block2-bottom-round {background:#EEE;}
+#summary-div {margin: 0 20px;}
+#summary {width: 100%;}
+#summary th {width: 79%; text-align: left; background-color: #DDD; border: 1px solid #CCC; padding: 5px;}
+#summary td {width: 21%; text-align: right; border: 1px solid #CCC; padding: 5px; background-color: #FFF;}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*!
+ * Mobile device variant v1.01 / Variantes des appareils mobiles v1.01
+ * CLF 2.0 theme v1.2 / Thème de la NSI 2.0 v1.2
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
+@media all and (max-width : 640px){
+	#cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {width: 100%; }
+	#cn-body-inner-3col #cn-left-col, #cn-body-inner-3col #cn-left-col-gap, #cn-body-inner-3col #cn-right-col, #cn-body-inner-3col #cn-right-col-gap {width:50%;}
+	#cn-left-col, #cn-left-col-gap, #cn-right-col, #cn-right-col-gap {width:100%;}
+	#cn-body-inner-3col #cn-centre-col-inner, #cn-body-inner-2col #cn-centre-col-inner {margin:0;}
+}
+
+@media all and (max-width : 480px){
+	#cn-body-inner-3col #cn-left-col, #cn-body-inner-3col #cn-left-col-gap, #cn-body-inner-3col #cn-right-col, #cn-body-inner-3col #cn-right-col-gap {width:100%;}
+}

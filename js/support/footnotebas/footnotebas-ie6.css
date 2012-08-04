@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*!
+ * Accessible Footnotes v1.01 / Notes de bas de page accessibles v1.01
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+
+/** Screen and print CSS **/
+@media screen,print {
+	sup a.footnote-link {display: inline-block;}
+	div.footnote-container {padding-top: 5px; display: inline-block; padding-bottom: 10px;}
+	div.footnote-container h2.cn-invisible, div.footnote-container h3.cn-invisible, div.footnote-container h4.cn-invisible, div.footnote-container h5.cn-invisible, div.footnote-container h6.cn-invisible {display: inline-block;}
+	div.footnote-container dl {margin-bottom: -19px;}
+	div.footnote-container dl dd {width: 92%;}
+	div.footnote-container dl dd p {width: 100%;}
+	div.footnote-container dl dd div {width: 100%;}
+}
+
+/** Print-only CSS **/
+@media print {
+	div.footnote-container {padding-bottom: 15px;}
+	div.footnote-container dl dd {display: inline-block; overflow: visible;}
+}

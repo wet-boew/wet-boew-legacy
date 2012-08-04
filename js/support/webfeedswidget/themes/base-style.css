@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*!
+ * Web feeds widget v1.21 / Gadget des fils de syndication v1.21
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+#widget .module-sharewidget li a:hover { background-color: #fff !important }
+.module-sharewidget{background-repeat:repeat-x;background-position:0 0;color:#555}
+.module-sharewidget a{text-decoration:none;font-weight:700;display:block}
+.module-sharewidget .sharewidget-container-e,.module-sharewidget .sharewidget-container-f{background:url(images/fip-e.gif) no-repeat transparent 10px 10px;border:1px solid #ccc;padding:36px 10px 10px !important}
+.module-sharewidget .sharewidget-container-f{background-image:url(images/fip-f.gif)}
+.module-sharewidget .sharewidget-title{color:#fff;font-weight:700;font-size:100%;margin:0;padding:4px}
+.module-sharewidget ul{list-style-type:none !important;font-size:90%;height:220px;overflow:auto;background:#fff;border:1px solid #ccc;margin:0 !important;padding:5px 2px 2px 5px !important}
+* html .module-sharewidget ul{height:220px}
+.module-sharewidget li{margin:0 !important;padding:0 0 10px 0!important}
+.module-sharewidget a.sharewidget-notice{text-decoration:underline}
+.module-sharewidget .sharewidget-details a{display:inline;background:url(images/icon-details.gif) no-repeat 0 1px;padding-left:15px;font-weight:400}
+.module-sharewidget p.sharewidget-report{margin:0 !important; padding:10px}
+.module-sharewidget .sharewidget-report a,.module-sharewidget .sharewidget-report a:visited{color:#fff !important;font-weight:500;text-align:center;border:1px solid #fff;background:#9e222c url(images/bg-report.gif) repeat-x 0 0;font-size:90%;padding:2px !important}
+.module-sharewidget .sharewidget-report a:hover{border:1px solid #fff;background:#781a21 url(images/bg-report-hover.gif) repeat-x 0 0 !important}
+.module-sharewidget p.sharewidget-lang{margin:0}
+.module-sharewidget .sharewidget-lang a,.module-sharewidget .sharewidget-lang a:visited,.module-sharewidget .sharewidget-lang a:hover{color:#000;font-weight:400;text-align:center;background:#fff;font-size:90%;float:right;border:1px solid #ccc;border-top:none;margin:0;padding:2px 4px !important}
+.module-sharewidget .sharewidget-fip{background:url(images/canada.gif) no-repeat 0 0;height:14px;margin-top:10px}
+.module-sharewidget .sharewidget-add{background:#fff;padding:0 10px}
+.module-sharewidget .sharewidget-add p{text-align:center;margin:0}
+.module-sharewidget .sharewidget-add a{color:#333;border:3px double #ccc;border-top:none;padding:3px}
+.module-sharewidget .sharewidget-add a:hover,.module-sharewidget .sharewidget-lang a:hover{color:#c00}

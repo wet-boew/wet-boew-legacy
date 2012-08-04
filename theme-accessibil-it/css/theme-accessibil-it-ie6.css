@@ -1,0 +1,21 @@
+/*!
+ * Accessibil-IT theme v1.2 / Thème Accessibil-IT v1.2
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+  
+/** Screen and print CSS **/
+@media screen,print {
+	#cn-gcnb h2, #cn-search-box label, #cn-psnb h2, #cn-sft h3, #cn-search-box h2 {clip: rect(1px 1px 1px 1px);}
+}
+
+/** Screen-only CSS **/
+@media screen {
+	#cn-psnb .mb-menu a,#cn-psnb .mb-menu a:link,#cn-psnb .mb-menu a:visited {width: 120px;}
+	#cn-psnb .mb-megamenu .mb-sm-open, #cn-psnb .mb-megamenu .mb-sm-open a{width:220px;}
+	#cn-psnb .mb-megamenu .mb-sm-open li {zoom:1;}
+}
+
+/** Print-only CSS **/
+@media print {
+}

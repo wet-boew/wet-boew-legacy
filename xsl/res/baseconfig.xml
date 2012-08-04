@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!-- 
+	XML/XSLT Abstraction Project v1.2 / Abstraction XML/XSLT  v1.2
+	Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+	-->
+<templateconfig>
+	<stylesheets>
+		<stylesheet id="base" href="css/base.css" />
+		<stylesheet id="iebase" href="css/base-ie.css" />
+		<stylesheet id="ie6base" href="css/base-ie6.css" />
+		<stylesheet id="ie7base" href="css/base-ie7.css" />
+		<stylesheet id="ie8base" href="css/base-ie8.css" />
+		<stylesheet id="printbase" href="css/pf-if.css" />
+		<stylesheet id="util" href="css/util.css" />
+	</stylesheets>
+	<scripts>
+		<script id="jquery" href="js/lib/jquery.min.js" />
+		<script id="pe" href="js/pe-ap.js" />
+	</scripts>
+	<icons>
+		<ico id="favicon" src="" />
+	</icons>
+</templateconfig>

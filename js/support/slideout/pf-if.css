@@ -1,0 +1,10 @@
+@charset "utf-8";
+/*! 
+ * Slide out tab widget v1.1 / Gadget d'onglet coulissant v1.1
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+
+@media print {
+    div#slideoutWrapper {display:none;}
+}

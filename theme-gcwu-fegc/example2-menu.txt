@@ -1,0 +1,29 @@
+<body>
+	<div class="filter-group filter-style-1"><section><h2>All content</h2>
+		<div><a href="javascript: void(0)" class="filter-trigger filter-selected filter-reset">Show all content</a></div>
+	</section></div>
+	<div class="filter-group filter-style-1"><section><h2>Account location filter</h2>
+		<ul>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="ab"><abbr title="Alberta">AB</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="bc"><abbr title="British Columbia">BC</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="mb"><abbr title="Manitoba">MB</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="nb"><abbr title="New Brunswick">NB</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="nl"><abbr title="Newfoundland">NL</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="nt"><abbr title="Northwest Territories">NT</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="ns"><abbr title="Nova Scotia">NS</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="nu"><abbr title="Nunavut">NU</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="on"><abbr title="Ontario">ON</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="pe"><abbr title="Prince Edward Island">PE</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="qc"><abbr title="Quebec">QC</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="sk"><abbr title="Saskatchewan">SK</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="yt"><abbr title="Yukon Territory">YT</abbr></a></li>
+		</ul>
+	</section></div>
+	<div class="filter-group filter-style-1"><section><h2>Work level filter</h2>
+		<ul>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="sp04"><abbr title="Applied Science and Patent Examination Level 4">SP04</abbr></a></li>
+		<li><a href="javascript: void(0)" class="filter-trigger" id="sp05"><abbr title="Applied Science and Patent Examination Level 5">SP05</abbr></a></li>
+		</ul>
+	</section></div>
+	<div class="clear"></div>
+</body>

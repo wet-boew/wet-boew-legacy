@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*!
+ * Customizable interface v1.1 / Interface personnalisable v1.1
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
+
+/*Widgets*/
+.fl-reorderer-avatar{background-color:#ffc;height:100%;position:relative;z-index:100;cursor:move;list-style-type:none;filter:alpha(opacity=80);opacity:0.8;padding:0;border:none;}
+.fl-reorderer-movable-selected{background-color:#ffc;}
+.widgets-locked{background-color:#fff;}
+.fl-reorderer-movable-dragging{background:#ccc;}
+.fl-reorderer-verticalLayout .fl-reorderer-dropMarker,.fluid-vertical-order .fl-reorderer-dropMarker{background:#eee url(gradient.png) repeat-x 0 bottom;height:100px;list-style-type:none;font-size:0;line-height:0;overflow:hidden;margin:0 0 20px;padding:0;border:1px dashed #ccc;float:none;display:block;}
+.widgets-locked h2{background:#555;}
+
+/*Grid CSS*/
+.widgets-column{float:left;margin-bottom:0 !important;}
+.fl-reorderer-movable-default{cursor:move;}
+.widgets-locked{cursor:auto;}
+.ui-draggable{position:static;}
+
+/*Expand/Hide CSS*/
+.instructions{margin:0px 10px;}
+.instructions .toggle-link-expand,.instructions .toggle-link-collapse{margin-left:0;}
+.widgets-column  .toggle-link-expand,.widgets-column  .toggle-link-collapse {margin-left:0;color:#fff;font-weight:700;text-decoration:none;padding-top:5px;padding-bottom:5px; display:block !important;}
+.widgets-column  .toggle-link-collapse {background:#00556b url(hide-icon.gif) no-repeat 2px 10px !important;}
+.widgets-column  .toggle-link-expand {background:#00556b url(expand-icon.gif) no-repeat 5px 8px !important;}
+.widgets-column  a:link.toggle-link-expand,.widgets-column  a:link.toggle-link-collapse,.widgets-column  a:visited.toggle-link-expand,.widgets-column  a:visited.toggle-link-collapse {color:#fff;}
+.widgets-column  a:hover.toggle-link-expand,.widgets-column  a:hover.toggle-link-collapse,.widgets-column  a:active.toggle-link-expand,.widgets-column  a:active.toggle-link-collapse,.widgets-column  a:focus.toggle-link-expand,.widgets-column  a:focus.toggle-link-collapse {color:#fff;text-decoration:underline;}
+.toggle-all-collapse{margin-right:0;}
+.toggle-content{border:none !important;margin:0 !important;padding:0 !important;}

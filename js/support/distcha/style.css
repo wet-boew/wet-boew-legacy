@@ -1,0 +1,9 @@
+@charset "utf-8";
+/*!
+ * DISTCHA (Accessible CAPTCHA) v0.3 / DISTCHA (CAPTCHA accessible) v0.3
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
+.captchaContainer {background: url(captcha-background.png) left center repeat-x; position: relative;}
+.cursor {background: url(slide-me.gif) left center no-repeat; border: none; color: #fff; font-weight: bold; height: 42px; padding: 0; width: 129px;}

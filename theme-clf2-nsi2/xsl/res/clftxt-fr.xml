@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+	XML/XSLT Abstraction Project v1.2 / Abstraction XML/XSLT  v1.2
+	Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+	-->
+<strings xml:lang="fr">
+	<text id="wmtext">Symbole du gouvernement du Canada</text>
+	<text id="datemodified">Date de modification :</text>
+	<text id="toplinktitle">Retourner au haut de la page</text>
+	<text id="toplinktext">Haut de la page</text>
+	<text id="importantnotices">Avis importants</text>
+	<text id="commonbar">Barre de menu commune</text>
+	<text id="langlinktitle">English - English version of the Web page</text>
+	<text id="langlinktext">English</text>
+	<text id="homelinktitle">Accueil - Page principale du site Web</text>
+	<text id="homelinktext">Accueil</text>
+	<text id="contactlinktitle">Contactez-nous - Coordonnées importantes</text>
+	<text id="contactlinktext">Contactez-nous</text>
+	<text id="helplinktitle">Aide - Renseignements sur la façon d'utiliser le site Web</text>
+	<text id="helplinktext">Aide</text>
+	<text id="searchlinktitle">Recherche - Recherche dans le site Web</text>
+	<text id="searchlinktext">Recherche</text>
+	<text id="canadalinktitle">canada.gc.ca - Site Web du gouvernement du Canada</text>
+	<text id="canadalinktext">canada.gc.ca</text>
+	<text id="breadcrumb">Fil d'Ariane</text>
+</strings> 

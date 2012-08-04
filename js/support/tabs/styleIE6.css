@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*!
+ * Tabbed interface v1.3 / Interface à onglets v1.3
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+
+.tabs{height:100% !important;}
+.tabs li{display:inline !important;margin-right:2px !important;}
+.tabs-style-2 .tabs,.tabs-style-4 .tabs{height:24px !important;}
+.tabs-style-2 .tabs-panel,.tabs-style-4 .tabs-panel{height:220px !important;}
+.tabs-style-2,.tabs-style-4{height:100% !important;}
+.tabs-style-2 .tabs li,.tabs-style-4 .tabs li{margin-right:5px !important;}
+.tabs-style-3{position:static !important;padding:10px 0 0 !important;height:217px !important;}
+.tabs-style-3 .tabs{width:33% !important;margin-top:10px !important;}
+.tabs-style-3 .tabs-panel{margin:10px !important;}
+.tabs-style-4 .tabs-panel {height:1% !important;}
+.tabs-style-4 .tabs li{display:block !important;width:100% !important;}
+.tabs-style-4 .tabs li {margin-bottom:-3px !important;}
+.tabs-style-4 .tabs li.tabs-toggle,.tabs-style-5 .tabs li.tabs-toggle{display:inline !important;width:auto !important;}
+.tabs-style-7 {height: 250px !important;width: 960px !important;}
+.tabs-style-7 .tabs {height: 249px !important;width: 228px !important;}
+.tabs-style-7 .tabs-panel,.tabs-style-7 img{height: 250px !important;width: 730px !important;}
+.tabs-style-7 .tabs-panel{padding-bottom:10px !important;}
+.tabs-style-7 img {margin-top:10px !important;}
+.tabs-style-7 .tabs-content-pad {width: 715px !important;}
+.tabs-toggle a.tabs-stop{background-image:url(pause.gif) !important;}
+.tabs-toggle a.tabs-start{background-image:url(play.gif) !important;}
+.tabs-roller {height: 2.05em;}
+.tabs-style-1 .tabs .tabs-roller {height: 1.9em;}
+.tabs-style-2 .tabs .tabs-roller {height: 1.65em;}
+.tabs-roller {border-bottom:2px solid #CCC !important; margin-top:-2px !important;background:transparent !important;}
+.tabs-style-4 .tabs-roller {top:auto !important; bottom:0 !important;height:2px !important;border:none !important;background: #999 !important;}

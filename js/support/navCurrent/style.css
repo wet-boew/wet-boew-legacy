@@ -1,0 +1,11 @@
+@charset "utf-8";
+/*!
+ * Active link indicator v1.02 / Indicateur de lien actif v1.02
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+.module-menu-section .nav-current{background:#f0fcff;}
+.module-menu-section .toggle-content{border:medium none;margin:0;padding:0;}
+.module-menu-section .toggle-link-expand{background-position:5px -105px;border:1px solid #00566B;
+display:block;padding-bottom:2px;padding-top:2px;}
+.module-menu-section .toggle-link-expand,.module-menu-section .toggle-link-collapse{margin:0;}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<?xml-stylesheet type="text/xsl" href="theme-clf2-nsi2/xsl/theme-clf2.xslt"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+			<meta charset="utf-8" />
+			
+			<!-- Title begins / Début du titre -->
+			<title>3 column layout - CLF 2.0 Theme - Web Experience Toolkit (WET)</title>
+			<!-- Title ends / Fin du titre -->
+			
+			<!-- Metadata begins / Début des métadonnées -->
+			<meta name="dc.description" content="English description | Description en anglais" />
+			<meta name="description" content="English description | Description en anglais" />
+			<meta name="keywords" content="English keywords | Mots-clés en anglais" />
+			<meta name="dcterms.creator" content="English name of the content author | Nom en anglais de l'auteur du contenu" />
+			<meta name="dcterms.title" content="English title | Titre en anglais" />
+			<meta name="dcterms.issued" content="2009-11-20" />
+			<meta name="dcterms.modified" content="2009-12-08" />
+			<meta name="dcterms.subject" content="English subject terms | Termes de sujet en anglais" />
+			<meta name="dcterms.language" content="eng" />
+		
+			<link rel="alternate" hreflang="fr" href="3col-theme-clf2-nsi2-fra.xml" />
+		
+			<link rel="prefetch" data-breadcrum-level="3" href="#" title="Level 0"/>
+			<link rel="prefetch" data-breadcrum-level="2" href="#" title="Level 1"/>
+			<link rel="prefetch" data-breadcrum-level="1" href="#" title="Level 2" />
+		
+			<link rel="prefetch" data-navigation="left" href="leftnav-theme-clf2-nsi2-eng.xml" />
+			<link rel="prefetch" data-navigation="right" href="rightnav-theme-clf2-nsi2-eng.xml" />
+			<!-- Metadata ends / Fin des métadonnées -->
+			
+			<script type="text/javascript">
+				/* <![CDATA[ */
+					var params = {
+					};
+					PE.progress(params);
+				/* ]]> */
+			</script>
+	</head>
+	<body>
+		<section>
+		<!-- Content title begins / Début du titre du contenu -->
+		<header>
+			<h1 id="cn-cont">3 column layout - <abbr title="Common Look and Feel">CLF</abbr> 2.0 Theme - Web Experience Toolkit (WET)</h1>
+		</header>
+		<!-- Content Title ends / Fin du titre du contenu -->
+
+<!-- clf2-nsi2 theme begins / Début du thème clf2-nsi2 -->
+		<div class="cn-toppage"><a href="#cn-tphp" title="Return to Top of Page">Top of Page</a></div>
+		<section>
+			<h2>Heading level&#160;2 (h2)</h2>
+
+			<div class="cn-toppage"><a href="#cn-tphp" title="Return to Top of Page">Top of Page</a></div>
+			<section>
+
+				<h3>Heading Level&#160;3 (h3)</h3>
+
+				<div class="cn-toppage"><a href="#cn-tphp" title="Return to Top of Page">Top of Page</a></div>
+				<section>
+					<h4>Heading level&#160;4 (h4)</h4>
+
+					<div class="cn-toppage"><a href="#cn-tphp" title="Return to Top of Page">Top of Page</a></div>
+
+					<section>
+						<h5>Heading level&#160;5 (h5)</h5>
+
+						<div class="cn-toppage"><a href="#cn-tphp" title="Return to Top of Page">Top of Page</a></div>
+						<section>
+							<h6>Heading level&#160;6 (h6)</h6>
+
+							<p>CONTENT (a mix of text and images or graphics is expected)</p>
+						</section>
+					</section>
+				</section>
+			</section>
+		</section>
+<!-- clf2-nsi2 theme ends / Fin du thème clf2-nsi2 -->
+
+	</section>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*!
+ * Feedback form v1.3 / Feuille de réponse v1.3
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+.wet-boew-feedback-form fieldset {padding-left:0.5em;}
+.wet-boew-feedback-form label {display:block;width:100%;}
+.wet-boew-feedback-form #web fieldset label {display:inline;width:auto;}
+.problems {width:auto;}
+#complete {text-align: center;}
+#complete p strong {font-size: 110%;}

@@ -1,0 +1,27 @@
+ @charset "utf-8";
+/*!
+ * Share widget v1.2 / Gadget de partage v1.2
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+ #sharepartagez{position:absolute;right:0;}
+.bookmark_popup_text img {border: none;vertical-align: bottom;}
+a.bookmark_popup_text, a.bookmark_popup_text2 {background:url("icons-share.gif") left center no-repeat;color:#3C6783;cursor:pointer;letter-spacing:-0.0004em;padding: 0 0 2px 18px;clear:both;}
+.bookmark_popup, a.bookmark_popup_text {float:right;}
+.bookmark_popup {display: none;position: absolute;right:0;z-index: 100;background: #fff;border: 1px solid #000000;padding-bottom:3px;margin-top:1.5em;}
+.bookmark_popup p {font-size: .85em;margin:10px 0 10px 0;}
+.bookmark_popup .popup_title {font-size: 0.95em;font-weight: bold;padding: 5px;margin: 0;background-color:#23447E;color:#FFF;}
+.bookmark_popup .bookmark_compact {border: none;margin-bottom: -3px;}
+
+ul.bookmark_list {display: inline-block;float: left;list-style-type: none;margin:5px;padding:0;font-size: inherit;border:none;}
+.bookmark_list span {display: inline-block;width: 16px;height: 16px;}
+.bookmark_list span.bookmark_icons {background: url(../img/bookmarks.gif) no-repeat center;}
+.bookmark_list img {border: none;}
+.bookmark_list li {float: left;width: 50%;margin:0;padding: 0 0 2px 0;font-size:.85em;background-color: #FFF;border: none;}
+.bookmark_list a {display:block;width: 96%;text-decoration: none;cursor: pointer;font-size: 1em;color: #003366;padding: 1px 2px;margin: 0;border:1px solid #FFF;}
+*:first-child+html .bookmark_list li,*:first-child+html .bookmark_list a{min-width:12.5em;}
+.bookmark_list a:hover,.bookmark_list a:focus,.bookmark_list a:active {border:1px solid #999;background:#eee !important;color: #CC0000;}
+.bookmark_list span.bookmark_icons {background: url(bookmarks.gif) no-repeat center;}
+.bookmark_compact {background-color: #eee;border: 1px outset;}
+.bookmark_compact li {width: 16px;height: 16px;margin: 0px;padding: 2px;background-color: transparent;border: none;}
+.bookmark_noicons span.bookmark_icons {background: none !important;}

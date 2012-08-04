@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*!
+ * Style switcher v1.1 / Sélecteur de style v1.1
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
+
+/* Consistent link colours  */
+#cn-body-inner-1col a,#cn-body-inner-2col a,#cn-body-inner-3col a{text-decoration:underline !important;background:#FFF !important;font-weight:400 !important;font-style:normal !important;font-variant:normal !important;}
+#cn-body-inner-1col a:link,#cn-body-inner-2col a:link,#cn-body-inner-3col a:link{color:#00F !important;}
+#cn-body-inner-1col a:visited,#cn-body-inner-2col a:visited,#cn-body-inner-3col a:visited{color:#009 !important;}
+
+/* High contrast hover/active/focus links  */
+#cn-body-inner-1col a:hover,#cn-body-inner-1col a:active,#cn-body-inner-1col a:focus,#cn-body-inner-2col a:hover,#cn-body-inner-2col a:active,#cn-body-inner-2col a:focus,#cn-body-inner-3col a:hover,#cn-body-inner-3col a:active,#cn-body-inner-3col a:focus{color:#000 !important;background:#FFF !important;}
+#cn-left-col #cn-search-box #cn-search-submit{background:#FFF !important;color:#000 !important;font-weight:700 !important;}
+#cn-left-col,#cn-left-col-gap{background:#FFF !important;}
+
+/* High contrast content page banner  */
+#cn-banner{background:none !important;border:1px solid #000;}
+#cn-banner #cn-banner-text,#cn-banner-eng #cn-banner-text,#cn-banner-fra #cn-banner-text,#cn-banner p,#cn-banner-eng p,#cn-banner-fra p{color:#000 !important;}
+#cn-cmb,#cn-cmb ul li{background-color:#fff !important;}
+
+/* High contrast Welcome Page message area  */
+#cn-msg-space{border:1px solid #000 !important;}
+#cn-msg-space,#cn-upper-msg,#cn-lower-msg,#cn-lower-msg p,#cn-left-msg,#cn-right-msg{background:none !important;color:#000 !important;}
+#cn-body-inner-1col .utilities a.theme-contrast,#cn-body-inner-2col .utilities a.theme-contrast,#cn-body-inner-3col .utilities a.theme-contrast{font-weight:700;}
+
+/*Other*/
+#cn-left-col .utilities a.theme-contrast{font-weight:700 !important;}
+#cn-left-col-inner, #cn-left-col-gap {background-color:transparent !important;}

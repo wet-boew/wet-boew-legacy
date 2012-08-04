@@ -1,0 +1,8 @@
+/*!
+ * Panorama v1.02 / Panorama v1.02
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+.pan-control { margin: 1em auto; width: 6em; min-width:78px; }
+.minus { margin: 0 1em 1em 0; }
+.plus { margin: 0 0 1em 0; }

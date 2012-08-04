@@ -1,0 +1,18 @@
+/*!
+ * Accessibil-IT theme v1.2 / Thème Accessibil-IT v1.2
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+  
+/** Screen and print CSS **/
+@media screen,print {
+}
+
+/** Screen-only CSS **/
+@media screen {
+	.img-box img{margin-left:20px;}
+}
+
+/** Print-only CSS **/
+@media print {
+}

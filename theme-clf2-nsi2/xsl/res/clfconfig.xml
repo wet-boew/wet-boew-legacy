@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!-- 
+	XML/XSLT Abstraction Project v1.2 / Abstraction XML/XSLT  v1.2
+	Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+	-->
+<templateconfig>
+	<stylesheets>
+		<stylesheet id="themeclf2" href="theme-clf2-nsi2/css/theme-clf2-nsi2.css" />
+		<stylesheet id="ie7themeclf2" href="theme-clf2-nsi2/css/theme-clf2-nsi2-ie7.css" />
+		<stylesheet id="ie6themeclf2" href="theme-clf2-nsi2/css/theme-clf2-nsi2-ie6.css" />
+		<stylesheet id="printthemeclf2" href="theme-clf2-nsi2/css/pf-if-theme-clf2-nsi2.css" />
+	</stylesheets>
+	<scripts>
+		
+	</scripts>
+	<images>
+		<img id="sig-en" src="theme-clf2-nsi2/images/sig-eng.gif" width="372" height="20" />
+		<img id="sig-fr" src="theme-clf2-nsi2/images/sig-fra.gif" width="372" height="20" />
+		<img id="wmms" src="theme-clf2-nsi2/images/wmms.gif" />
+	</images>
+	<strings>
+		<string id="sigalt">
+			<text xml:lang="en">Government of Canada</text>
+			<text xml:lang="fr">Gouvernement du Canada</text>
+		</string>
+		<string id="bannername">
+			<text xml:lang="en">Name of Institution</text>
+			<text xml:lang="fr">Nom de l'institution</text>
+		</string>
+		<string id="bannerurl">
+			<text xml:lang="en">[www.]mainsite-siteprimaire.gc.ca</text>
+			<text xml:lang="fr">[www.]siteprimaire-mainsite.gc.ca</text>
+		</string>
+	</strings>
+	<links>
+		<link id="importantnotices">
+			<src xml:lang="en">#</src>
+			<src xml:lang="fr">#</src>
+		</link>
+		<link id="home">
+			<src xml:lang="en">#</src>
+			<src xml:lang="fr">#</src>
+		</link>
+		<link id="contactus">
+			<src xml:lang="en">#</src>
+			<src xml:lang="fr">#</src>
+		</link>
+		<link id="help">
+			<src xml:lang="en">#</src>
+			<src xml:lang="fr">#</src>
+		</link>
+		<link id="search">
+			<src xml:lang="en">#</src>
+			<src xml:lang="fr">#</src>
+		</link>
+		<link id="canadasite">
+			<src xml:lang="en">http://www.canada.gc.ca/home.html</src>
+			<src xml:lang="fr">http://www.canada.gc.ca/accueil.html</src>
+		</link>
+	</links>
+</templateconfig>

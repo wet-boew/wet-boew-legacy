@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*!
+ * Filterable content v1.01 / Contenu filtrable v1.01
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+#filter-input,.filter-ids{display:none;}
+.filter-controls-container{background:#eee repeat-x 0 0;margin-bottom:5px;border:1px solid #ccc;display:block;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px; box-shadow:0px 1px 1px #999;-moz-box-shadow:0px 1px 1px #999;-webkit-box-shadow:0px 1px 1px #999;}
+.filter-group{float:left;margin:0 ;text-align:center;padding-bottom:5px;border-right:1px solid #ccc;border-left:1px solid #fff;padding-right:6px;}
+.filter-group:last-child{border-right:none;}
+.filter-group{border-right:expression(this.nextSibling == null ? 'none' : '-' )}
+.clear{clear:both;}
+.filter-trigger{color:#333;margin-bottom:5px;}
+.filter-group a{cursor:pointer;color:#00556b;text-decoration:none;float:left;display:inline;padding:1px 5px 2px;margin:2px 0 3px 2px;text-shadow: 0 1px 0 #fff;border-color:#eee;border-style:solid;border-width:2px 1px 1px 2px; }
+.filter-group abbr, .filter-group acronymm{cursor:inherit;border:none;}
+.filter-group a:visited,.filter-group a:active,.filter-group a:focus{color:#00556b;}
+.filter-group .filter-selected{background:#eee url(gradient.png) repeat-x 0 0;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;border-color:#555 #999 #ccc #777;border-style:solid;border-width:2px 1px 1px 2px; float:left;text-shadow:none;}
+a:hover.filter-selected {color:#333;}
+ul.filter-group,.filter-group ul{margin:0;padding:0;}
+.filter-group ul{margin-right:0;}
+.filter-group ul li{display:inline;float:left;margin-right:0;list-style-type:none;margin-left:0; text-align:center}
+.filter-group h2,.filter-group h3,.filter-group h4,.filter-group h5,.filter-group h6{font-size:100%;font-weight:700;border-bottom:none;margin:0;padding:2px;}
+.filter-style-1 {border:none;text-align:left;float:none;}
+.filter-style-1 h2,.filter-style-1 h3,.filter-style-1 h4,.filter-style-1 h5,.filter-style-1 h6{text-align:left;margin-left:5px;display:block;clear:left;}
+.filter-matches{color:#c00;font-weight:700;margin-top:0px;margin-bottom:0px;}
+.filter-matches p{clear: left;}

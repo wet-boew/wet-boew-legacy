@@ -1,0 +1,52 @@
+@charset "utf-8";
+/*!
+ * Coda slider v1.11 / Coulisse coda v1.11
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
+
+/*For a slider in grid system:
+Copy this code into the grid-small.css file:
+.span-6 #slider,.span-6 .scroll {width: 590px}
+.span-6 .scroll-panel {width: 550px}
+.span-5 #slider,.span-5 .scroll {width: 490px}
+.span-5 .scroll-panel {width: 450px}
+.span-4 #slider,.span-4 .scroll {width: 390px}
+.span-4 .scroll-panel {width: 350px}
+.span-3 #slider,.span-3 .scroll {width: 290px}
+.span-3 .scroll-panel {width: 250px}
+.span-2 #slider,.span-2 .scroll {width: 190px}
+.span-2 .scroll-panel {width: 150px}
+.slider-nav img {width:auto !important;} /*for when JavaScript is turned off */
+
+/*Copy this code into the grid-medium.css file:
+.span-6 #slider,.span-6 .scroll {width: 700px}
+.span-6 .scroll-panel {width: 660px}
+.span-5 #slider,.span-5 .scroll {width: 580px}
+.span-5 .scroll-panel {width: 540px}
+.span-4 #slider,.span-4 .scroll {width: 460px}
+.span-4 .scroll-panel {width: 420px}
+.span-3 #slider,.span-3 .scroll {width: 340px}
+.span-3 .scroll-panel {width: 300px}
+.span-2 #slider,.span-2 .scroll {width: 220px}
+.span-2 .scroll-panel {width: 180px}
+.slider-nav img {width:auto !important;} /*for when JavaScript is turned off */
+
+#slider{position:relative;width:600px;margin:0 auto;}
+.slider-buttons a{margin-bottom:20px;}
+.slider-nav{list-style-type:none;clear:left;margin:0 !important;padding:10px 0 0;float:none !important;width:auto !important;}
+.slider-nav li{display:inline;padding-right:12px;text-align:center;margin-bottom:inherit !important;float:none !important;width:auto !important;}
+.slider-nav a{display:inline-block !important;text-decoration:none;color:#00556B;border:1px solid #fff;margin-bottom:10px;}
+.slider-nav a:hover img{opacity:0.8;filter:alpha(opacity = 80);}
+.slider-nav img{width:auto !important;}
+.slider-nav .slider-selected{border:1px solid #ccc;background:#eee;}
+.slider-selected img{opacity:0.5;filter:alpha(opacity = 50);}
+.slider-next,.slider-prev{display:block;float:left;text-decoration:none;color:#00556B;}
+.slider-next{background:transparent url(sprite-nav.png) no-repeat right -34px;padding-right:20px;}
+.slider-prev{background:transparent url(sprite-nav.png) no-repeat 0 0;padding-left:20px;margin-right:20px;}
+.scroll-panel{border:1px solid #ccc;margin-bottom:20px;height:auto;width:560px;background:#fff url(bg-gradient.png) repeat-x scroll 0 0;margin-right:20px;padding:20px 19px;}
+.scroll-panel h2,.scroll-panel h3,.scroll-panel h4,.scroll-panel h5,.scroll-panel h6{margin-top:0;border:none;}
+.scroll-panel img{float:left;margin:0 20px 10px 0;}
+.scroll{height:auto;overflow:auto;position:relative !important;clear:left;width:600px;}
+.clear{clear:both;display:block;height:0;overflow:hidden;visibility:hidden;width:0;margin:0;}

@@ -1,0 +1,87 @@
+@charset "utf-8";
+/*!
+ * Charts and graphs support v2.0 / Soutien des graphiques v2.0
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+ 
+/* Default chart style is set for the gc web usability theme */
+
+figure {
+	border:1px black solid; 
+	margin-top:12px;
+	margin-bottom:12px;
+	padding:0px;
+	position: static;
+	display: block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+figure figure {
+	border: none;
+	border-bottom:1px gray solid; 
+	margin:0px; 
+}
+
+figcaption {
+	background-color: #EEE;
+	font-weight: bold;
+	text-align: center;
+	padding:5px;
+	border-bottom: solid black 1px;
+	margin-bottom:5px;
+	
+	position: static;
+	display: block;
+}
+
+figure figure figcaption {
+	background-color: #fff;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+	padding:0px;
+	padding-top: 5px;
+	margin:0px;
+	border: none;
+}	
+
+figure ul {
+	clear: both;
+	list-style-type:none;
+	padding-left:5px;
+	overflow: hidden;
+	width:98.5%
+}
+
+figure li {
+	float:left;
+	padding-right:7px;
+}
+
+figure p {
+	font-style: italic;
+	text-align: center;
+	margin:0px;
+}
+
+
+/*
+ * CLF-NSI default chart style 
+ * 
+ * TIPS: To set the class to the figure element create on the fly, you need to add your custom class directly in the class attribute of the table. 
+ *       Important, your custom class need to be prefixed by "wb-graph-graphclass-".
+ *       For more information see http://tbs-sct.ircan-rican.gc.ca/projects/gcwwwgraph/wiki/CSS_Option_Class
+ *
+ */
+
+figure.clf-nsi {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+figure.clf-nsi figcaption {
+	background-color: #CC9;
+}
+

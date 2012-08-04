@@ -1,0 +1,60 @@
+@charset "utf-8";
+/*!
+ * CLF 2.0 theme v1.34 / Thème de la NSI 2.0 v1.34
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+
+/** Screen and print CSS **/
+@media screen,print {
+	#cn-bcrumb h2, #cn-bcrumb2 h2, #cn-cmb h2, #cn-cmb-2 h2, #cn-in-pd h3 {clip: rect(1px 1px 1px 1px);}
+
+	#cn-bcrumb ol, #cn-bcrumb2 ol {margin: 1px 0 0 0; clear: left; line-height: 1.25em;}
+	/*#cn-bcrumb ol {margin-top: -13px;}*/
+	#cn-bcrumb li, #cn-bcrumb2 li {padding-bottom: 3px;}
+
+	#cn-doc-dates dt {padding-right: 0.15em;}
+}
+
+/** Screen-only CSS **/
+@media screen {
+	#cn-skip-head {float: none;}
+	#cn-skip-head #cn-sh-link-1 {right: 51%;}
+	#cn-skip-head #cn-sh-link-2 {left: 51%;}
+
+	#cn-head {float: none; margin-top: -10px; padding-top: 10px;}
+	#cn-sig, #cn-wmms{width: 45%;}
+	#cn-leaf {background-image: url(../images/lffl.gif); margin-top: 5px;}
+	#cn-banner, #cn-banner-eng, #cn-banner-fra {height: 80px;}
+	#cn-cmb ul, #cn-cmb-2 ul {height: auto; overflow: hidden;}
+	#cn-cmb ul li, #cn-cmb-2 ul li {width: 16.1%; padding-bottom: 1px; margin-bottom: -1px;}
+	#cn-cmb ul li a, #cn-cmb-2 ul li a {height: 1.25em;}
+	#cn-cmb #cn-cmb1 a, #cn-cmb-2 #cn-cmb1-2 a {border: none;}
+	#cn-cmb6 a:hover, #cn-cmb6-2 a:hover, #cn-cmb6 a:active, #cn-cmb6-2 a:active, #cn-cmb6 a:focus, #cn-cmb6-2 a:focus {width: 104%; position: relative;}
+	
+	#cn-left-col li, #cn-right-col li {display: inline-block;}
+	.cn-left-col-default h3, .cn-right-col-default h3 {position: relative; top: 0; left: 0;}
+	.cn-left-col-default h3.cn-invisible, .cn-right-col-default h3.cn-invisible {position: absolute;}
+	.cn-left-col-default h3 {width: 93%; margin-bottom: -1px;}
+	.cn-left-col-default li a, .cn-right-col-default li a, #cn-search-box a {display: block; padding: 3px 5px 3px 10px;}
+	.cn-left-col-default li a, .cn-right-col-default li a {height:100%;}
+	.cn-left-col-default li li, .cn-right-col-default li li {margin-right:-5px;}
+	.cn-left-col-default li li a, .cn-right-col-default li li a {display: block; padding: 0 0px 0 10px;}
+	.cn-left-col-default form a {margin-right: -5px; width: 100%;}
+	.cn-left-col-default #cn-search-box, .cn-search-box {margin-top: -15px;}
+	.cn-left-col-default #cn-search-box, .cn-search-box {margin-bottom: -19px;}
+	.cn-left-col-default #cn-search-box #cn-search-submit, .cn-search-box .cn-search-submit {overflow: visible; padding: 0 8px;}
+	.cn-right-col-default div {border: 1px solid #000; margin-bottom: 10px;}
+	.cn-right-col-default div p {margin: 1em 9px 1em 9px;}
+	.cn-right-col-default h3 {width: 95%;}
+	.cn-right-col-default h3 a {margin: -2px 0 -2px -5px;}
+
+	#cn-centre-col-inner {margin-bottom: 1em;}
+	#cn-in-pd {border-top-width: 16px; margin-top: -1px;}
+	.cn-toppage {padding-right: 0.2em;}
+}
+
+/** Print-only CSS **/
+@media print {
+	h1 {margin-top: 5px;}
+}

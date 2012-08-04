@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*!
+ * Checkbox list enhancement v1.02 / Amélioration de liste de case à cocher v1.02
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+
+/** Theme styles **/
+/** Customize this section of styles for your look and feel. Defaults make the widget look like a Windows XP control. **/
+.cblContainer {
+	float:left;
+}
+.cblClear {
+	clear:left;
+}
+.cbl {
+	padding:0;
+	margin:.1em 0 !important;
+	border:1px solid #BBB;
+	background-color:#EEE;
+}
+.cblLabel {
+	color:black;
+	background-color:#EEE;
+}
+.cblLabelChecked {
+	color:white;
+	background-color:#316AC5;
+}
+.cblLabel:hover {
+	background-color:#DDD;
+}
+.cblLabelChecked:hover {
+	background-color:#215AB5;
+}
+.cblLabel.disabled {
+	color: #CCC;
+}
+.cbl dt,.cbl li,.cbl dd {
+	border-bottom-style:solid; 
+	border-bottom-color:#CCC;
+}
+
+/** Mandatory styles **/
+/** These styles are required for widget functionality. Do not modify the following rules. **/
+.cbl {
+	overflow-y:auto;
+	overflow-x:hidden;
+	list-style:none;
+}
+.cblLabel {
+	display:block;
+	word-wrap:break-word;
+}
+.cbl dt,.cbl li,.cbl dd {
+	border-bottom-width:1px;
+}

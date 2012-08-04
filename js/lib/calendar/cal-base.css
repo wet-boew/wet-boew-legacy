@@ -1,0 +1,69 @@
+@charset "utf-8";
+/*!
+ * Calendar interface v1.23 / Interface du calendrier v1.23
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+
+ol.cal-weekdays{
+	margin:0;
+    font-weight: bold;
+}
+
+.cal-container legend {color: #FFF; margin-top: 5px;}
+
+div.cal-month {
+    text-align: center;
+}
+
+ol.cal-weekdays li {text-align: center;}
+.cal-goto-link {text-align: center; margin: 0;}
+.cal-goto-year, .cal-goto-button {float: left;}
+
+div.cal-days ol.cal-day-list, div.cal-cnt ol.cal-weekdays{
+	list-style-type:none; 
+	margin:0;
+	padding:0;
+}
+
+div.cal-days ol.cal-day-list li,  div.cal-cnt ol.cal-weekdays li{
+	margin:0;
+}
+
+div.cal-days span.cal-empty, div.cal-days ol.cal-day-list li, ol.cal-weekdays li{
+	position:relative;
+	float:left;
+	border-width:0;
+	border-left-width:1px;
+	border-bottom-width:1px;
+	width:13%;
+	text-align: center;
+}
+
+div.cal-cnt ol.cal-weekdays li, div.cal-days ol.cal-day-list li, div.cal-days span {margin: 1px;}
+div.ui-datepicker {padding-bottom: 0.4em;}
+div.cal-cnt {font-size: 0.9em;}
+
+ol.cal-weekdays li.cal-wd7, div.cal-days ol.cal-day-list .cal-w1d7, div.cal-days ol.cal-day-list .cal-w2d7, div.cal-days ol.cal-day-list .cal-w3d7, div.cal-days ol.cal-day-list .cal-w4d7, div.cal-days ol.cal-day-list .cal-w5d7, div.cal-days ol.cal-day-list .cal-w6d7, div.cal-days span.cal-empty.cal-w5d7, div.cal-days span.cal-empty.cal-w6d7{
+	border-right-width:1px;
+	clear:right;
+}
+
+span.cal-empty, ol.cal-weekdays li, div.cal-days a, div.cal-days div{
+	display:block;
+	padding:0.5em 0;
+}
+
+/* IE6 contrast */
+.cal-container li a:link {color: #000;}
+.cal-container li a:visited {color: #000;}
+.cal-goto-link a:visited, .cal-container li a:hover, .cal-container li a:active {color: #FFF;}
+
+/* Contrast */
+.cal-container a[href].ui-state-hover:hover, .cal-container a[href].ui-state-hover:focus {color: #FFF;}
+.cal-container a[href].ui-state-highlight:hover, .cal-container a[href].ui-state-highlight:focus {color: #000;}
+
+/* Chrome fix for jQueryUI 1.8.16's clearfix (taken from jQueryUI 1.8.17) */
+.wet-ui-helper-clearfix:before, .wet-ui-helper-clearfix:after { content: ""; display: table; }
+.wet-ui-helper-clearfix:after { clear: both; }
+.wet-ui-helper-clearfix { zoom: 1; }

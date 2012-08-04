@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*!
+ * CSS presentation layer v1.31 / Couche présentation de CSS v1.31
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+
+/** Screen and print CSS **/
+@media screen,print {
+}
+
+/** Screen-only CSS **/
+@media screen {
+	/** Left column **/
+	#cn-left-col {width:24.5%;}
+	
+	/** Right column **/
+	#cn-right-col {width:24.5%;}
+}
+
+/** Print-only CSS **/
+@media print {
+}

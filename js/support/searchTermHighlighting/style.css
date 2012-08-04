@@ -1,0 +1,8 @@
+@charset "utf-8";
+/*!
+ * Search term highlighting v1.2 / Mise en surbrillance des termes recherchés v1.2
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+.wet-boew-termSearch{margin: 0px; padding: 0px; background-color: #e4e4cc; border: 1px solid #ccc; width: 100%; padding: 4px;}
+.wet-boew-highlight-term{background-color: #ff0; color:#000; font-weight: bold;}

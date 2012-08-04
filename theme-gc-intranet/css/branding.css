@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*!
+ * GC intranet theme v1.0 / Thème d'intranet GC v1.0
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * www.tbs.gc.ca/ws-nw/wet-boew/terms / www.sct.gc.ca/ws-nw/wet-boew/conditions
+ */
+#cn-sig,#cn-sig-inner,#cn-sig img{height:20px !important;}
+h2{border-bottom:1px solid #28507a;}
+h3{border-bottom:1px solid #ccc;}
+#cn-banner{background-color:#28507a;}
+#cn-search-box #cn-search:focus,#cn-search-box #cn-search:active{background:#f0fcff;}
+.cn-subsite-1{background:#618000 url(../images/cn-subsite-1.gif) repeat-x 0 top;}
+.cn-subsite-1 a{color:#fff !important;text-shadow:1px 1px 1px #333 !important;}
+#cn-psnb .mb-menu .nav-current{background-color:#28507a;background-image:none;}
+#cn-psnb .mb-menu, .mb-menu li {background-color:#1b5a9f;}
+#cn-psnb .mb-menu li{border-left-color:#1b5a9f;border-right-color:#3874bd;}
+#cn-psnb .wet-boew-menu li:first-child .toplevel:hover,#cn-psnb .wet-boew-menu li:first-child .toplevel:focus,#cn-psnb .wet-boew-menu .toplevel:hover,#cn-psnb .wet-boew-menu .toplevel:focus,#cn-psnb .wet-boew-menu > li:hover a.nav-current,#cn-psnb .wet-boew-menu > li:active a.nav-current,#cn-psnb .wet-boew-menu > li:focus a.nav-current,#cn-psnb .wet-boew-menu li:hover a{background:#28507a;color:#fff;border-left-color:#28507a;border-right-color:#28507a;}
+#cn-psnb .mb-megamenu .mb-sm-open{border-color:#28507a;}
+#cn-cols-inner div #cn-decoration-bar{background:#28507a;}
+#cn-site-title-left a,#cn-site-title-right a{color:#28507a;}
+.cn-left-col-default .nav-current{color:#333 !important;border-color:#28507a;}
+
+/* Overrides from util.css */
+.embedded-nav a,.embedded-nav a:visited,.embedded-nav a:link{background:#276cb9;border-color:#276cb9;}
+.embedded-nav .embedded-link-active{color:#276cb9;}
+.embedded-nav a:hover,.embedded-nav a:focus{border-color:#276cb9;}
+.table-accent{border-color:#276cb9;}
+.table-accent th{background-color:#276cb9 !important;}
+.table-accent td{border-color:#276cb9;}
+.background-accent{background-color:#276cb9 !important;}
+td.calendar-today{border-color:#276cb9;}
+h2.background-accent,h3.background-accent,h4.background-accent,h5.background-accent,h6.background-accent{background-color:#b84000 !important;background-image:url(../images/bg-accent.gif) !important;}
+.module-welcomepage h2{background:#276cb9;}
+.module-billboard li{background-color:#276cb9;}
+.module-news h2 a,.module-news h3 a{color:#276cb9;}
+.module-news .module-news-article a{background:#276cb9;}
+.module-news .module-news-article span a{color:#276cb9;}
+.module-spotlight li span a{color:#276cb9;}
+.teaser-1{background-color:#2e5b86;background-image:url(../images/teaser-1.gif);}
